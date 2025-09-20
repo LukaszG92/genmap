@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: genmap
+Version: 0.1.0
+Requires-Python: >=3.11
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic>=2
+Requires-Dist: rdflib
+Requires-Dist: SPARQLWrapper
+Requires-Dist: rank-bm25
+Requires-Dist: rapidfuzz
+Requires-Dist: orjson
+Requires-Dist: PyYAML
+Requires-Dist: httpx
+Requires-Dist: openai

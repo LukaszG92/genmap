@@ -1,0 +1,11 @@
+[project]
+name = "genmap"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi", "uvicorn", "pydantic>=2", "rdflib", "SPARQLWrapper",
+  "rank-bm25", "rapidfuzz", "orjson", "PyYAML", "httpx", "openai",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
