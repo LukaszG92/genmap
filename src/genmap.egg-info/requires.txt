@@ -9,3 +9,7 @@ orjson
 PyYAML
 httpx
 openai
+pandas
+scikit-learn
+pyarrow
+fastparquet

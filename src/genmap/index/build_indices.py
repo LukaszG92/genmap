@@ -1,24 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-build_indices.py
-Legge ./dumps/{endpoint}/predicates.json e scrive in ./indices/{endpoint}/ gli indici:
-  - sparse.npz, vocab.json, idf.json
-  - meta.parquet (o meta.csv se parquet non disponibile)
-  - dense.npy, dense_model.txt (se --dense-model)
-
-Accetta file con UNO SOLO endpoint (tuo caso), ma supporta anche:
-  - oggetto con chiavi: { "id": "...", "predicates": [...] }
-  - oggetto top-level con "endpoints": [ {id, predicates:[...]} ]
-  - oggetto con "predicates": [ ... ] (senza id) → endpoint = parametro CLI
-"""
-
 import argparse
 import json
 import re
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List
 
 import numpy as np
 import pandas as pd
@@ -136,7 +120,7 @@ def _records_from_predicates(preds: List[Any], endpoint: str) -> List[Dict[str, 
 def main():
     ap = argparse.ArgumentParser(description="Costruisce indici per un singolo endpoint.")
     ap.add_argument("-e", "--endpoint", required=True, help="id endpoint (es. affymetrix)")
-    ap.add_argument("--dense-model", default=None, help="es. sentence-transformers/all-MiniLM-L6-v2")
+    ap.add_argument("--dense-model", default="sentence-transformers/all-MiniLM-L6-v2")
     ap.add_argument("--max-features", type=int, default=200_000)
     ap.add_argument("--batch-size", type=int, default=256)
     ap.add_argument("--dumps-root", default="./dumps", help="radice degli input (default: ./dumps)")

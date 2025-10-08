@@ -13,3 +13,7 @@ Requires-Dist: orjson
 Requires-Dist: PyYAML
 Requires-Dist: httpx
 Requires-Dist: openai
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: pyarrow
+Requires-Dist: fastparquet

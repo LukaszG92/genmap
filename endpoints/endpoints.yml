@@ -1,0 +1,10 @@
+# examples/endpoints.yml
+endpoints:
+  - id: dbpedia
+    url: https://dbpedia.org/sparql
+
+  - id: affymetrix
+    url: http://bio2rdf.org/sparql/affymetrix
+
+  - id: chebi
+    url: http://bio2rdf.org/sparql/chebi

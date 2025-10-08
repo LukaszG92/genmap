@@ -1,17 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-test_indices.py
-Esegue test su TUTTI gli endpoint trovati in ./indices/*/
-Mostra ranking per la query su ciascun endpoint.
-
-Uso:
-  python test_indices.py -q "publish | gen:publisher" --topk 10
-"""
-
-import argparse
 import json
+import os
+import pprint
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
@@ -96,7 +85,8 @@ def _maybe_load_dense(dirpath: Path):
     try:
         from sentence_transformers import SentenceTransformer
         st = SentenceTransformer(model_name)
-    except Exception:
+    except Exception as e:
+        print(f"[warn] Dense disattivato per {dirpath.name}: {e}")
         st = None
     return D, model_name, st
 
@@ -119,25 +109,14 @@ def _pretty_table(rows: List[Dict[str, Any]], max_rows: int = 10) -> str:
 
 
 # ----------------- main -----------------
+def search_candidates(query: str, indices_root="./indices", top_k=3, w_sparse=0.7, w_dense=0.3, popa=0):
+    indices = Path(Path(os.getcwd()), indices_root)
+    endpoints = [p for p in indices.iterdir() if p.is_dir()]
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("-q", "--query", nargs="+", required=True, help="Una o più query di test")
-    ap.add_argument("--indices-root", default="./indices", help="radice indici")
-    ap.add_argument("--topk", type=int, default=10)
-    ap.add_argument("--w_sparse", type=float, default=0.7)
-    ap.add_argument("--w_dense", type=float, default=0.3)
-    ap.add_argument("--popa", type=float, default=0.0)
-    ap.add_argument("--json", action="store_true")
-    args = ap.parse_args()
-
-    indices_root = Path(args.indices_root)
-    endpoints = [p for p in indices_root.iterdir() if p.is_dir()]
+    query_candidates = {}
 
     for ep_dir in endpoints:
         endpoint = ep_dir.name
-        print(f"\n=== Endpoint: {endpoint} ===")
-
         try:
             meta = _load_meta(ep_dir)
             vec, Xs = _load_sparse(ep_dir)
@@ -146,49 +125,47 @@ def main():
             print(f"[warn] skip {endpoint}: {e}")
             continue
 
-        for q in args.query:
-            print(f"\n--- QUERY: {q} ---")
-            qtext = _compose_query_text(q)
-            Xq = vec.transform([qtext])
+        qtext = _compose_query_text(query)
+        Xq = vec.transform([qtext])
 
-            Xs_n = normalize(Xs, norm="l2", copy=False)
-            Xq_n = normalize(Xq, norm="l2", copy=False)
-            score_sparse = (Xq_n @ Xs_n.T).toarray().ravel().astype(np.float32)
+        Xs_n = normalize(Xs, norm="l2", copy=False)
+        Xq_n = normalize(Xq, norm="l2", copy=False)
+        score_sparse = (Xq_n @ Xs_n.T).toarray().ravel().astype(np.float32)
 
-            score_dense = np.zeros(len(meta), dtype=np.float32)
-            if dense_triplet is not None:
-                D, model_name, st = dense_triplet
-                if D is not None and st is not None:
-                    q_emb = st.encode([qtext], convert_to_numpy=True, normalize_embeddings=True).astype(np.float32)[0]
-                    score_dense = (D @ q_emb).astype(np.float32)
+        score_dense = np.zeros(len(meta), dtype=np.float32)
+        if dense_triplet is not None:
+            D, model_name, st = dense_triplet
+            if D is not None and st is not None:
+                q_emb = st.encode([qtext], convert_to_numpy=True, normalize_embeddings=True).astype(np.float32)[0]
+                score_dense = (D @ q_emb).astype(np.float32)
 
-            s = args.w_sparse * _zscore(score_sparse) + args.w_dense * _zscore(score_dense)
+        s = w_sparse * _zscore(score_sparse) + w_dense * _zscore(score_dense)
 
-            if "usage_count" in meta.columns and args.popa != 0.0:
-                pop = np.log1p(meta["usage_count"].fillna(0).to_numpy(np.float32))
-                s += args.popa * _zscore(pop)
+        if "usage_count" in meta.columns and popa != 0.0:
+            pop = np.log1p(meta["usage_count"].fillna(0).to_numpy(np.float32))
+            s += popa * _zscore(pop)
 
-            k = int(min(args.topk, len(meta)))
-            idx = np.argpartition(-s, k-1)[:k]
-            idx = idx[np.argsort(-s[idx])]
+        k = int(min(top_k, len(meta)))
+        idx = np.argpartition(-s, k-1)[:k]
+        idx = idx[np.argsort(-s[idx])]
 
-            results = []
-            for i in idx:
-                row = meta.iloc[i]
-                results.append({
-                    "endpoint": row.get("endpoint"),
-                    "predicate": row.get("predicate"),
-                    "local_name": row.get("local_name"),
-                    "usage_count": int(row.get("usage_count") or 0),
-                    "score_sparse": float(score_sparse[i]),
-                    "score_dense": float(score_dense[i]),
-                    "score_fused": float(s[i]),
-                })
+        results = []
+        for i in idx:
+            row = meta.iloc[i]
+            results.append({
+                "predicate": row.get("predicate"),
+                "local_name": row.get("local_name"),
+                "usage_count": int(row.get("usage_count") or 0),
+                "score_sparse": float(score_sparse[i]),
+                "score_dense": float(score_dense[i]),
+                "score_fused": float(s[i]),
+            })
 
-            print(_pretty_table(results, max_rows=args.topk))
-            if args.json:
-                print(json.dumps(results, ensure_ascii=False, indent=2))
+        endpoint_candidates={f'{endpoint}': results}
+        query_candidates.update(endpoint_candidates)
 
+    return query_candidates
 
 if __name__ == "__main__":
-    main()
+    candidates = search_candidates("gen:partOf")
+    pprint.pprint(candidates)

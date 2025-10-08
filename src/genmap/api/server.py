@@ -1,4 +1,6 @@
 # src/genmap/api/server.py
+import os
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 from pathlib import Path
@@ -6,12 +8,8 @@ from pathlib import Path
 from ..utils.gen_extract import extract_gen_predicates
 from ..config import load_endpoints
 from ..rewrite.rewriter import rewrite
-from ..index.loaders import load_index
-from ..retrieval.sparse import retrieve_candidates_sparse
-from ..retrieval.candidates_mock import plan_mock_candidates
 from ..config import Settings
-from ..llm.openai_client import one_shot_map_openai, OpenAIError
-from ..llm.selector import selected_from_llm
+from ..index.search_candidates import search_candidates
 
 app = FastAPI(title="genmap PoC — step6")
 
@@ -35,109 +33,58 @@ def health():
 
 @app.post("/translate", response_model=TranslateOut)
 def translate(body: TranslateIn):
-    # 0) config + input
     settings = Settings()
 
-    # 1) estrai i gen:* dalla query
+    use_sparse = getattr(body, "use_sparse", True)
+    use_dense = getattr(body, "use_dense", True)
+    fusion_mode = getattr(body, "fusion_mode", None) or getattr(settings, "fusion_mode", None)
+    fusion_alpha = getattr(body, "fusion_alpha", None) or getattr(settings, "fusion_alpha", None)
+
     info = extract_gen_predicates(body.query)
     generics = info["predicates"]
 
-    # 2) carica endpoints e indice
-    endpoints = load_endpoints(Path(body.endpoints_file))
-    idx = load_index(Path(body.index_file))
 
-    # 3) retrieval ibrido (sparse + dense + fusione)
-    top_k = settings.top_k_per_endpoint
-    use_sparse = body.use_sparse if body.use_sparse is not None else settings.use_sparse
-    use_dense  = body.use_dense  if body.use_dense  is not None else settings.use_dense
-    fusion_mode = body.fusion_mode or settings.fusion_mode
-    fusion_alpha = body.fusion_alpha if body.fusion_alpha is not None else settings.fusion_alpha
 
-    candidates = retrieve_candidates_hybrid(
-        generics=generics,
-        fed_index=idx,
-        top_k_per_endpoint=top_k,
-        use_sparse=use_sparse,
-        use_dense=use_dense,
-        dense_model=settings.dense_model,
-        fusion_mode=fusion_mode,
-        alpha=fusion_alpha
-    )
+    endpoints = load_endpoints(Path('./endpoints/endpoints.yml'))
 
-    # 4) riscrittura SPARQL (usa i candidati "effective")
-    rewritten = rewrite(body.query, candidates, endpoints)
+    candidates = {}
+    for g in generics:
+        per_endpoint = search_candidates(g)
+        candidates[g] = per_endpoint
 
-    # 5) payload con un po' di diagnostica utile
+    selected = {}
+    for g, per_ep in candidates.items():
+        selected[g] = {}
+        if isinstance(per_ep, dict):
+            for ep, lst in per_ep.items():
+                if isinstance(lst, list) and lst:
+                    if lst[0].get("score_fused") > 2:
+                        pred = lst[0].get("predicate") or lst[0].get("local_name") or lst[0].get("p") or lst[0].get("uri")
+                        selected[g][ep] = pred
+
+    rewritten = rewrite(body.query, selected, endpoints)
+
+    # subito dopo dove costruisci `selected`
+    # (o filtra `gen_preds` PRIMA di usarli, se preferisci)
+    def _valid_gen_key(k: str) -> bool:
+        if ":" not in k:
+            return False
+        pref, local = k.split(":", 1)
+        return bool(pref) and bool(local.strip())
+
+    selected = {k: v for k, v in selected.items() if _valid_gen_key(k)}
+
     mapping = {
-        "found_generics": generics,
-        "sample_triples": info["triples"],
-        "candidates": candidates,
-        "retrieval": {
-            "index_version": idx.version,
-            "top_k_per_endpoint": top_k,
+        "selected": selected,
+        "params": {
             "use_sparse": use_sparse,
             "use_dense": use_dense,
-            "dense_model": settings.dense_model,
+            "dense_model": getattr(settings, "dense_model", None),
             "fusion_mode": fusion_mode,
             "fusion_alpha": fusion_alpha
         }
     }
+
     return TranslateOut(mapping=mapping, rewritten=rewritten)
 
-
-
-# in cima dove hai gli import
-
-
-# in fondo al file, aggiungi questa rotta:
-@app.get("/debug/index")
-def debug_index(path: str = ".cache/index.json"):
-    p = Path(path)
-    if not p.exists():
-        return {"ok": False, "error": f"index not found at {p}"}
-    idx = load_index(p)
-    summary = [
-        {
-            "id": e.id,
-            "url": e.url,
-            "predicates": len(e.predicates),
-            "sampled": e.triples_sampled
-        }
-        for e in idx.endpoints
-    ]
-    return {"ok": True, "version": idx.version, "endpoints": summary}\
-
-@app.get("/debug/retrieve")
-def debug_retrieve(term: str, index_file: str = ".cache/index.json", k: int = 5):
-    idx = load_index(Path(index_file))
-    cands = retrieve_candidates_sparse([f"gen:{term}"], idx, top_k_per_endpoint=k)
-    return {"term": term, "candidates": cands.get(f"gen:{term}", {})}
-
-@app.post("/debug/llm")
-def debug_llm(body: TranslateIn):
-    from ..index.loaders import load_index
-    from ..retrieval.sparse import retrieve_candidates_sparse
-    settings = Settings()
-
-    info = extract_gen_predicates(body.query)
-    generics = info["predicates"]
-    endpoints = load_endpoints(Path(body.endpoints_file))
-
-    idx = load_index(Path(body.index_file))
-    base_cands = retrieve_candidates_sparse(generics, idx, top_k_per_endpoint=3)
-
-    out = {"llm_used": False, "ok": False, "error": None, "raw": None}
-    if settings.use_openai:
-        try:
-            raw = one_shot_map_openai(
-                model=settings.openai_model,
-                query=body.query,
-                generics=generics,
-                candidates=base_cands,
-                timeout_s=settings.llm_timeout_s
-            )
-            out.update(llm_used=True, ok=True, raw=raw)
-        except OpenAIError as e:
-            out.update(llm_used=True, ok=False, error=str(e))
-    return out
 
