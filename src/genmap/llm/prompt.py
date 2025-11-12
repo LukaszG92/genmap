@@ -10,7 +10,12 @@ def build_messages(query: str,
         "You are an expert SPARQL/ontology assistant. "
         "For each generic predicate and for each endpoint, pick at most ONE predicate from the provided candidates, "
         "or NONE if unsure. Do NOT invent IRIs. Return ONLY JSON per the schema."
+        "IMPORTANT: Be aware of inverse relationships (e.g., 'has_part' is the inverse of 'partOf'). "
+        "Only select predicates with the SAME semantic direction as the generic predicate."
+        "You MUST return a single JSON object that matches the provided JSON schema exactly."
+        "Do not include explanatory text, code fences, or extra keys."
     )
+
     user_payload = {
         "query": query,
         "generics": generics,

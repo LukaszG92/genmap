@@ -17,3 +17,4 @@ Requires-Dist: pandas
 Requires-Dist: scikit-learn
 Requires-Dist: pyarrow
 Requires-Dist: fastparquet
+Requires-Dist: sentence-transformers

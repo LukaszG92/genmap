@@ -1,0 +1,538 @@
+{
+  "version": "v1",
+  "endpoints": [
+    {
+      "id": "affymetrix",
+      "url": null,
+      "built_at": "2025-09-21T14:15:55Z",
+      "triples_sampled": null,
+      "predicates": [
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:transcript-assignment",
+          "usage_count": 7475423,
+          "local_name": "affymetrix_vocabulary:transcript-assignment"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:process",
+          "usage_count": 4283631,
+          "local_name": "affymetrix_vocabulary:process"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:function",
+          "usage_count": 3666141,
+          "local_name": "affymetrix_vocabulary:function"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-uniprot",
+          "usage_count": 3475692,
+          "local_name": "affymetrix_vocabulary:x-uniprot"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-refseq",
+          "usage_count": 3241370,
+          "local_name": "affymetrix_vocabulary:x-refseq"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:location",
+          "usage_count": 2998156,
+          "local_name": "affymetrix_vocabulary:location"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-unigene",
+          "usage_count": 2204848,
+          "local_name": "affymetrix_vocabulary:x-unigene"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:annotation-notes",
+          "usage_count": 2188818,
+          "local_name": "affymetrix_vocabulary:annotation-notes"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "usage_count": 1767002,
+          "local_name": "label"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "usage_count": 1767002,
+          "local_name": "type"
+        },
+        {
+          "iri": "http://rdfs.org/ns/void#inDataset",
+          "usage_count": 1766999,
+          "local_name": "inDataset"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:probe-set-id",
+          "usage_count": 1766999,
+          "local_name": "affymetrix_vocabulary:probe-set-id"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:genechip-array",
+          "usage_count": 1766999,
+          "local_name": "affymetrix_vocabulary:genechip-array"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:annotation-description",
+          "usage_count": 1766999,
+          "local_name": "affymetrix_vocabulary:annotation-description"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:annotation-date",
+          "usage_count": 1766999,
+          "local_name": "affymetrix_vocabulary:annotation-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:species-scientific-name",
+          "usage_count": 1766414,
+          "local_name": "affymetrix_vocabulary:species-scientific-name"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:transcript",
+          "usage_count": 1764482,
+          "local_name": "affymetrix_vocabulary:transcript"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:representative-public-id",
+          "usage_count": 1763672,
+          "local_name": "affymetrix_vocabulary:representative-public-id"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:target-description",
+          "usage_count": 1763640,
+          "local_name": "affymetrix_vocabulary:target-description"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:sequence-type",
+          "usage_count": 1672252,
+          "local_name": "affymetrix_vocabulary:sequence-type"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:alignments",
+          "usage_count": 1489809,
+          "local_name": "affymetrix_vocabulary:alignments"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:sequence-source",
+          "usage_count": 1362731,
+          "local_name": "affymetrix_vocabulary:sequence-source"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:genome-version",
+          "usage_count": 1328754,
+          "local_name": "affymetrix_vocabulary:genome-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-symbol",
+          "usage_count": 1160205,
+          "local_name": "affymetrix_vocabulary:x-symbol"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-geneid",
+          "usage_count": 1150232,
+          "local_name": "affymetrix_vocabulary:x-geneid"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:gene-title",
+          "usage_count": 1147110,
+          "local_name": "affymetrix_vocabulary:gene-title"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:unigene-cluster-type",
+          "usage_count": 1025200,
+          "local_name": "affymetrix_vocabulary:unigene-cluster-type"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-ensembl",
+          "usage_count": 849357,
+          "local_name": "affymetrix_vocabulary:x-ensembl"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:chromosomal-location",
+          "usage_count": 702682,
+          "local_name": "affymetrix_vocabulary:chromosomal-location"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-omim",
+          "usage_count": 384747,
+          "local_name": "affymetrix_vocabulary:x-omim"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:trans-membrane",
+          "usage_count": 350093,
+          "local_name": "affymetrix_vocabulary:trans-membrane"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-interpro",
+          "usage_count": 166013,
+          "local_name": "affymetrix_vocabulary:x-interpro"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-ec",
+          "usage_count": 161555,
+          "local_name": "affymetrix_vocabulary:x-ec"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-mgi",
+          "usage_count": 153634,
+          "local_name": "affymetrix_vocabulary:x-mgi"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:pathway",
+          "usage_count": 110727,
+          "local_name": "affymetrix_vocabulary:pathway"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-flybase",
+          "usage_count": 28938,
+          "local_name": "affymetrix_vocabulary:x-flybase"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-agi",
+          "usage_count": 22619,
+          "local_name": "affymetrix_vocabulary:x-agi"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-sgd",
+          "usage_count": 21482,
+          "local_name": "affymetrix_vocabulary:x-sgd"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-wormbase",
+          "usage_count": 17785,
+          "local_name": "affymetrix_vocabulary:x-wormbase"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:qtl",
+          "usage_count": 2900,
+          "local_name": "affymetrix_vocabulary:qtl"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:x-rgd",
+          "usage_count": 1012,
+          "local_name": "affymetrix_vocabulary:x-rgd"
+        },
+        {
+          "iri": "http://vocab.sindice.net/analytics#target",
+          "usage_count": 454,
+          "local_name": "target"
+        },
+        {
+          "iri": "http://vocab.sindice.net/analytics#label",
+          "usage_count": 314,
+          "local_name": "label"
+        },
+        {
+          "iri": "http://vocab.sindice.net/analytics#cardinality",
+          "usage_count": 284,
+          "local_name": "cardinality"
+        },
+        {
+          "iri": "http://vocab.sindice.net/analytics#source",
+          "usage_count": 227,
+          "local_name": "source"
+        },
+        {
+          "iri": "http://vocab.sindice.net/analytics#publishedIn",
+          "usage_count": 227,
+          "local_name": "publishedIn"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_predicate",
+          "usage_count": 160,
+          "local_name": "dataset_vocabulary:has_predicate"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_subject_count",
+          "usage_count": 81,
+          "local_name": "dataset_vocabulary:has_subject_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_count",
+          "usage_count": 81,
+          "local_name": "dataset_vocabulary:has_count"
+        },
+        {
+          "iri": "http://rdfs.org/ns/void#dataDump",
+          "usage_count": 63,
+          "local_name": "dataDump"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:refseq-version",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:refseq-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:refseq-date",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:refseq-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:netaffx-annotation-tabular-format-version",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:netaffx-annotation-tabular-format-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:netaffx-annotation-netaffx-build",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:netaffx-annotation-netaffx-build"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:netaffx-annotation-docgen-version",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:netaffx-annotation-docgen-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:netaffx-annotation-docgen-method",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:netaffx-annotation-docgen-method"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:netaffx-annotation-date",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:netaffx-annotation-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:ipi-date",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:ipi-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:genbank-version",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:genbank-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:genbank-date",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:genbank-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:entrezgene-date",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:entrezgene-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:create_date",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:create_date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:chip_type",
+          "usage_count": 63,
+          "local_name": "affymetrix_vocabulary:chip_type"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_literal_count",
+          "usage_count": 49,
+          "local_name": "dataset_vocabulary:has_predicate_unique_subject_unique_literal_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_predicate_literal_count",
+          "usage_count": 49,
+          "local_name": "dataset_vocabulary:has_predicate_literal_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_literal_count",
+          "usage_count": 49,
+          "local_name": "dataset_vocabulary:has_literal_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:genome-version-create_date",
+          "usage_count": 47,
+          "local_name": "affymetrix_vocabulary:genome-version-create_date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:genome-species",
+          "usage_count": 47,
+          "local_name": "affymetrix_vocabulary:genome-species"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:genome-version-ucsc",
+          "usage_count": 41,
+          "local_name": "affymetrix_vocabulary:genome-version-ucsc"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:ensembl-version",
+          "usage_count": 41,
+          "local_name": "affymetrix_vocabulary:ensembl-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:ensembl-date",
+          "usage_count": 41,
+          "local_name": "affymetrix_vocabulary:ensembl-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_object_count",
+          "usage_count": 32,
+          "local_name": "dataset_vocabulary:has_object_count"
+        },
+        {
+          "iri": "http://vocab.sindice.net/analytics#type",
+          "usage_count": 31,
+          "local_name": "type"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_predicate_unique_subject_unique_object_count",
+          "usage_count": 30,
+          "local_name": "dataset_vocabulary:has_predicate_unique_subject_unique_object_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_predicate_object_count",
+          "usage_count": 30,
+          "local_name": "dataset_vocabulary:has_predicate_object_count"
+        },
+        {
+          "iri": "http://vocab.sindice.net/domain_uri",
+          "usage_count": 26,
+          "local_name": "domain_uri"
+        },
+        {
+          "iri": "http://vocab.sindice.net/domain",
+          "usage_count": 26,
+          "local_name": "domain"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:genome-version-ncbi",
+          "usage_count": 20,
+          "local_name": "affymetrix_vocabulary:genome-version-ncbi"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:unigene-date",
+          "usage_count": 12,
+          "local_name": "affymetrix_vocabulary:unigene-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:mirbase-version",
+          "usage_count": 12,
+          "local_name": "affymetrix_vocabulary:mirbase-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:mirbase-date",
+          "usage_count": 12,
+          "local_name": "affymetrix_vocabulary:mirbase-date"
+        },
+        {
+          "iri": "http://purl.org/dc/terms/rights",
+          "usage_count": 5,
+          "local_name": "rights"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_type_relation_type_count",
+          "usage_count": 2,
+          "local_name": "dataset_vocabulary:has_type_relation_type_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_type_count",
+          "usage_count": 2,
+          "local_name": "dataset_vocabulary:has_type_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_type",
+          "usage_count": 2,
+          "local_name": "dataset_vocabulary:has_type"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_subject_type",
+          "usage_count": 2,
+          "local_name": "dataset_vocabulary:has_subject_type"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_object_type",
+          "usage_count": 2,
+          "local_name": "dataset_vocabulary:has_object_type"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/homepage",
+          "usage_count": 1,
+          "local_name": "homepage"
+        },
+        {
+          "iri": "http://www.w3.org/ns/prov#wasDerivedFrom",
+          "usage_count": 1,
+          "local_name": "wasDerivedFrom"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "usage_count": 1,
+          "local_name": "seeAlso"
+        },
+        {
+          "iri": "http://rdfs.org/ns/void#sparqlEndpoint",
+          "usage_count": 1,
+          "local_name": "sparqlEndpoint"
+        },
+        {
+          "iri": "http://purl.org/dc/terms/publisher",
+          "usage_count": 1,
+          "local_name": "publisher"
+        },
+        {
+          "iri": "http://purl.org/dc/terms/creator",
+          "usage_count": 1,
+          "local_name": "creator"
+        },
+        {
+          "iri": "http://purl.org/dc/terms/created",
+          "usage_count": 1,
+          "local_name": "created"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_url",
+          "usage_count": 1,
+          "local_name": "dataset_vocabulary:has_url"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_unique_subject_count",
+          "usage_count": 1,
+          "local_name": "dataset_vocabulary:has_unique_subject_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_unique_predicate_count",
+          "usage_count": 1,
+          "local_name": "dataset_vocabulary:has_unique_predicate_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_unique_object_count",
+          "usage_count": 1,
+          "local_name": "dataset_vocabulary:has_unique_object_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/dataset_vocabulary:has_triple_count",
+          "usage_count": 1,
+          "local_name": "dataset_vocabulary:has_triple_count"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:tair-version",
+          "usage_count": 1,
+          "local_name": "affymetrix_vocabulary:tair-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:tair-date",
+          "usage_count": 1,
+          "local_name": "affymetrix_vocabulary:tair-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:rgap-version",
+          "usage_count": 1,
+          "local_name": "affymetrix_vocabulary:rgap-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:rgap-date",
+          "usage_count": 1,
+          "local_name": "affymetrix_vocabulary:rgap-date"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:jgi-version",
+          "usage_count": 1,
+          "local_name": "affymetrix_vocabulary:jgi-version"
+        },
+        {
+          "iri": "http://bio2rdf.org/affymetrix_vocabulary:jgi-date",
+          "usage_count": 1,
+          "local_name": "affymetrix_vocabulary:jgi-date"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+32540	<http://bio2rdf.org/ns/bio2rdf#xRef>
+14260	<http://bio2rdf.org/ns/bio2rdf#synonym>
+8117	<http://www.w3.org/2002/07/owl#sameAs>
+8117	<http://www.w3.org/2000/01/rdf-schema#label>
+8117	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+8117	<http://purl.org/dc/elements/1.1/title>
+8117	<http://purl.org/dc/elements/1.1/identifier>
+8117	<http://bio2rdf.org/ns/bio2rdf#urlImage>
+8117	<http://bio2rdf.org/ns/bio2rdf#url>
+6782	<http://bio2rdf.org/ns/bio2rdf#formula>
+6444	<http://bio2rdf.org/ns/bio2rdf#mass>

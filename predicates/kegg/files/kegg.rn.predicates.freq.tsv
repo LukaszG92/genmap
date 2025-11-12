@@ -1,0 +1,13 @@
+16690	<http://bio2rdf.org/ns/kegg#xProduct>
+16128	<http://bio2rdf.org/ns/kegg#xSubstrate>
+7827	<http://www.w3.org/2002/07/owl#sameAs>
+7827	<http://www.w3.org/2000/01/rdf-schema#label>
+7827	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+7827	<http://purl.org/dc/elements/1.1/title>
+7827	<http://purl.org/dc/elements/1.1/identifier>
+7827	<http://bio2rdf.org/ns/kegg#equation>
+7827	<http://bio2rdf.org/ns/bio2rdf#urlImage>
+7827	<http://bio2rdf.org/ns/bio2rdf#url>
+7226	<http://bio2rdf.org/ns/kegg#xEnzyme>
+6032	<http://bio2rdf.org/ns/kegg#xPathway>
+2281	<http://www.w3.org/2000/01/rdf-schema#comment>

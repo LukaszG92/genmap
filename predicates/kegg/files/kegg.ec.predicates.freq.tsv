@@ -1,0 +1,13 @@
+609037	<http://bio2rdf.org/ns/kegg#xGene>
+16815	<http://bio2rdf.org/ns/bio2rdf#synonym>
+13780	<http://bio2rdf.org/ns/bio2rdf#isA>
+8947	<http://bio2rdf.org/ns/kegg#xProduct>
+8447	<http://bio2rdf.org/ns/kegg#xSubstrate>
+4245	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+4245	<http://purl.org/dc/elements/1.1/identifier>
+4245	<http://bio2rdf.org/ns/bio2rdf#url>
+4131	<http://www.w3.org/2000/01/rdf-schema#label>
+4131	<http://purl.org/dc/elements/1.1/title>
+3721	<http://bio2rdf.org/ns/kegg#systematicName>
+3198	<http://www.w3.org/2000/01/rdf-schema#comment>
+895	<http://bio2rdf.org/ns/kegg#xCofactor>

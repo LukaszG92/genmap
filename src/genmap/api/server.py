@@ -1,5 +1,6 @@
 # src/genmap/api/server.py
 import os
+import pprint
 
 from fastapi import FastAPI
 from pydantic import BaseModel
@@ -10,6 +11,7 @@ from ..config import load_endpoints
 from ..rewrite.rewriter import rewrite
 from ..config import Settings
 from ..index.search_candidates import search_candidates
+from ..llm.openai_client import one_shot_map_openai
 
 app = FastAPI(title="genmap PoC — step6")
 
@@ -43,8 +45,6 @@ def translate(body: TranslateIn):
     info = extract_gen_predicates(body.query)
     generics = info["predicates"]
 
-
-
     endpoints = load_endpoints(Path('./endpoints/endpoints.yml'))
 
     candidates = {}
@@ -52,15 +52,7 @@ def translate(body: TranslateIn):
         per_endpoint = search_candidates(g)
         candidates[g] = per_endpoint
 
-    selected = {}
-    for g, per_ep in candidates.items():
-        selected[g] = {}
-        if isinstance(per_ep, dict):
-            for ep, lst in per_ep.items():
-                if isinstance(lst, list) and lst:
-                    if lst[0].get("score_fused") > 2:
-                        pred = lst[0].get("predicate") or lst[0].get("local_name") or lst[0].get("p") or lst[0].get("uri")
-                        selected[g][ep] = pred
+    selected = one_shot_map_openai("gpt-5-nano", body.query, generics, candidates)
 
     rewritten = rewrite(body.query, selected, endpoints)
 
@@ -75,6 +67,7 @@ def translate(body: TranslateIn):
     selected = {k: v for k, v in selected.items() if _valid_gen_key(k)}
 
     mapping = {
+        "candidates": candidates,
         "selected": selected,
         "params": {
             "use_sparse": use_sparse,
@@ -86,5 +79,3 @@ def translate(body: TranslateIn):
     }
 
     return TranslateOut(mapping=mapping, rewritten=rewritten)
-
-

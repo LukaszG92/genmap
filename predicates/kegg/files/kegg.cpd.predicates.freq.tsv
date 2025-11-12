@@ -1,0 +1,11 @@
+41004	<http://bio2rdf.org/ns/bio2rdf#xRef>
+14071	<http://www.w3.org/2002/07/owl#sameAs>
+14071	<http://www.w3.org/2000/01/rdf-schema#label>
+14071	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+14071	<http://purl.org/dc/elements/1.1/title>
+14071	<http://purl.org/dc/elements/1.1/identifier>
+14071	<http://bio2rdf.org/ns/bio2rdf#urlImage>
+14071	<http://bio2rdf.org/ns/bio2rdf#url>
+13326	<http://bio2rdf.org/ns/bio2rdf#formula>
+12634	<http://bio2rdf.org/ns/bio2rdf#synonym>
+12063	<http://bio2rdf.org/ns/bio2rdf#mass>

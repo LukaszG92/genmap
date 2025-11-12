@@ -1,0 +1,11 @@
+{"iri":"http://rdfs.org/ns/void#dataDump","usage_count":63,"local_name":"dataDump"}
+{"iri":"http://purl.org/dc/terms/rights","usage_count":5,"local_name":"rights"}
+{"iri":"http://www.w3.org/2000/01/rdf-schema#label","usage_count":2,"local_name":"label"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":2,"local_name":"type"}
+{"iri":"http://xmlns.com/foaf/0.1/homepage","usage_count":1,"local_name":"homepage"}
+{"iri":"http://www.w3.org/ns/prov#wasDerivedFrom","usage_count":1,"local_name":"wasDerivedFrom"}
+{"iri":"http://www.w3.org/2000/01/rdf-schema#seeAlso","usage_count":1,"local_name":"seeAlso"}
+{"iri":"http://rdfs.org/ns/void#sparqlEndpoint","usage_count":1,"local_name":"sparqlEndpoint"}
+{"iri":"http://purl.org/dc/terms/publisher","usage_count":1,"local_name":"publisher"}
+{"iri":"http://purl.org/dc/terms/creator","usage_count":1,"local_name":"creator"}
+{"iri":"http://purl.org/dc/terms/created","usage_count":1,"local_name":"created"}

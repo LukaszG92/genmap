@@ -1,0 +1,8 @@
+{"iri":"http://vocab.sindice.net/analytics#target","usage_count":454,"local_name":"target"}
+{"iri":"http://vocab.sindice.net/analytics#label","usage_count":314,"local_name":"label"}
+{"iri":"http://vocab.sindice.net/analytics#cardinality","usage_count":284,"local_name":"cardinality"}
+{"iri":"http://vocab.sindice.net/analytics#source","usage_count":227,"local_name":"source"}
+{"iri":"http://vocab.sindice.net/analytics#publishedIn","usage_count":227,"local_name":"publishedIn"}
+{"iri":"http://vocab.sindice.net/analytics#type","usage_count":31,"local_name":"type"}
+{"iri":"http://vocab.sindice.net/domain_uri","usage_count":26,"local_name":"domain_uri"}
+{"iri":"http://vocab.sindice.net/domain","usage_count":26,"local_name":"domain"}

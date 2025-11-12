@@ -1,0 +1,11 @@
+{"iri":"http://bio2rdf.org/ns/bio2rdf#xRef","usage_count":41004,"local_name":"xRef"}
+{"iri":"http://www.w3.org/2002/07/owl#sameAs","usage_count":14071,"local_name":"sameAs"}
+{"iri":"http://www.w3.org/2000/01/rdf-schema#label","usage_count":14071,"local_name":"label"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":14071,"local_name":"type"}
+{"iri":"http://purl.org/dc/elements/1.1/title","usage_count":14071,"local_name":"title"}
+{"iri":"http://purl.org/dc/elements/1.1/identifier","usage_count":14071,"local_name":"identifier"}
+{"iri":"http://bio2rdf.org/ns/bio2rdf#urlImage","usage_count":14071,"local_name":"urlImage"}
+{"iri":"http://bio2rdf.org/ns/bio2rdf#url","usage_count":14071,"local_name":"url"}
+{"iri":"http://bio2rdf.org/ns/bio2rdf#formula","usage_count":13326,"local_name":"formula"}
+{"iri":"http://bio2rdf.org/ns/bio2rdf#synonym","usage_count":12634,"local_name":"synonym"}
+{"iri":"http://bio2rdf.org/ns/bio2rdf#mass","usage_count":12063,"local_name":"mass"}

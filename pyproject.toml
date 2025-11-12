@@ -5,7 +5,7 @@ requires-python = ">=3.11"
 dependencies = [
   "fastapi", "uvicorn", "pydantic>=2", "rdflib", "SPARQLWrapper",
   "rank-bm25", "rapidfuzz", "orjson", "PyYAML", "httpx", "openai",
-  "pandas", "scikit-learn", "pyarrow", "fastparquet"
+  "pandas", "scikit-learn", "pyarrow", "fastparquet", "sentence-transformers"
 ]
 
 [tool.pytest.ini_options]

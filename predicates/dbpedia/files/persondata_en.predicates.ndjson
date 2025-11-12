@@ -1,0 +1,9 @@
+{"iri":"http://xmlns.com/foaf/0.1/name","usage_count":48708,"local_name":"name"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":48708,"local_name":"type"}
+{"iri":"http://purl.org/dc/elements/1.1/description","usage_count":47097,"local_name":"description"}
+{"iri":"http://xmlns.com/foaf/0.1/surname","usage_count":44975,"local_name":"surname"}
+{"iri":"http://xmlns.com/foaf/0.1/givenname","usage_count":44975,"local_name":"givenname"}
+{"iri":"http://dbpedia.org/property/birthPlace","usage_count":41958,"local_name":"birthPlace"}
+{"iri":"http://dbpedia.org/property/birth","usage_count":37869,"local_name":"birth"}
+{"iri":"http://dbpedia.org/property/death","usage_count":22742,"local_name":"death"}
+{"iri":"http://dbpedia.org/property/deathPlace","usage_count":19964,"local_name":"deathPlace"}

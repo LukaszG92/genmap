@@ -10,11 +10,10 @@ src/genmap.egg-info/top_level.txt
 src/genmap/api/server.py
 src/genmap/index/build_indices.py
 src/genmap/index/search_candidates.py
-src/genmap/llm/client.py
 src/genmap/llm/openai_client.py
 src/genmap/llm/prompt.py
+src/genmap/llm/response_utils.py
 src/genmap/llm/schema.py
-src/genmap/llm/selector.py
 src/genmap/rewrite/rewriter.py
 src/genmap/utils/__init__.py
 src/genmap/utils/gen_extract.py

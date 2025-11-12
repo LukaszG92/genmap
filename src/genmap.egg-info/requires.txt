@@ -13,3 +13,4 @@ pandas
 scikit-learn
 pyarrow
 fastparquet
+sentence-transformers

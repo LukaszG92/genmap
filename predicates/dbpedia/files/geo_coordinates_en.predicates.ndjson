@@ -1,0 +1,4 @@
+{"iri":"http://www.w3.org/2003/01/geo/wgs84_pos#long","usage_count":365723,"local_name":"long"}
+{"iri":"http://www.w3.org/2003/01/geo/wgs84_pos#lat","usage_count":365723,"local_name":"lat"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":365723,"local_name":"type"}
+{"iri":"http://www.georss.org/georss/point","usage_count":365723,"local_name":"point"}

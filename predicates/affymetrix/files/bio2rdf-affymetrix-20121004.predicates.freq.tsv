@@ -1,0 +1,11 @@
+63	<http://rdfs.org/ns/void#dataDump>
+5	<http://purl.org/dc/terms/rights>
+2	<http://www.w3.org/2000/01/rdf-schema#label>
+2	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+1	<http://xmlns.com/foaf/0.1/homepage>
+1	<http://www.w3.org/ns/prov#wasDerivedFrom>
+1	<http://www.w3.org/2000/01/rdf-schema#seeAlso>
+1	<http://rdfs.org/ns/void#sparqlEndpoint>
+1	<http://purl.org/dc/terms/publisher>
+1	<http://purl.org/dc/terms/creator>
+1	<http://purl.org/dc/terms/created>

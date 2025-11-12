@@ -1,0 +1,9 @@
+48708	<http://xmlns.com/foaf/0.1/name>
+48708	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+47097	<http://purl.org/dc/elements/1.1/description>
+44975	<http://xmlns.com/foaf/0.1/surname>
+44975	<http://xmlns.com/foaf/0.1/givenname>
+41958	<http://dbpedia.org/property/birthPlace>
+37869	<http://dbpedia.org/property/birth>
+22742	<http://dbpedia.org/property/death>
+19964	<http://dbpedia.org/property/deathPlace>

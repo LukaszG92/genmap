@@ -1,0 +1,13 @@
+{"iri":"http://bio2rdf.org/ns/kegg#xGene","usage_count":609037,"local_name":"xGene"}
+{"iri":"http://bio2rdf.org/ns/bio2rdf#synonym","usage_count":16815,"local_name":"synonym"}
+{"iri":"http://bio2rdf.org/ns/bio2rdf#isA","usage_count":13780,"local_name":"isA"}
+{"iri":"http://bio2rdf.org/ns/kegg#xProduct","usage_count":8947,"local_name":"xProduct"}
+{"iri":"http://bio2rdf.org/ns/kegg#xSubstrate","usage_count":8447,"local_name":"xSubstrate"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":4245,"local_name":"type"}
+{"iri":"http://purl.org/dc/elements/1.1/identifier","usage_count":4245,"local_name":"identifier"}
+{"iri":"http://bio2rdf.org/ns/bio2rdf#url","usage_count":4245,"local_name":"url"}
+{"iri":"http://www.w3.org/2000/01/rdf-schema#label","usage_count":4131,"local_name":"label"}
+{"iri":"http://purl.org/dc/elements/1.1/title","usage_count":4131,"local_name":"title"}
+{"iri":"http://bio2rdf.org/ns/kegg#systematicName","usage_count":3721,"local_name":"systematicName"}
+{"iri":"http://www.w3.org/2000/01/rdf-schema#comment","usage_count":3198,"local_name":"comment"}
+{"iri":"http://bio2rdf.org/ns/kegg#xCofactor","usage_count":895,"local_name":"xCofactor"}
