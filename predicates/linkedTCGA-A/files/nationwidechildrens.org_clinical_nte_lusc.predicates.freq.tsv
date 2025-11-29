@@ -1,0 +1,11 @@
+28	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+28	<http://tcga.deri.ie/schema/progression_determined_by>
+28	<http://tcga.deri.ie/schema/new_neoplasm_event_type>
+28	<http://tcga.deri.ie/schema/days_to_new_tumor_event_after_initial_treatment>
+28	<http://tcga.deri.ie/schema/days_to_additional_surgery_metastatic_procedure>
+28	<http://tcga.deri.ie/schema/days_to_additional_surgery_locoregional_procedure>
+28	<http://tcga.deri.ie/schema/bcr_patient_barcode>
+28	<http://tcga.deri.ie/schema/additional_surgery_metastatic_procedure>
+28	<http://tcga.deri.ie/schema/additional_surgery_locoregional_procedure>
+28	<http://tcga.deri.ie/schema/additional_radiation_therapy>
+28	<http://tcga.deri.ie/schema/additional_pharmaceutical_therapy>

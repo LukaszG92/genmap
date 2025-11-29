@@ -1,0 +1,6 @@
+305	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+305	<http://tcga.deri.ie/schema/stop>
+305	<http://tcga.deri.ie/schema/start>
+305	<http://tcga.deri.ie/schema/seg_mean>
+305	<http://tcga.deri.ie/schema/result>
+305	<http://tcga.deri.ie/schema/chromosome>

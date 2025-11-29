@@ -1,0 +1,6 @@
+837727	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+837727	<http://tcga.deri.ie/schema/result>
+837727	<http://tcga.deri.ie/schema/position>
+837727	<http://tcga.deri.ie/schema/chromosome>
+837727	<http://tcga.deri.ie/schema/beta_value>
+4	<http://tcga.deri.ie/schema/bcr_patient_barcode>

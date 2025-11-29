@@ -1,0 +1,7 @@
+189453	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+189453	<http://tcga.deri.ie/schema/stop>
+189453	<http://tcga.deri.ie/schema/start>
+189453	<http://tcga.deri.ie/schema/result>
+189453	<http://tcga.deri.ie/schema/chromosome>
+189453	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,6 @@
+{"iri":"http://tcga.deri.ie/schema/bcr_sample_barcode","usage_count":4636,"local_name":"bcr_sample_barcode"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":2318,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/protocol_name","usage_count":2318,"local_name":"protocol_name"}
+{"iri":"http://tcga.deri.ie/schema/protocol_file_name","usage_count":2318,"local_name":"protocol_file_name"}
+{"iri":"http://tcga.deri.ie/schema/experimental_protocol_type","usage_count":2318,"local_name":"experimental_protocol_type"}
+{"iri":"http://tcga.deri.ie/schema/bcr_analyte_barcode","usage_count":2318,"local_name":"bcr_analyte_barcode"}

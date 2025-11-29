@@ -1,0 +1,6 @@
+109	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+109	<http://tcga.deri.ie/schema/stop>
+109	<http://tcga.deri.ie/schema/start>
+109	<http://tcga.deri.ie/schema/seg_mean>
+109	<http://tcga.deri.ie/schema/result>
+109	<http://tcga.deri.ie/schema/chromosome>

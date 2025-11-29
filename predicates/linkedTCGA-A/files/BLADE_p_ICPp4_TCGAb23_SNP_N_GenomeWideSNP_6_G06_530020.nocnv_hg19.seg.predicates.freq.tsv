@@ -1,0 +1,6 @@
+172	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+172	<http://tcga.deri.ie/schema/stop>
+172	<http://tcga.deri.ie/schema/start>
+172	<http://tcga.deri.ie/schema/seg_mean>
+172	<http://tcga.deri.ie/schema/result>
+172	<http://tcga.deri.ie/schema/chromosome>

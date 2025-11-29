@@ -1,0 +1,7 @@
+{"iri":"http://tcga.deri.ie/schema/tumor_nuclei_percent","usage_count":507,"local_name":"tumor_nuclei_percent"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":486,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/vial_number","usage_count":486,"local_name":"vial_number"}
+{"iri":"http://tcga.deri.ie/schema/tumor_necrosis_percent","usage_count":486,"local_name":"tumor_necrosis_percent"}
+{"iri":"http://tcga.deri.ie/schema/bcr_sample_uuid","usage_count":486,"local_name":"bcr_sample_uuid"}
+{"iri":"http://tcga.deri.ie/schema/bcr_patient_barcode","usage_count":486,"local_name":"bcr_patient_barcode"}
+{"iri":"http://tcga.deri.ie/schema/tumor_weight","usage_count":465,"local_name":"tumor_weight"}

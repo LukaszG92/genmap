@@ -1,0 +1,7 @@
+193530	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+193530	<http://tcga.deri.ie/schema/stop>
+193530	<http://tcga.deri.ie/schema/start>
+193530	<http://tcga.deri.ie/schema/result>
+193530	<http://tcga.deri.ie/schema/chromosome>
+193530	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

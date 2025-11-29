@@ -1,0 +1,7 @@
+201946	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+201946	<http://tcga.deri.ie/schema/stop>
+201946	<http://tcga.deri.ie/schema/start>
+201946	<http://tcga.deri.ie/schema/result>
+201946	<http://tcga.deri.ie/schema/chromosome>
+201946	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

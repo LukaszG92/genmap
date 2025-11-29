@@ -1,0 +1,27 @@
+endpoint,predicate,local_name,usage_count,text
+jamendo,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,type,290291,http://www.w3.org/1999/02/22-rdf-syntax-ns#type type type type jamendo
+jamendo,http://purl.org/ontology/mo/available_as,available_as,125948,http://purl.org/ontology/mo/available_as available_as available as available as jamendo
+jamendo,http://purl.org/dc/elements/1.1/format,format,125948,http://purl.org/dc/elements/1.1/format format format format jamendo
+jamendo,http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag,taggedWithTag,53438,http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag taggedWithTag tagged with tag tagged with tag jamendo
+jamendo,http://purl.org/dc/elements/1.1/title,title,51402,http://purl.org/dc/elements/1.1/title title title title jamendo
+jamendo,http://purl.org/ontology/mo/track_number,track_number,45634,http://purl.org/ontology/mo/track_number track_number track number track number jamendo
+jamendo,http://purl.org/ontology/mo/track,track,45634,http://purl.org/ontology/mo/track track track track jamendo
+jamendo,http://purl.org/ontology/mo/time,time,45634,http://purl.org/ontology/mo/time time time time jamendo
+jamendo,http://purl.org/ontology/mo/recorded_as,recorded_as,45634,http://purl.org/ontology/mo/recorded_as recorded_as recorded as recorded as jamendo
+jamendo,http://purl.org/ontology/mo/published_as,published_as,45634,http://purl.org/ontology/mo/published_as published_as published as published as jamendo
+jamendo,http://purl.org/ontology/mo/license,license,45634,http://purl.org/ontology/mo/license license license license jamendo
+jamendo,http://purl.org/NET/c4dm/timeline.owl#onTimeLine,onTimeLine,45634,http://purl.org/NET/c4dm/timeline.owl#onTimeLine onTimeLine on time line on time line jamendo
+jamendo,http://purl.org/ontology/mo/image,image,23144,http://purl.org/ontology/mo/image image image image jamendo
+jamendo,http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName,tagName,9235,http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName tagName tag name tag name jamendo
+jamendo,http://purl.org/ontology/mo/text,text,8823,http://purl.org/ontology/mo/text text text text jamendo
+jamendo,http://purl.org/NET/c4dm/event.owl#factor,factor,8823,http://purl.org/NET/c4dm/event.owl#factor factor factor factor jamendo
+jamendo,http://xmlns.com/foaf/0.1/maker,maker,5786,http://xmlns.com/foaf/0.1/maker maker maker maker jamendo
+jamendo,http://xmlns.com/foaf/0.1/made,made,5786,http://xmlns.com/foaf/0.1/made made made made jamendo
+jamendo,http://purl.org/dc/elements/1.1/date,date,5786,http://purl.org/dc/elements/1.1/date date date date jamendo
+jamendo,http://xmlns.com/foaf/0.1/name,name,3505,http://xmlns.com/foaf/0.1/name name name name jamendo
+jamendo,http://xmlns.com/foaf/0.1/based_near,based_near,3244,http://xmlns.com/foaf/0.1/based_near based_near based near based near jamendo
+jamendo,http://xmlns.com/foaf/0.1/homepage,homepage,3006,http://xmlns.com/foaf/0.1/homepage homepage homepage homepage jamendo
+jamendo,http://xmlns.com/foaf/0.1/img,img,2982,http://xmlns.com/foaf/0.1/img img img img jamendo
+jamendo,http://www.w3.org/2002/07/owl#sameAs,sameAs,1697,http://www.w3.org/2002/07/owl#sameAs sameAs same as same as jamendo
+jamendo,http://purl.org/dc/elements/1.1/description,description,880,http://purl.org/dc/elements/1.1/description description description description jamendo
+jamendo,http://purl.org/ontology/mo/biography,biography,485,http://purl.org/ontology/mo/biography biography biography biography jamendo

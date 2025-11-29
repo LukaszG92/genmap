@@ -1,0 +1,9 @@
+{"iri":"http://tcga.deri.ie/schema/bcr_portion_barcode","usage_count":2112,"local_name":"bcr_portion_barcode"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":1056,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/weight","usage_count":1056,"local_name":"weight"}
+{"iri":"http://tcga.deri.ie/schema/portion_number","usage_count":1056,"local_name":"portion_number"}
+{"iri":"http://tcga.deri.ie/schema/is_ffpe","usage_count":1056,"local_name":"is_ffpe"}
+{"iri":"http://tcga.deri.ie/schema/date_of_creation","usage_count":1056,"local_name":"date_of_creation"}
+{"iri":"http://tcga.deri.ie/schema/bcr_sample_barcode","usage_count":1056,"local_name":"bcr_sample_barcode"}
+{"iri":"http://tcga.deri.ie/schema/bcr_portion_uuid","usage_count":1056,"local_name":"bcr_portion_uuid"}
+{"iri":"http://tcga.deri.ie/schema/LCE","usage_count":1056,"local_name":"LCE"}

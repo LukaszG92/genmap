@@ -1,0 +1,7 @@
+190592	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+190592	<http://tcga.deri.ie/schema/stop>
+190592	<http://tcga.deri.ie/schema/start>
+190592	<http://tcga.deri.ie/schema/result>
+190592	<http://tcga.deri.ie/schema/chromosome>
+190592	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

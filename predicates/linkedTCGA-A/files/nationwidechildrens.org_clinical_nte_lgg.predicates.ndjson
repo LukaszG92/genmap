@@ -1,0 +1,9 @@
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":25,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/new_tumor_event_surgery_met","usage_count":25,"local_name":"new_tumor_event_surgery_met"}
+{"iri":"http://tcga.deri.ie/schema/new_tumor_event_surgery_days_to_met","usage_count":25,"local_name":"new_tumor_event_surgery_days_to_met"}
+{"iri":"http://tcga.deri.ie/schema/new_tumor_event_surgery_days_to_loco","usage_count":25,"local_name":"new_tumor_event_surgery_days_to_loco"}
+{"iri":"http://tcga.deri.ie/schema/new_tumor_event_surgery","usage_count":25,"local_name":"new_tumor_event_surgery"}
+{"iri":"http://tcga.deri.ie/schema/new_tumor_event_radiation_tx","usage_count":25,"local_name":"new_tumor_event_radiation_tx"}
+{"iri":"http://tcga.deri.ie/schema/new_tumor_event_pharmaceutical_tx","usage_count":25,"local_name":"new_tumor_event_pharmaceutical_tx"}
+{"iri":"http://tcga.deri.ie/schema/new_tumor_event_dx_days_to","usage_count":25,"local_name":"new_tumor_event_dx_days_to"}
+{"iri":"http://tcga.deri.ie/schema/bcr_patient_barcode","usage_count":25,"local_name":"bcr_patient_barcode"}

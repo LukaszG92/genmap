@@ -1,0 +1,7 @@
+434	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+434	<http://tcga.deri.ie/schema/stop>
+434	<http://tcga.deri.ie/schema/start>
+434	<http://tcga.deri.ie/schema/seg_mean>
+434	<http://tcga.deri.ie/schema/result>
+434	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

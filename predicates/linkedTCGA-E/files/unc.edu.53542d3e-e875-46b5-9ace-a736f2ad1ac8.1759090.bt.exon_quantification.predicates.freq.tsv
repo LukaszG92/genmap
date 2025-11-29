@@ -1,0 +1,7 @@
+177696	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+177696	<http://tcga.deri.ie/schema/stop>
+177696	<http://tcga.deri.ie/schema/start>
+177696	<http://tcga.deri.ie/schema/result>
+177696	<http://tcga.deri.ie/schema/chromosome>
+177696	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

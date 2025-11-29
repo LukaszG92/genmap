@@ -1,0 +1,6 @@
+115	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+115	<http://tcga.deri.ie/schema/stop>
+115	<http://tcga.deri.ie/schema/start>
+115	<http://tcga.deri.ie/schema/seg_mean>
+115	<http://tcga.deri.ie/schema/result>
+115	<http://tcga.deri.ie/schema/chromosome>

@@ -1,0 +1,7 @@
+764	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+764	<http://tcga.deri.ie/schema/stop>
+764	<http://tcga.deri.ie/schema/start>
+764	<http://tcga.deri.ie/schema/seg_mean>
+764	<http://tcga.deri.ie/schema/result>
+764	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,6 @@
+70	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+70	<http://tcga.deri.ie/schema/stop>
+70	<http://tcga.deri.ie/schema/start>
+70	<http://tcga.deri.ie/schema/seg_mean>
+70	<http://tcga.deri.ie/schema/result>
+70	<http://tcga.deri.ie/schema/chromosome>

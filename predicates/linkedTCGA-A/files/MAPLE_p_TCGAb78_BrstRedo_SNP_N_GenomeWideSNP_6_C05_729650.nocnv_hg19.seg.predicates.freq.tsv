@@ -1,0 +1,6 @@
+192	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+192	<http://tcga.deri.ie/schema/stop>
+192	<http://tcga.deri.ie/schema/start>
+192	<http://tcga.deri.ie/schema/seg_mean>
+192	<http://tcga.deri.ie/schema/result>
+192	<http://tcga.deri.ie/schema/chromosome>

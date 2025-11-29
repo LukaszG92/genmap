@@ -1,0 +1,14 @@
+908	<http://tcga.deri.ie/schema/bcr_slide_barcode>
+454	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+454	<http://tcga.deri.ie/schema/section_location>
+454	<http://tcga.deri.ie/schema/percent_tumor_nuclei>
+454	<http://tcga.deri.ie/schema/percent_tumor_cells>
+454	<http://tcga.deri.ie/schema/percent_stromal_cells>
+454	<http://tcga.deri.ie/schema/percent_normal_cells>
+454	<http://tcga.deri.ie/schema/percent_neutrophil_infiltration>
+454	<http://tcga.deri.ie/schema/percent_necrosis>
+454	<http://tcga.deri.ie/schema/percent_monocyte_infiltration>
+454	<http://tcga.deri.ie/schema/percent_lymphocyte_infiltration>
+454	<http://tcga.deri.ie/schema/is_derived_from_ffpe>
+454	<http://tcga.deri.ie/schema/bcr_slide_uuid>
+454	<http://tcga.deri.ie/schema/bcr_sample_barcode>

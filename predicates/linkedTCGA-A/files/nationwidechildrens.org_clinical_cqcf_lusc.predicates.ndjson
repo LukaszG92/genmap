@@ -1,0 +1,17 @@
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":411,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/tumor_type","usage_count":411,"local_name":"tumor_type"}
+{"iri":"http://tcga.deri.ie/schema/prior_dx","usage_count":411,"local_name":"prior_dx"}
+{"iri":"http://tcga.deri.ie/schema/other_anatomic_site_normal_tissue","usage_count":411,"local_name":"other_anatomic_site_normal_tissue"}
+{"iri":"http://tcga.deri.ie/schema/other_anatomic_site","usage_count":411,"local_name":"other_anatomic_site"}
+{"iri":"http://tcga.deri.ie/schema/normal_tissue_proximity","usage_count":411,"local_name":"normal_tissue_proximity"}
+{"iri":"http://tcga.deri.ie/schema/normal_tissue_anatomic_site","usage_count":411,"local_name":"normal_tissue_anatomic_site"}
+{"iri":"http://tcga.deri.ie/schema/history_of_prior_malignancy","usage_count":411,"local_name":"history_of_prior_malignancy"}
+{"iri":"http://tcga.deri.ie/schema/history_of_neoadjuvant_treatment","usage_count":411,"local_name":"history_of_neoadjuvant_treatment"}
+{"iri":"http://tcga.deri.ie/schema/histological_type","usage_count":411,"local_name":"histological_type"}
+{"iri":"http://tcga.deri.ie/schema/diagnosis_subtype","usage_count":411,"local_name":"diagnosis_subtype"}
+{"iri":"http://tcga.deri.ie/schema/days_to_death","usage_count":411,"local_name":"days_to_death"}
+{"iri":"http://tcga.deri.ie/schema/days_to_consent","usage_count":411,"local_name":"days_to_consent"}
+{"iri":"http://tcga.deri.ie/schema/consent_or_death_status","usage_count":411,"local_name":"consent_or_death_status"}
+{"iri":"http://tcga.deri.ie/schema/bcr_patient_barcode","usage_count":411,"local_name":"bcr_patient_barcode"}
+{"iri":"http://tcga.deri.ie/schema/anatomic_neoplasm_subdivision","usage_count":411,"local_name":"anatomic_neoplasm_subdivision"}
+{"iri":"http://dbpedia.org/ontology/country","usage_count":411,"local_name":"country"}

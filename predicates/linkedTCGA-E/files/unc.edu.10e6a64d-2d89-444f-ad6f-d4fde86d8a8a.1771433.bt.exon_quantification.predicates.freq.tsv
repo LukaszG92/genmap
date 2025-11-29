@@ -1,0 +1,7 @@
+203901	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+203901	<http://tcga.deri.ie/schema/stop>
+203901	<http://tcga.deri.ie/schema/start>
+203901	<http://tcga.deri.ie/schema/result>
+203901	<http://tcga.deri.ie/schema/chromosome>
+203901	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,7 @@
+495	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+495	<http://tcga.deri.ie/schema/stop>
+495	<http://tcga.deri.ie/schema/start>
+495	<http://tcga.deri.ie/schema/seg_mean>
+495	<http://tcga.deri.ie/schema/result>
+495	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

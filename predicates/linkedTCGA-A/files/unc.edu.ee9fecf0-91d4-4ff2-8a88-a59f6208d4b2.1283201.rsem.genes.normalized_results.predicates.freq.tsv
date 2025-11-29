@@ -1,0 +1,7 @@
+16644	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+16644	<http://tcga.deri.ie/schema/stop>
+16644	<http://tcga.deri.ie/schema/start>
+16644	<http://tcga.deri.ie/schema/scaled_estimate>
+16644	<http://tcga.deri.ie/schema/result>
+16644	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

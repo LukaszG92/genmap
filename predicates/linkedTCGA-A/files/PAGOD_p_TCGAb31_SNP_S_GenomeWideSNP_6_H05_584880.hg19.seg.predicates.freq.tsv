@@ -1,0 +1,7 @@
+623	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+623	<http://tcga.deri.ie/schema/stop>
+623	<http://tcga.deri.ie/schema/start>
+623	<http://tcga.deri.ie/schema/seg_mean>
+623	<http://tcga.deri.ie/schema/result>
+623	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

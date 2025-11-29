@@ -1,0 +1,6 @@
+123	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+123	<http://tcga.deri.ie/schema/stop>
+123	<http://tcga.deri.ie/schema/start>
+123	<http://tcga.deri.ie/schema/seg_mean>
+123	<http://tcga.deri.ie/schema/result>
+123	<http://tcga.deri.ie/schema/chromosome>

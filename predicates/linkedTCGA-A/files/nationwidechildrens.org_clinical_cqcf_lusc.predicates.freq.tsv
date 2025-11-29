@@ -1,0 +1,17 @@
+411	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+411	<http://tcga.deri.ie/schema/tumor_type>
+411	<http://tcga.deri.ie/schema/prior_dx>
+411	<http://tcga.deri.ie/schema/other_anatomic_site_normal_tissue>
+411	<http://tcga.deri.ie/schema/other_anatomic_site>
+411	<http://tcga.deri.ie/schema/normal_tissue_proximity>
+411	<http://tcga.deri.ie/schema/normal_tissue_anatomic_site>
+411	<http://tcga.deri.ie/schema/history_of_prior_malignancy>
+411	<http://tcga.deri.ie/schema/history_of_neoadjuvant_treatment>
+411	<http://tcga.deri.ie/schema/histological_type>
+411	<http://tcga.deri.ie/schema/diagnosis_subtype>
+411	<http://tcga.deri.ie/schema/days_to_death>
+411	<http://tcga.deri.ie/schema/days_to_consent>
+411	<http://tcga.deri.ie/schema/consent_or_death_status>
+411	<http://tcga.deri.ie/schema/bcr_patient_barcode>
+411	<http://tcga.deri.ie/schema/anatomic_neoplasm_subdivision>
+411	<http://dbpedia.org/ontology/country>

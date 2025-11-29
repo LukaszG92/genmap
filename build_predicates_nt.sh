@@ -2,9 +2,9 @@
 # build_affy_predicates.sh — macOS Bash 3.2 friendly, per-file
 set -euo pipefail
 
-IN_DIR="${1:-./KEGG}"
-OUT_DIR="${2:-./out/kegg}"
-ENDPOINT_ID="${3:-kegg}"
+IN_DIR="${1:-./dumps/GeoNames}"
+OUT_DIR="${2:-./predicates/geoNames}"
+ENDPOINT_ID="${3:-geoNames}"
 
 PER_FILE_DIR="$OUT_DIR/files"
 mkdir -p "$PER_FILE_DIR"

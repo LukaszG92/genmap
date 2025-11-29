@@ -1,0 +1,6 @@
+6636	<http://tcga.deri.ie/schema/bcr_sample_barcode>
+3318	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+3318	<http://tcga.deri.ie/schema/protocol_name>
+3318	<http://tcga.deri.ie/schema/protocol_file_name>
+3318	<http://tcga.deri.ie/schema/experimental_protocol_type>
+3318	<http://tcga.deri.ie/schema/bcr_analyte_barcode>

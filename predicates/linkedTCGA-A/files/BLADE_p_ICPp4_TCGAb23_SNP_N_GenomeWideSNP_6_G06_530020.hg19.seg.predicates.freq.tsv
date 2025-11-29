@@ -1,0 +1,7 @@
+363	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+363	<http://tcga.deri.ie/schema/stop>
+363	<http://tcga.deri.ie/schema/start>
+363	<http://tcga.deri.ie/schema/seg_mean>
+363	<http://tcga.deri.ie/schema/result>
+363	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

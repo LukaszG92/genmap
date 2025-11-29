@@ -1,0 +1,7 @@
+338	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+338	<http://tcga.deri.ie/schema/stop>
+338	<http://tcga.deri.ie/schema/start>
+338	<http://tcga.deri.ie/schema/seg_mean>
+338	<http://tcga.deri.ie/schema/result>
+338	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,7 @@
+199068	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+199068	<http://tcga.deri.ie/schema/stop>
+199068	<http://tcga.deri.ie/schema/start>
+199068	<http://tcga.deri.ie/schema/result>
+199068	<http://tcga.deri.ie/schema/chromosome>
+199068	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,7 @@
+406	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+406	<http://tcga.deri.ie/schema/stop>
+406	<http://tcga.deri.ie/schema/start>
+406	<http://tcga.deri.ie/schema/seg_mean>
+406	<http://tcga.deri.ie/schema/result>
+406	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

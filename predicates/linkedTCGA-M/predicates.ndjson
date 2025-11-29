@@ -1,0 +1,6 @@
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":837727,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/result","usage_count":837727,"local_name":"result"}
+{"iri":"http://tcga.deri.ie/schema/position","usage_count":837727,"local_name":"position"}
+{"iri":"http://tcga.deri.ie/schema/chromosome","usage_count":837727,"local_name":"chromosome"}
+{"iri":"http://tcga.deri.ie/schema/beta_value","usage_count":837727,"local_name":"beta_value"}
+{"iri":"http://tcga.deri.ie/schema/bcr_patient_barcode","usage_count":4,"local_name":"bcr_patient_barcode"}

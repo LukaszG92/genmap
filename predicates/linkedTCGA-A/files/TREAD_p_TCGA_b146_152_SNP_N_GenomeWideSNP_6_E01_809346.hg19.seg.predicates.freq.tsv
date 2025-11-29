@@ -1,0 +1,7 @@
+349	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+349	<http://tcga.deri.ie/schema/stop>
+349	<http://tcga.deri.ie/schema/start>
+349	<http://tcga.deri.ie/schema/seg_mean>
+349	<http://tcga.deri.ie/schema/result>
+349	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,6 @@
+131	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+131	<http://tcga.deri.ie/schema/stop>
+131	<http://tcga.deri.ie/schema/start>
+131	<http://tcga.deri.ie/schema/seg_mean>
+131	<http://tcga.deri.ie/schema/result>
+131	<http://tcga.deri.ie/schema/chromosome>

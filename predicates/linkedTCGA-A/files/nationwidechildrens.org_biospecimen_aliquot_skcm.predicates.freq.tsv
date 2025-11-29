@@ -1,0 +1,14 @@
+8336	<http://tcga.deri.ie/schema/bcr_aliquot_barcode>
+4168	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+4168	<http://tcga.deri.ie/schema/source_center>
+4168	<http://tcga.deri.ie/schema/plate_row>
+4168	<http://tcga.deri.ie/schema/plate_id>
+4168	<http://tcga.deri.ie/schema/plate_column>
+4168	<http://tcga.deri.ie/schema/is_derived_from_ffpe>
+4168	<http://tcga.deri.ie/schema/date_of_shipment>
+4168	<http://tcga.deri.ie/schema/concentration>
+4168	<http://tcga.deri.ie/schema/center_id>
+4168	<http://tcga.deri.ie/schema/biospecimen_barcode_bottom>
+4168	<http://tcga.deri.ie/schema/bcr_sample_barcode>
+4168	<http://tcga.deri.ie/schema/bcr_aliquot_uuid>
+4168	<http://tcga.deri.ie/schema/amount>

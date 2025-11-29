@@ -1,0 +1,12 @@
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":260,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/shipment_portion_year_of_shipment","usage_count":260,"local_name":"shipment_portion_year_of_shipment"}
+{"iri":"http://tcga.deri.ie/schema/shipment_portion_month_of_shipment","usage_count":260,"local_name":"shipment_portion_month_of_shipment"}
+{"iri":"http://tcga.deri.ie/schema/shipment_portion_day_of_shipment","usage_count":260,"local_name":"shipment_portion_day_of_shipment"}
+{"iri":"http://tcga.deri.ie/schema/shipment_portion_bcr_aliquot_barcode","usage_count":260,"local_name":"shipment_portion_bcr_aliquot_barcode"}
+{"iri":"http://tcga.deri.ie/schema/portion_number","usage_count":260,"local_name":"portion_number"}
+{"iri":"http://tcga.deri.ie/schema/plate_id","usage_count":260,"local_name":"plate_id"}
+{"iri":"http://tcga.deri.ie/schema/is_ffpe","usage_count":260,"local_name":"is_ffpe"}
+{"iri":"http://tcga.deri.ie/schema/center_id","usage_count":260,"local_name":"center_id"}
+{"iri":"http://tcga.deri.ie/schema/bcr_shipment_portion_uuid","usage_count":260,"local_name":"bcr_shipment_portion_uuid"}
+{"iri":"http://tcga.deri.ie/schema/bcr_shipment_barcode","usage_count":260,"local_name":"bcr_shipment_barcode"}
+{"iri":"http://tcga.deri.ie/schema/bcr_sample_barcode","usage_count":260,"local_name":"bcr_sample_barcode"}

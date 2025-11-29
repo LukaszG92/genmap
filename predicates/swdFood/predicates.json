@@ -1,0 +1,603 @@
+{
+  "version": "v1",
+  "endpoints": [
+    {
+      "id": "swdFood",
+      "url": null,
+      "built_at": "2025-11-29T18:52:32Z",
+      "triples_sampled": null,
+      "predicates": [
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "usage_count": 13758,
+          "local_name": "type"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "usage_count": 10698,
+          "local_name": "label"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/name",
+          "usage_count": 9250,
+          "local_name": "name"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/made",
+          "usage_count": 5866,
+          "local_name": "made"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/member",
+          "usage_count": 5271,
+          "local_name": "member"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#affiliation",
+          "usage_count": 5261,
+          "local_name": "affiliation"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/maker",
+          "usage_count": 4898,
+          "local_name": "maker"
+        },
+        {
+          "iri": "http://purl.org/dc/elements/1.1/creator",
+          "usage_count": 4278,
+          "local_name": "creator"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/mbox_sha1sum",
+          "usage_count": 4233,
+          "local_name": "mbox_sha1sum"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#author",
+          "usage_count": 4208,
+          "local_name": "author"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/based_near",
+          "usage_count": 2911,
+          "local_name": "based_near"
+        },
+        {
+          "iri": "http://purl.org/dc/elements/1.1/subject",
+          "usage_count": 2273,
+          "local_name": "subject"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#holdsRole",
+          "usage_count": 2075,
+          "local_name": "holdsRole"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/firstName",
+          "usage_count": 2001,
+          "local_name": "firstName"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/family_name",
+          "usage_count": 1995,
+          "local_name": "family_name"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#heldBy",
+          "usage_count": 1899,
+          "local_name": "heldBy"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+          "usage_count": 1850,
+          "local_name": "_1"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#abstract",
+          "usage_count": 1722,
+          "local_name": "abstract"
+        },
+        {
+          "iri": "http://www.w3.org/2002/07/owl#sameAs",
+          "usage_count": 1707,
+          "local_name": "sameAs"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+          "usage_count": 1663,
+          "local_name": "_2"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasPart",
+          "usage_count": 1631,
+          "local_name": "hasPart"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#isPartOf",
+          "usage_count": 1593,
+          "local_name": "isPartOf"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#year",
+          "usage_count": 1585,
+          "local_name": "year"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#month",
+          "usage_count": 1585,
+          "local_name": "month"
+        },
+        {
+          "iri": "http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#authorList",
+          "usage_count": 1580,
+          "local_name": "authorList"
+        },
+        {
+          "iri": "http://purl.org/dc/elements/1.1/title",
+          "usage_count": 1555,
+          "local_name": "title"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#url",
+          "usage_count": 1423,
+          "local_name": "url"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/homepage",
+          "usage_count": 1330,
+          "local_name": "homepage"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+          "usage_count": 1235,
+          "local_name": "_3"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf",
+          "usage_count": 1029,
+          "local_name": "isSuperEventOf"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasTopic",
+          "usage_count": 1028,
+          "local_name": "hasTopic"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#isSubEventOf",
+          "usage_count": 941,
+          "local_name": "isSubEventOf"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#keywords",
+          "usage_count": 859,
+          "local_name": "keywords"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "usage_count": 783,
+          "local_name": "seeAlso"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/page",
+          "usage_count": 779,
+          "local_name": "page"
+        },
+        {
+          "iri": "http://www.w3.org/2002/12/cal/ical#dtstart",
+          "usage_count": 717,
+          "local_name": "dtstart"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+          "usage_count": 686,
+          "local_name": "_4"
+        },
+        {
+          "iri": "http://www.w3.org/2002/12/cal/ical#summary",
+          "usage_count": 648,
+          "local_name": "summary"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument",
+          "usage_count": 641,
+          "local_name": "hasRelatedDocument"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/status",
+          "usage_count": 613,
+          "local_name": "status"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#isRoleAt",
+          "usage_count": 583,
+          "local_name": "isRoleAt"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#affiliation",
+          "usage_count": 582,
+          "local_name": "affiliation"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/topic",
+          "usage_count": 555,
+          "local_name": "topic"
+        },
+        {
+          "iri": "http://www.w3.org/2002/12/cal/ical#tzid",
+          "usage_count": 552,
+          "local_name": "tzid"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasRole",
+          "usage_count": 469,
+          "local_name": "hasRole"
+        },
+        {
+          "iri": "http://www.w3.org/2002/12/cal/ical#dtend",
+          "usage_count": 423,
+          "local_name": "dtend"
+        },
+        {
+          "iri": "http://www.w3.org/2002/12/cal/ical#date",
+          "usage_count": 413,
+          "local_name": "date"
+        },
+        {
+          "iri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+          "usage_count": 369,
+          "local_name": "long"
+        },
+        {
+          "iri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+          "usage_count": 369,
+          "local_name": "lat"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#relatedToEvent",
+          "usage_count": 369,
+          "local_name": "relatedToEvent"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+          "usage_count": 349,
+          "local_name": "_5"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#pages",
+          "usage_count": 332,
+          "local_name": "pages"
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "usage_count": 286,
+          "local_name": "prefLabel"
+        },
+        {
+          "iri": "http://www.w3.org/2002/12/cal/ical#duration",
+          "usage_count": 283,
+          "local_name": "duration"
+        },
+        {
+          "iri": "http://purl.org/dc/terms/title",
+          "usage_count": 224,
+          "local_name": "title"
+        },
+        {
+          "iri": "http://www.w3.org/2002/12/cal/ical#url",
+          "usage_count": 214,
+          "local_name": "url"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#uuid",
+          "usage_count": 212,
+          "local_name": "uuid"
+        },
+        {
+          "iri": "http://purl.org/ontology/bibo/authorList",
+          "usage_count": 205,
+          "local_name": "authorList"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#title",
+          "usage_count": 193,
+          "local_name": "title"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasRelatedEvent",
+          "usage_count": 193,
+          "local_name": "hasRelatedEvent"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasLocation",
+          "usage_count": 171,
+          "local_name": "hasLocation"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/workplaceHomepage",
+          "usage_count": 155,
+          "local_name": "workplaceHomepage"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasAcronym",
+          "usage_count": 154,
+          "local_name": "hasAcronym"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#editor",
+          "usage_count": 147,
+          "local_name": "editor"
+        },
+        {
+          "iri": "http://www.w3.org/2002/12/cal/ical#dateTime",
+          "usage_count": 139,
+          "local_name": "dateTime"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_6",
+          "usage_count": 136,
+          "local_name": "_6"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_7",
+          "usage_count": 60,
+          "local_name": "_7"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#partOf",
+          "usage_count": 51,
+          "local_name": "partOf"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#panelist",
+          "usage_count": 42,
+          "local_name": "panelist"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#isPanelistAt",
+          "usage_count": 42,
+          "local_name": "isPanelistAt"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#completeGraph",
+          "usage_count": 41,
+          "local_name": "completeGraph"
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#broader",
+          "usage_count": 38,
+          "local_name": "broader"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#booktitle",
+          "usage_count": 36,
+          "local_name": "booktitle"
+        },
+        {
+          "iri": "http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#editorList",
+          "usage_count": 32,
+          "local_name": "editorList"
+        },
+        {
+          "iri": "http://purl.org/dc/terms/creator",
+          "usage_count": 32,
+          "local_name": "creator"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#url",
+          "usage_count": 31,
+          "local_name": "url"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact",
+          "usage_count": 31,
+          "local_name": "hasRelatedArtefact"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_8",
+          "usage_count": 30,
+          "local_name": "_8"
+        },
+        {
+          "iri": "http://www.w3.org/2002/12/cal/ical#description",
+          "usage_count": 29,
+          "local_name": "description"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#paperList",
+          "usage_count": 28,
+          "local_name": "paperList"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasLogo",
+          "usage_count": 20,
+          "local_name": "hasLogo"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#speaker",
+          "usage_count": 19,
+          "local_name": "speaker"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#givesKeynoteTalk",
+          "usage_count": 19,
+          "local_name": "givesKeynoteTalk"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#homepage",
+          "usage_count": 16,
+          "local_name": "homepage"
+        },
+        {
+          "iri": "http://www.w3.org/2002/07/owl#imports",
+          "usage_count": 14,
+          "local_name": "imports"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_9",
+          "usage_count": 14,
+          "local_name": "_9"
+        },
+        {
+          "iri": "http://rdfs.org/sioc/ns#topic",
+          "usage_count": 14,
+          "local_name": "topic"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_10",
+          "usage_count": 11,
+          "local_name": "_10"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#isProvidedBy",
+          "usage_count": 11,
+          "local_name": "isProvidedBy"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasSponsorship",
+          "usage_count": 10,
+          "local_name": "hasSponsorship"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#moderator",
+          "usage_count": 9,
+          "local_name": "moderator"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#moderates",
+          "usage_count": 9,
+          "local_name": "moderates"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "usage_count": 8,
+          "local_name": "comment"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_11",
+          "usage_count": 5,
+          "local_name": "_11"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#series",
+          "usage_count": 5,
+          "local_name": "series"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#address",
+          "usage_count": 5,
+          "local_name": "address"
+        },
+        {
+          "iri": "http://sw.deri.org/2005/08/conf/cfp.owl#involved",
+          "usage_count": 4,
+          "local_name": "involved"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#publisher",
+          "usage_count": 3,
+          "local_name": "publisher"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#editorList",
+          "usage_count": 3,
+          "local_name": "editorList"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/primaryTopic",
+          "usage_count": 2,
+          "local_name": "primaryTopic"
+        },
+        {
+          "iri": "http://www.w3.org/1999/xhtml/vocab#alternate",
+          "usage_count": 2,
+          "local_name": "alternate"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_12",
+          "usage_count": 2,
+          "local_name": "_12"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#isbn",
+          "usage_count": 2,
+          "local_name": "isbn"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/depiction",
+          "usage_count": 1,
+          "local_name": "depiction"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+          "usage_count": 1,
+          "local_name": "subClassOf"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "usage_count": 1,
+          "local_name": "isDefinedBy"
+        },
+        {
+          "iri": "http://www.w3.org/1999/xhtml/vocab#stylesheet",
+          "usage_count": 1,
+          "local_name": "stylesheet"
+        },
+        {
+          "iri": "http://www.w3.org/1999/xhtml/vocab#meta",
+          "usage_count": 1,
+          "local_name": "meta"
+        },
+        {
+          "iri": "http://www.w3.org/1999/xhtml/vocab#icon",
+          "usage_count": 1,
+          "local_name": "icon"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_13",
+          "usage_count": 1,
+          "local_name": "_13"
+        },
+        {
+          "iri": "http://swrc.ontoware.org/ontology#volume",
+          "usage_count": 1,
+          "local_name": "volume"
+        },
+        {
+          "iri": "http://sw.deri.org/2005/08/conf/cfp.owl#takesplace",
+          "usage_count": 1,
+          "local_name": "takesplace"
+        },
+        {
+          "iri": "http://sw.deri.org/2005/08/conf/cfp.owl#for",
+          "usage_count": 1,
+          "local_name": "for"
+        },
+        {
+          "iri": "http://sw.deri.org/2005/08/conf/cfp.owl#deadline",
+          "usage_count": 1,
+          "local_name": "deadline"
+        },
+        {
+          "iri": "http://purl.org/ontology/bibo/editorList",
+          "usage_count": 1,
+          "local_name": "editorList"
+        },
+        {
+          "iri": "http://purl.org/dc/terms/format",
+          "usage_count": 1,
+          "local_name": "format"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#isLocationFor",
+          "usage_count": 1,
+          "local_name": "isLocationFor"
+        },
+        {
+          "iri": "http://data.semanticweb.org/ns/swc/ontology#hasProgramme",
+          "usage_count": 1,
+          "local_name": "hasProgramme"
+        }
+      ]
+    }
+  ]
+}

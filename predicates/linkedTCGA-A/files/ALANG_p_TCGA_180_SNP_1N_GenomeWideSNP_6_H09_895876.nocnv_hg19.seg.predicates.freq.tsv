@@ -1,0 +1,6 @@
+90	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+90	<http://tcga.deri.ie/schema/stop>
+90	<http://tcga.deri.ie/schema/start>
+90	<http://tcga.deri.ie/schema/seg_mean>
+90	<http://tcga.deri.ie/schema/result>
+90	<http://tcga.deri.ie/schema/chromosome>

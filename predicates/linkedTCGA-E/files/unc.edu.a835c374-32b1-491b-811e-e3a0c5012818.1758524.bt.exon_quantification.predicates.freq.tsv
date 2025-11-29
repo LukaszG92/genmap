@@ -1,0 +1,7 @@
+186357	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+186357	<http://tcga.deri.ie/schema/stop>
+186357	<http://tcga.deri.ie/schema/start>
+186357	<http://tcga.deri.ie/schema/result>
+186357	<http://tcga.deri.ie/schema/chromosome>
+186357	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,7 @@
+681	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+681	<http://tcga.deri.ie/schema/stop>
+681	<http://tcga.deri.ie/schema/start>
+681	<http://tcga.deri.ie/schema/seg_mean>
+681	<http://tcga.deri.ie/schema/result>
+681	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

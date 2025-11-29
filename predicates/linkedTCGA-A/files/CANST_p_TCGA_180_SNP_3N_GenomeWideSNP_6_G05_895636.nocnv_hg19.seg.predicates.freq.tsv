@@ -1,0 +1,6 @@
+270	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+270	<http://tcga.deri.ie/schema/stop>
+270	<http://tcga.deri.ie/schema/start>
+270	<http://tcga.deri.ie/schema/seg_mean>
+270	<http://tcga.deri.ie/schema/result>
+270	<http://tcga.deri.ie/schema/chromosome>

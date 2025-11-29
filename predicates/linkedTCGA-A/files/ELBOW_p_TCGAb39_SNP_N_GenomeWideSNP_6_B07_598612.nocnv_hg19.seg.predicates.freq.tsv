@@ -1,0 +1,6 @@
+256	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+256	<http://tcga.deri.ie/schema/stop>
+256	<http://tcga.deri.ie/schema/start>
+256	<http://tcga.deri.ie/schema/seg_mean>
+256	<http://tcga.deri.ie/schema/result>
+256	<http://tcga.deri.ie/schema/chromosome>

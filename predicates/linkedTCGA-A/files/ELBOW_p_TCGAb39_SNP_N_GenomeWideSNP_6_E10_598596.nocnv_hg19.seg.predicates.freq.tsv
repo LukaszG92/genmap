@@ -1,0 +1,6 @@
+127	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+127	<http://tcga.deri.ie/schema/stop>
+127	<http://tcga.deri.ie/schema/start>
+127	<http://tcga.deri.ie/schema/seg_mean>
+127	<http://tcga.deri.ie/schema/result>
+127	<http://tcga.deri.ie/schema/chromosome>

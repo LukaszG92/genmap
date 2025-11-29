@@ -1,0 +1,7 @@
+245	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+245	<http://tcga.deri.ie/schema/stop>
+245	<http://tcga.deri.ie/schema/start>
+245	<http://tcga.deri.ie/schema/seg_mean>
+245	<http://tcga.deri.ie/schema/result>
+245	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

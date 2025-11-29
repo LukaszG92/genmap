@@ -1,0 +1,7 @@
+462	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+462	<http://tcga.deri.ie/schema/stop>
+462	<http://tcga.deri.ie/schema/start>
+462	<http://tcga.deri.ie/schema/seg_mean>
+462	<http://tcga.deri.ie/schema/result>
+462	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

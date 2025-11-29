@@ -1,0 +1,7 @@
+368	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+368	<http://tcga.deri.ie/schema/stop>
+368	<http://tcga.deri.ie/schema/start>
+368	<http://tcga.deri.ie/schema/seg_mean>
+368	<http://tcga.deri.ie/schema/result>
+368	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,7 @@
+507	<http://tcga.deri.ie/schema/tumor_nuclei_percent>
+486	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+486	<http://tcga.deri.ie/schema/vial_number>
+486	<http://tcga.deri.ie/schema/tumor_necrosis_percent>
+486	<http://tcga.deri.ie/schema/bcr_sample_uuid>
+486	<http://tcga.deri.ie/schema/bcr_patient_barcode>
+465	<http://tcga.deri.ie/schema/tumor_weight>

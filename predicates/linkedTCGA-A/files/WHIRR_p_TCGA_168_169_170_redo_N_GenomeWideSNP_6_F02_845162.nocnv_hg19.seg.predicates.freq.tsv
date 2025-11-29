@@ -1,0 +1,6 @@
+225	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+225	<http://tcga.deri.ie/schema/stop>
+225	<http://tcga.deri.ie/schema/start>
+225	<http://tcga.deri.ie/schema/seg_mean>
+225	<http://tcga.deri.ie/schema/result>
+225	<http://tcga.deri.ie/schema/chromosome>

@@ -1,0 +1,13 @@
+581	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+581	<http://tcga.deri.ie/schema/vial_number>
+581	<http://tcga.deri.ie/schema/normal_tissue_proximity>
+581	<http://tcga.deri.ie/schema/normal_tissue_anatomic_site>
+581	<http://tcga.deri.ie/schema/normal_control_type>
+581	<http://tcga.deri.ie/schema/ncedna_dna_vol>
+581	<http://tcga.deri.ie/schema/ncedna_dna_qty>
+581	<http://tcga.deri.ie/schema/ncedna_dna_qm>
+581	<http://tcga.deri.ie/schema/ncedna_dna_conc>
+581	<http://tcga.deri.ie/schema/method_of_normal_sample_procurement>
+581	<http://tcga.deri.ie/schema/days_to_normal_sample_procurement>
+581	<http://tcga.deri.ie/schema/bcr_sample_uuid>
+581	<http://tcga.deri.ie/schema/bcr_patient_barcode>

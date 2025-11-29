@@ -1,0 +1,17 @@
+{"iri":"http://tcga.deri.ie/schema/bcr_analyte_barcode","usage_count":4208,"local_name":"bcr_analyte_barcode"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":2104,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/well_number","usage_count":2104,"local_name":"well_number"}
+{"iri":"http://tcga.deri.ie/schema/spectrophotometer_method","usage_count":2104,"local_name":"spectrophotometer_method"}
+{"iri":"http://tcga.deri.ie/schema/rinvalue","usage_count":2104,"local_name":"rinvalue"}
+{"iri":"http://tcga.deri.ie/schema/ratio_28s_18s","usage_count":2104,"local_name":"ratio_28s_18s"}
+{"iri":"http://tcga.deri.ie/schema/pcr_amplification_successful","usage_count":2104,"local_name":"pcr_amplification_successful"}
+{"iri":"http://tcga.deri.ie/schema/normal_tumor_genotype_match","usage_count":2104,"local_name":"normal_tumor_genotype_match"}
+{"iri":"http://tcga.deri.ie/schema/is_derived_from_ffpe","usage_count":2104,"local_name":"is_derived_from_ffpe"}
+{"iri":"http://tcga.deri.ie/schema/gel_image_file","usage_count":2104,"local_name":"gel_image_file"}
+{"iri":"http://tcga.deri.ie/schema/concentration","usage_count":2104,"local_name":"concentration"}
+{"iri":"http://tcga.deri.ie/schema/bcr_sample_barcode","usage_count":2104,"local_name":"bcr_sample_barcode"}
+{"iri":"http://tcga.deri.ie/schema/bcr_analyte_uuid","usage_count":2104,"local_name":"bcr_analyte_uuid"}
+{"iri":"http://tcga.deri.ie/schema/analyte_type_id","usage_count":2104,"local_name":"analyte_type_id"}
+{"iri":"http://tcga.deri.ie/schema/analyte_type","usage_count":2104,"local_name":"analyte_type"}
+{"iri":"http://tcga.deri.ie/schema/amount","usage_count":2104,"local_name":"amount"}
+{"iri":"http://tcga.deri.ie/schema/a260_a280_ratio","usage_count":2104,"local_name":"a260_a280_ratio"}

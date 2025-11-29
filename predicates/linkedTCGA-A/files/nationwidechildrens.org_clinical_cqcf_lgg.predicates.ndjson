@@ -1,0 +1,17 @@
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":363,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/tumor_sample_type","usage_count":363,"local_name":"tumor_sample_type"}
+{"iri":"http://tcga.deri.ie/schema/tumor_sample_procurement_country","usage_count":363,"local_name":"tumor_sample_procurement_country"}
+{"iri":"http://tcga.deri.ie/schema/radiation_therapy","usage_count":363,"local_name":"radiation_therapy"}
+{"iri":"http://tcga.deri.ie/schema/patient_consent_status","usage_count":363,"local_name":"patient_consent_status"}
+{"iri":"http://tcga.deri.ie/schema/patient_consent_days_to","usage_count":363,"local_name":"patient_consent_days_to"}
+{"iri":"http://tcga.deri.ie/schema/other_anatomic_site","usage_count":363,"local_name":"other_anatomic_site"}
+{"iri":"http://tcga.deri.ie/schema/normal_tissue_anatomic_site","usage_count":363,"local_name":"normal_tissue_anatomic_site"}
+{"iri":"http://tcga.deri.ie/schema/normal_control_site_other","usage_count":363,"local_name":"normal_control_site_other"}
+{"iri":"http://tcga.deri.ie/schema/normal_control_proximity_to_tumor","usage_count":363,"local_name":"normal_control_proximity_to_tumor"}
+{"iri":"http://tcga.deri.ie/schema/history_other_malignancy","usage_count":363,"local_name":"history_other_malignancy"}
+{"iri":"http://tcga.deri.ie/schema/history_neoadjuvant_treatment","usage_count":363,"local_name":"history_neoadjuvant_treatment"}
+{"iri":"http://tcga.deri.ie/schema/histologic_diagnosis","usage_count":363,"local_name":"histologic_diagnosis"}
+{"iri":"http://tcga.deri.ie/schema/frozen_specimen_anatomic_site","usage_count":363,"local_name":"frozen_specimen_anatomic_site"}
+{"iri":"http://tcga.deri.ie/schema/diagnosis_subtype","usage_count":363,"local_name":"diagnosis_subtype"}
+{"iri":"http://tcga.deri.ie/schema/days_to_death","usage_count":363,"local_name":"days_to_death"}
+{"iri":"http://tcga.deri.ie/schema/bcr_patient_barcode","usage_count":363,"local_name":"bcr_patient_barcode"}

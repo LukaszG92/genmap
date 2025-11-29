@@ -1,0 +1,7 @@
+57223257	<http://tcga.deri.ie/schema/result>
+57223147	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+57223042	<http://tcga.deri.ie/schema/RPKM>
+57223034	<http://tcga.deri.ie/schema/chromosome>
+57223007	<http://tcga.deri.ie/schema/start>
+57222897	<http://tcga.deri.ie/schema/stop>
+297	<http://tcga.deri.ie/schema/bcr_patient_barcode>

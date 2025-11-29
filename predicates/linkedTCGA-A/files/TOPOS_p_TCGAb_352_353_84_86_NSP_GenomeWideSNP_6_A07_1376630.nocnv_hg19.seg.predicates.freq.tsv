@@ -1,0 +1,6 @@
+135	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+135	<http://tcga.deri.ie/schema/stop>
+135	<http://tcga.deri.ie/schema/start>
+135	<http://tcga.deri.ie/schema/seg_mean>
+135	<http://tcga.deri.ie/schema/result>
+135	<http://tcga.deri.ie/schema/chromosome>

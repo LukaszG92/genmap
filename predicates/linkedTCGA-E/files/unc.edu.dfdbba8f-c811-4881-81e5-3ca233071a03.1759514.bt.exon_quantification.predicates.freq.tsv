@@ -1,0 +1,7 @@
+163865	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+163865	<http://tcga.deri.ie/schema/stop>
+163865	<http://tcga.deri.ie/schema/start>
+163865	<http://tcga.deri.ie/schema/result>
+163865	<http://tcga.deri.ie/schema/chromosome>
+163865	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

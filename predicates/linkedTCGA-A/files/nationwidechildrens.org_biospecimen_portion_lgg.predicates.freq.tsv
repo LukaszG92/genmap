@@ -1,0 +1,9 @@
+2104	<http://tcga.deri.ie/schema/bcr_portion_barcode>
+1052	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+1052	<http://tcga.deri.ie/schema/weight>
+1052	<http://tcga.deri.ie/schema/portion_number>
+1052	<http://tcga.deri.ie/schema/is_ffpe>
+1052	<http://tcga.deri.ie/schema/date_of_creation>
+1052	<http://tcga.deri.ie/schema/bcr_sample_barcode>
+1052	<http://tcga.deri.ie/schema/bcr_portion_uuid>
+1052	<http://tcga.deri.ie/schema/LCE>

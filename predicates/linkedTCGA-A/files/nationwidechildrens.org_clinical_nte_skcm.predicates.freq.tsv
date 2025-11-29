@@ -1,0 +1,15 @@
+595	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+595	<http://tcga.deri.ie/schema/new_tumor_event_type>
+595	<http://tcga.deri.ie/schema/new_tumor_event_surgery_days_to>
+595	<http://tcga.deri.ie/schema/new_tumor_event_surgery>
+595	<http://tcga.deri.ie/schema/new_tumor_event_site>
+595	<http://tcga.deri.ie/schema/new_tumor_event_radiation_tx>
+595	<http://tcga.deri.ie/schema/new_tumor_event_pharmaceutical_tx>
+595	<http://tcga.deri.ie/schema/new_tumor_event_met_site_other>
+595	<http://tcga.deri.ie/schema/new_tumor_event_met_site>
+595	<http://tcga.deri.ie/schema/new_tumor_event_melanoma_site>
+595	<http://tcga.deri.ie/schema/new_tumor_event_melanoma_location>
+595	<http://tcga.deri.ie/schema/new_tumor_event_melanoma_count>
+595	<http://tcga.deri.ie/schema/new_tumor_event_dx_days_to>
+595	<http://tcga.deri.ie/schema/new_non_melanoma_event_histologic_type_text>
+595	<http://tcga.deri.ie/schema/bcr_patient_barcode>

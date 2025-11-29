@@ -1,0 +1,11 @@
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":28,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/progression_determined_by","usage_count":28,"local_name":"progression_determined_by"}
+{"iri":"http://tcga.deri.ie/schema/new_neoplasm_event_type","usage_count":28,"local_name":"new_neoplasm_event_type"}
+{"iri":"http://tcga.deri.ie/schema/days_to_new_tumor_event_after_initial_treatment","usage_count":28,"local_name":"days_to_new_tumor_event_after_initial_treatment"}
+{"iri":"http://tcga.deri.ie/schema/days_to_additional_surgery_metastatic_procedure","usage_count":28,"local_name":"days_to_additional_surgery_metastatic_procedure"}
+{"iri":"http://tcga.deri.ie/schema/days_to_additional_surgery_locoregional_procedure","usage_count":28,"local_name":"days_to_additional_surgery_locoregional_procedure"}
+{"iri":"http://tcga.deri.ie/schema/bcr_patient_barcode","usage_count":28,"local_name":"bcr_patient_barcode"}
+{"iri":"http://tcga.deri.ie/schema/additional_surgery_metastatic_procedure","usage_count":28,"local_name":"additional_surgery_metastatic_procedure"}
+{"iri":"http://tcga.deri.ie/schema/additional_surgery_locoregional_procedure","usage_count":28,"local_name":"additional_surgery_locoregional_procedure"}
+{"iri":"http://tcga.deri.ie/schema/additional_radiation_therapy","usage_count":28,"local_name":"additional_radiation_therapy"}
+{"iri":"http://tcga.deri.ie/schema/additional_pharmaceutical_therapy","usage_count":28,"local_name":"additional_pharmaceutical_therapy"}

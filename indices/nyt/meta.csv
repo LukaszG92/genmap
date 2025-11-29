@@ -1,0 +1,37 @@
+endpoint,predicate,local_name,usage_count,text
+nyt,http://www.geonames.org/ontology#alternateName,alternateName,58075,http://www.geonames.org/ontology#alternateName alternateName alternate name alternate name nyt
+nyt,http://www.geonames.org/ontology#wikipediaArticle,wikipediaArticle,48271,http://www.geonames.org/ontology#wikipediaArticle wikipediaArticle wikipedia article wikipedia article nyt
+nyt,http://www.w3.org/2002/07/owl#sameAs,sameAs,31673,http://www.w3.org/2002/07/owl#sameAs sameAs same as same as nyt
+nyt,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,type,11723,http://www.w3.org/1999/02/22-rdf-syntax-ns#type type type type nyt
+nyt,http://xmlns.com/foaf/0.1/primaryTopic,primaryTopic,9943,http://xmlns.com/foaf/0.1/primaryTopic primaryTopic primary topic primary topic nyt
+nyt,http://www.w3.org/2004/02/skos/core#prefLabel,prefLabel,9943,http://www.w3.org/2004/02/skos/core#prefLabel prefLabel pref label pref label nyt
+nyt,http://www.w3.org/2004/02/skos/core#inScheme,inScheme,9943,http://www.w3.org/2004/02/skos/core#inScheme inScheme in scheme in scheme nyt
+nyt,http://purl.org/dc/terms/rightsHolder,rightsHolder,9943,http://purl.org/dc/terms/rightsHolder rightsHolder rights holder rights holder nyt
+nyt,http://purl.org/dc/terms/modified,modified,9943,http://purl.org/dc/terms/modified modified modified modified nyt
+nyt,http://purl.org/dc/terms/created,created,9943,http://purl.org/dc/terms/created created created created nyt
+nyt,http://purl.org/dc/elements/1.1/creator,creator,9943,http://purl.org/dc/elements/1.1/creator creator creator creator nyt
+nyt,http://data.nytimes.com/elements/search_api_query,search_api_query,9943,http://data.nytimes.com/elements/search_api_query search_api_query search api query search api query nyt
+nyt,http://data.nytimes.com/elements/number_of_variants,number_of_variants,9943,http://data.nytimes.com/elements/number_of_variants number_of_variants number of variants number of variants nyt
+nyt,http://data.nytimes.com/elements/mapping_strategy,mapping_strategy,9943,http://data.nytimes.com/elements/mapping_strategy mapping_strategy mapping strategy mapping strategy nyt
+nyt,http://data.nytimes.com/elements/associated_article_count,associated_article_count,9943,http://data.nytimes.com/elements/associated_article_count associated_article_count associated article count associated article count nyt
+nyt,http://creativecommons.org/ns#license,license,9943,http://creativecommons.org/ns#license license license license nyt
+nyt,http://creativecommons.org/ns#attributionURL,attributionURL,9943,http://creativecommons.org/ns#attributionURL attributionURL attribution url attribution url nyt
+nyt,http://creativecommons.org/ns#attributionName,attributionName,9943,http://creativecommons.org/ns#attributionName attributionName attribution name attribution name nyt
+nyt,http://data.nytimes.com/elements/topicPage,topicPage,7432,http://data.nytimes.com/elements/topicPage topicPage topic page topic page nyt
+nyt,http://data.nytimes.com/elements/latest_use,latest_use,7189,http://data.nytimes.com/elements/latest_use latest_use latest use latest use nyt
+nyt,http://data.nytimes.com/elements/first_use,first_use,7189,http://data.nytimes.com/elements/first_use first_use first use first use nyt
+nyt,http://www.w3.org/2003/01/geo/wgs84_pos#long,long,3567,http://www.w3.org/2003/01/geo/wgs84_pos#long long long long nyt
+nyt,http://www.w3.org/2003/01/geo/wgs84_pos#lat,lat,3567,http://www.w3.org/2003/01/geo/wgs84_pos#lat lat lat lat nyt
+nyt,http://www.geonames.org/ontology#parentFeature,parentFeature,1780,http://www.geonames.org/ontology#parentFeature parentFeature parent feature parent feature nyt
+nyt,http://www.geonames.org/ontology#name,name,1780,http://www.geonames.org/ontology#name name name name nyt
+nyt,http://www.geonames.org/ontology#locationMap,locationMap,1780,http://www.geonames.org/ontology#locationMap locationMap location map location map nyt
+nyt,http://www.geonames.org/ontology#featureClass,featureClass,1780,http://www.geonames.org/ontology#featureClass featureClass feature class feature class nyt
+nyt,http://www.geonames.org/ontology#featureCode,featureCode,1777,http://www.geonames.org/ontology#featureCode featureCode feature code feature code nyt
+nyt,http://www.geonames.org/ontology#inCountry,inCountry,1761,http://www.geonames.org/ontology#inCountry inCountry in country in country nyt
+nyt,http://www.geonames.org/ontology#countryCode,countryCode,1761,http://www.geonames.org/ontology#countryCode countryCode country code country code nyt
+nyt,http://www.geonames.org/ontology#nearbyFeatures,nearbyFeatures,1374,http://www.geonames.org/ontology#nearbyFeatures nearbyFeatures nearby features nearby features nyt
+nyt,http://www.geonames.org/ontology#population,population,1283,http://www.geonames.org/ontology#population population population population nyt
+nyt,http://www.w3.org/2004/02/skos/core#definition,definition,1142,http://www.w3.org/2004/02/skos/core#definition definition definition definition nyt
+nyt,http://www.geonames.org/ontology#postalCode,postalCode,501,http://www.geonames.org/ontology#postalCode postalCode postal code postal code nyt
+nyt,http://www.geonames.org/ontology#childrenFeatures,childrenFeatures,406,http://www.geonames.org/ontology#childrenFeatures childrenFeatures children features children features nyt
+nyt,http://www.geonames.org/ontology#neighbouringFeatures,neighbouringFeatures,185,http://www.geonames.org/ontology#neighbouringFeatures neighbouringFeatures neighbouring features neighbouring features nyt

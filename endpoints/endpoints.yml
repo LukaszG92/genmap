@@ -1,13 +1,76 @@
-# examples/endpoints.yml
 endpoints:
-  - id: dbpedia
-    url: https://dbpedia.org/sparql
+  # LinkedTCGA datasets (no live endpoints available)
+  - id: linkedtcga-m
+    url: http://your.system.ip.address:8887/sparql
+    description: LinkedTCGA-M (Methylation data)
+    dataset_url: http://tcga.deri.ie/
 
-  - id: drugbank
-    url: https://drugbank.org/sparql
+  - id: linkedtcga-e
+    url: http://your.system.ip.address:8888/sparql
+    description: LinkedTCGA-E (Expression data)
+    dataset_url: http://tcga.deri.ie/
 
-  - id: kegg
-    url: https://kegg.org/sparql
+  - id: linkedtcga-a
+    url: http://your.system.ip.address:8889/sparql
+    description: LinkedTCGA-A (Clinical data)
+    dataset_url: http://tcga.deri.ie/
 
+  # ChEBI (no live endpoint available)
   - id: chebi
-    url: http://bio2rdf.org/sparql/chebi
+    url: http://your.system.ip.address:8890/sparql
+    description: Chemical Entities of Biological Interest
+    dataset_url: https://www.ebi.ac.uk/chebi/
+
+  # DBPedia (live endpoint available)
+  - id: dbpedia
+    url: http://dbpedia.org/sparql
+    description: DBPedia subset
+    dataset_url: http://dbpedia.org/
+
+  # DrugBank (live endpoint available)
+  - id: drugbank
+    url: http://wifo5-04.informatik.uni-mannheim.de/drugbank/sparql
+    description: DrugBank database
+    dataset_url: http://www.drugbank.ca/
+
+  # GeoNames (live endpoint available)
+  - id: geonames
+    url: http://factforge.net/sparql
+    description: Geo Names geographical database
+    dataset_url: http://www.geonames.org/
+
+  # Jamendo (live endpoint available)
+  - id: jamendo
+    url: http://dbtune.org/jamendo/sparql/
+    description: Jamendo music database
+    dataset_url: http://dbtune.org/jamendo/
+
+  # KEGG (live endpoint available)
+  - id: kegg
+    url: http://cu.kegg.bio2rdf.org/sparql
+    description: KEGG pathway database
+    dataset_url: http://www.genome.jp/kegg/
+
+  # LinkedMDB (live endpoint available)
+  - id: linkedmdb
+    url: http://www.linkedmdb.org/sparql
+    description: Linked Movie Database
+    dataset_url: http://linkedmdb.org/
+
+  # New York Times (no live endpoint available)
+  - id: nyt
+    url: http://your.system.ip.address:8897/sparql
+    description: New York Times Linked Open Data
+    dataset_url: http://data.nytimes.com/
+
+  # Semantic Web Dog Food (live endpoint available)
+  - id: swdf
+    url: http://data.semanticweb.org/sparql
+    description: Semantic Web Dog Food
+    dataset_url: http://data.semanticweb.org/
+
+  # Affymetrix (live endpoint available)
+  - id: affymetrix
+    url: http://cu.affymetrix.bio2rdf.org/sparql
+    description: Affymetrix microarray data
+    dataset_url: http://download.bio2rdf.org/release/2/affymetrix/affymetrix.html

@@ -1,0 +1,7 @@
+191786	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+191786	<http://tcga.deri.ie/schema/stop>
+191786	<http://tcga.deri.ie/schema/start>
+191786	<http://tcga.deri.ie/schema/result>
+191786	<http://tcga.deri.ie/schema/chromosome>
+191786	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

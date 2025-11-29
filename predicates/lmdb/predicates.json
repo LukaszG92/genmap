@@ -1,0 +1,1123 @@
+{
+  "version": "v1",
+  "endpoints": [
+    {
+      "id": "lmdb",
+      "url": null,
+      "built_at": "2025-11-29T14:06:08Z",
+      "triples_sampled": null,
+      "predicates": [
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "usage_count": 740468,
+          "local_name": "type"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "usage_count": 665433,
+          "local_name": "label"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/page",
+          "usage_count": 512946,
+          "local_name": "page"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/performance",
+          "usage_count": 390322,
+          "local_name": "performance"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/performance_performanceid",
+          "usage_count": 197271,
+          "local_name": "performance_performanceid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/performance_note",
+          "usage_count": 197271,
+          "local_name": "performance_note"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/performance_name",
+          "usage_count": 197271,
+          "local_name": "performance_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/performance_film",
+          "usage_count": 197271,
+          "local_name": "performance_film"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/performance_character",
+          "usage_count": 197271,
+          "local_name": "performance_character"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/performance_actor",
+          "usage_count": 197271,
+          "local_name": "performance_actor"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/actor",
+          "usage_count": 194649,
+          "local_name": "actor"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/oddlinker/linkage_run",
+          "usage_count": 162199,
+          "local_name": "linkage_run"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/oddlinker/link_type",
+          "usage_count": 162199,
+          "local_name": "link_type"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/oddlinker/link_target",
+          "usage_count": 162199,
+          "local_name": "link_target"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/oddlinker/link_source",
+          "usage_count": 162199,
+          "local_name": "link_source"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/linkid",
+          "usage_count": 162199,
+          "local_name": "linkid"
+        },
+        {
+          "iri": "http://purl.org/dc/terms/title",
+          "usage_count": 85620,
+          "local_name": "title"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/filmid",
+          "usage_count": 85620,
+          "local_name": "filmid"
+        },
+        {
+          "iri": "http://purl.org/dc/terms/date",
+          "usage_count": 74111,
+          "local_name": "date"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/initial_release_date",
+          "usage_count": 74111,
+          "local_name": "initial_release_date"
+        },
+        {
+          "iri": "http://www.w3.org/2002/07/owl#sameAs",
+          "usage_count": 63161,
+          "local_name": "sameAs"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/runtime",
+          "usage_count": 57147,
+          "local_name": "runtime"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/oddlinker/linkage_score",
+          "usage_count": 55599,
+          "local_name": "linkage_score"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/made",
+          "usage_count": 53180,
+          "local_name": "made"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/director",
+          "usage_count": 53180,
+          "local_name": "director"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/actor_name",
+          "usage_count": 50603,
+          "local_name": "actor_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/actor_actorid",
+          "usage_count": 50603,
+          "local_name": "actor_actorid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_cut_film_cutid",
+          "usage_count": 45259,
+          "local_name": "film_cut_film_cutid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/actor_nytimes_id",
+          "usage_count": 38844,
+          "local_name": "actor_nytimes_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/actor_netflix_id",
+          "usage_count": 38844,
+          "local_name": "actor_netflix_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/producer",
+          "usage_count": 35388,
+          "local_name": "producer"
+        },
+        {
+          "iri": "http://dbpedia.org/property/hasPhotoCollection",
+          "usage_count": 30354,
+          "local_name": "hasPhotoCollection"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/writer",
+          "usage_count": 28549,
+          "local_name": "writer"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/language",
+          "usage_count": 28253,
+          "local_name": "language"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_cut_note",
+          "usage_count": 25516,
+          "local_name": "film_cut_note"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/type_of_film_cut",
+          "usage_count": 25172,
+          "local_name": "type_of_film_cut"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_release_region",
+          "usage_count": 25151,
+          "local_name": "film_release_region"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/music_contributor",
+          "usage_count": 19643,
+          "local_name": "music_contributor"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_character",
+          "usage_count": 17822,
+          "local_name": "film_character"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/writer_writerid",
+          "usage_count": 17335,
+          "local_name": "writer_writerid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/writer_name",
+          "usage_count": 17335,
+          "local_name": "writer_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_crew_role",
+          "usage_count": 17237,
+          "local_name": "film_crew_role"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_crew_gig_name",
+          "usage_count": 17237,
+          "local_name": "film_crew_gig_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_crew_gig_id",
+          "usage_count": 17237,
+          "local_name": "film_crew_gig_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_crew_gig_film_crew_gigid",
+          "usage_count": 17237,
+          "local_name": "film_crew_gig_film_crew_gigid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/director_name",
+          "usage_count": 17156,
+          "local_name": "director_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/director_directorid",
+          "usage_count": 17156,
+          "local_name": "director_directorid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_crew_gig_film",
+          "usage_count": 17081,
+          "local_name": "film_crew_gig_film"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_crew_gig_film_job",
+          "usage_count": 17074,
+          "local_name": "film_crew_gig_film_job"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/based_near",
+          "usage_count": 16587,
+          "local_name": "based_near"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country",
+          "usage_count": 16587,
+          "local_name": "country"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_character_name",
+          "usage_count": 15752,
+          "local_name": "film_character_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_character_film_characterid",
+          "usage_count": 15752,
+          "local_name": "film_character_film_characterid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_distributor_relationship_year",
+          "usage_count": 15256,
+          "local_name": "film_film_distributor_relationship_year"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_distributor_relationship_region",
+          "usage_count": 15256,
+          "local_name": "film_film_distributor_relationship_region"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_distributor_relationship_name",
+          "usage_count": 15256,
+          "local_name": "film_film_distributor_relationship_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_distributor_relationship_freebase_url",
+          "usage_count": 15256,
+          "local_name": "film_film_distributor_relationship_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_distributor_relationship_film_film_distributor_relationshipid",
+          "usage_count": 15256,
+          "local_name": "film_film_distributor_relationship_film_film_distributor_relationshipid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_distributor_relationship_film_distribution_medium",
+          "usage_count": 15256,
+          "local_name": "film_film_distributor_relationship_film_distribution_medium"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_distributor_relationship_film_cut",
+          "usage_count": 15256,
+          "local_name": "film_film_distributor_relationship_film_cut"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_distributor_relationship_distributor",
+          "usage_count": 15256,
+          "local_name": "film_film_distributor_relationship_distributor"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_distributor",
+          "usage_count": 15248,
+          "local_name": "film_distributor"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_of_distributor",
+          "usage_count": 15220,
+          "local_name": "film_of_distributor"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/producer_producerid",
+          "usage_count": 14882,
+          "local_name": "producer_producerid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/producer_name",
+          "usage_count": 14882,
+          "local_name": "producer_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/genre",
+          "usage_count": 13018,
+          "local_name": "genre"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#SeeAlso",
+          "usage_count": 12990,
+          "local_name": "SeeAlso"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_cut",
+          "usage_count": 11888,
+          "local_name": "film_cut"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/production_company",
+          "usage_count": 10920,
+          "local_name": "production_company"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/editor",
+          "usage_count": 9245,
+          "local_name": "editor"
+        },
+        {
+          "iri": "http://www.w3.org/2004/02/skos/core#subject",
+          "usage_count": 6438,
+          "local_name": "subject"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_subject",
+          "usage_count": 6412,
+          "local_name": "film_subject"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/performance_special_performance_type",
+          "usage_count": 5896,
+          "local_name": "performance_special_performance_type"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/featured_film_location",
+          "usage_count": 4870,
+          "local_name": "featured_film_location"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/music_contributor_name",
+          "usage_count": 4529,
+          "local_name": "music_contributor_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/music_contributor_music_contributorid",
+          "usage_count": 4529,
+          "local_name": "music_contributor_music_contributorid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_job_name",
+          "usage_count": 4004,
+          "local_name": "film_job_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_job_film_jobid",
+          "usage_count": 4004,
+          "local_name": "film_job_film_jobid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/sequel",
+          "usage_count": 3989,
+          "local_name": "sequel"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/prequel",
+          "usage_count": 3989,
+          "local_name": "prequel"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/editor_name",
+          "usage_count": 3290,
+          "local_name": "editor_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/editor_editorid",
+          "usage_count": 3290,
+          "local_name": "editor_editorid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/cinematographer_name",
+          "usage_count": 3263,
+          "local_name": "cinematographer_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/cinematographer_cinematographerid",
+          "usage_count": 3263,
+          "local_name": "cinematographer_cinematographerid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_art_director",
+          "usage_count": 2625,
+          "local_name": "film_art_director"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/cinematographer",
+          "usage_count": 1955,
+          "local_name": "cinematographer"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/production_company_production_companyid",
+          "usage_count": 1926,
+          "local_name": "production_company_production_companyid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/production_company_name",
+          "usage_count": 1926,
+          "local_name": "production_company_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_location_name",
+          "usage_count": 1315,
+          "local_name": "film_location_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_location_film_locationid",
+          "usage_count": 1315,
+          "local_name": "film_location_film_locationid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/story_contributor",
+          "usage_count": 1262,
+          "local_name": "story_contributor"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_story_contributor",
+          "usage_count": 1262,
+          "local_name": "film_story_contributor"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_subject_name",
+          "usage_count": 1249,
+          "local_name": "film_subject_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_subject_film_subjectid",
+          "usage_count": 1249,
+          "local_name": "film_subject_film_subjectid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/personal_film_appearance_type_of_appearance",
+          "usage_count": 1120,
+          "local_name": "personal_film_appearance_type_of_appearance"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/personal_film_appearance_personal_film_appearanceid",
+          "usage_count": 1120,
+          "local_name": "personal_film_appearance_personal_film_appearanceid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/personal_film_appearance_person",
+          "usage_count": 1120,
+          "local_name": "personal_film_appearance_person"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/personal_film_appearance_name",
+          "usage_count": 1120,
+          "local_name": "personal_film_appearance_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/personal_film_appearance",
+          "usage_count": 1118,
+          "local_name": "personal_film_appearance"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_format",
+          "usage_count": 1006,
+          "local_name": "film_format"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/executive_producer",
+          "usage_count": 954,
+          "local_name": "executive_producer"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_story_contributor_name",
+          "usage_count": 740,
+          "local_name": "film_story_contributor_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_story_contributor_film_story_contributorid",
+          "usage_count": 740,
+          "local_name": "film_story_contributor_film_story_contributorid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/relatedBook",
+          "usage_count": 700,
+          "local_name": "relatedBook"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_event_opening_date",
+          "usage_count": 685,
+          "local_name": "film_festival_event_opening_date"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_event_name",
+          "usage_count": 685,
+          "local_name": "film_festival_event_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_event_freebase_url",
+          "usage_count": 685,
+          "local_name": "film_festival_event_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_event_film_festival_event_id",
+          "usage_count": 685,
+          "local_name": "film_festival_event_film_festival_event_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_event_closing_date",
+          "usage_count": 685,
+          "local_name": "film_festival_event_closing_date"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_production_designer",
+          "usage_count": 581,
+          "local_name": "film_production_designer"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_name",
+          "usage_count": 566,
+          "local_name": "film_festival_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_film_festivalid",
+          "usage_count": 566,
+          "local_name": "film_festival_film_festivalid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_casting_director",
+          "usage_count": 542,
+          "local_name": "film_casting_director"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_event",
+          "usage_count": 535,
+          "local_name": "film_festival_event"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_set_designer",
+          "usage_count": 461,
+          "local_name": "film_set_designer"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_regional_release_date_release_date",
+          "usage_count": 418,
+          "local_name": "film_regional_release_date_release_date"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_regional_release_date_name",
+          "usage_count": 418,
+          "local_name": "film_regional_release_date_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_regional_release_date_freebase_url",
+          "usage_count": 418,
+          "local_name": "film_regional_release_date_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_regional_release_date_film_release_region",
+          "usage_count": 418,
+          "local_name": "film_regional_release_date_film_release_region"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_regional_release_date_film_release_distribution_medium",
+          "usage_count": 418,
+          "local_name": "film_regional_release_date_film_release_distribution_medium"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_regional_release_date_film_regional_release_id",
+          "usage_count": 418,
+          "local_name": "film_regional_release_date_film_regional_release_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_regional_release_date_film_regional_debut_venue",
+          "usage_count": 418,
+          "local_name": "film_regional_release_date_film_regional_debut_venue"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_regional_release_date",
+          "usage_count": 413,
+          "local_name": "film_regional_release_date"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_genre_name",
+          "usage_count": 409,
+          "local_name": "film_genre_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_genre_film_genreid",
+          "usage_count": 409,
+          "local_name": "film_genre_film_genreid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_art_director_name",
+          "usage_count": 365,
+          "local_name": "film_art_director_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_art_director_id",
+          "usage_count": 365,
+          "local_name": "film_art_director_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_costume_designer_name",
+          "usage_count": 353,
+          "local_name": "film_costume_designer_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_costume_designer_film_costume_designerid",
+          "usage_count": 353,
+          "local_name": "film_costume_designer_film_costume_designerid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_company_name",
+          "usage_count": 338,
+          "local_name": "film_company_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_company_film_companyid",
+          "usage_count": 338,
+          "local_name": "film_company_film_companyid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_production_designer_name",
+          "usage_count": 293,
+          "local_name": "film_production_designer_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_production_designer_freebase_url",
+          "usage_count": 293,
+          "local_name": "film_production_designer_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_production_designer_film_production_designer_id",
+          "usage_count": 293,
+          "local_name": "film_production_designer_film_production_designer_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/personal_film_appearance_type",
+          "usage_count": 275,
+          "local_name": "personal_film_appearance_type"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_casting_director_name",
+          "usage_count": 273,
+          "local_name": "film_casting_director_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_casting_director_freebase_url",
+          "usage_count": 273,
+          "local_name": "film_casting_director_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_casting_director_film_casting_director_id",
+          "usage_count": 273,
+          "local_name": "film_casting_director_film_casting_director_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_population",
+          "usage_count": 246,
+          "local_name": "country_population"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_name",
+          "usage_count": 246,
+          "local_name": "country_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_languages",
+          "usage_count": 246,
+          "local_name": "country_languages"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_iso_numeric",
+          "usage_count": 246,
+          "local_name": "country_iso_numeric"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_iso_alpha3",
+          "usage_count": 246,
+          "local_name": "country_iso_alpha3"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_iso_alpha2",
+          "usage_count": 246,
+          "local_name": "country_iso_alpha2"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_id",
+          "usage_count": 246,
+          "local_name": "country_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_fips_code",
+          "usage_count": 246,
+          "local_name": "country_fips_code"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_currency",
+          "usage_count": 246,
+          "local_name": "country_currency"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_continent",
+          "usage_count": 246,
+          "local_name": "country_continent"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_capital",
+          "usage_count": 246,
+          "local_name": "country_capital"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/country_areaInSqKm",
+          "usage_count": 246,
+          "local_name": "country_areaInSqKm"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_set_designer_name",
+          "usage_count": 206,
+          "local_name": "film_set_designer_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_set_designer_freebase_url",
+          "usage_count": 206,
+          "local_name": "film_set_designer_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_set_designer_film_set_designer_id",
+          "usage_count": 206,
+          "local_name": "film_set_designer_film_set_designer_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_series_name",
+          "usage_count": 205,
+          "local_name": "film_series_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_series_film_seriesid",
+          "usage_count": 205,
+          "local_name": "film_series_film_seriesid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_distributor_name",
+          "usage_count": 169,
+          "local_name": "film_distributor_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_distributor_freebase_url",
+          "usage_count": 169,
+          "local_name": "film_distributor_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_distributor_film_distributorid",
+          "usage_count": 169,
+          "local_name": "film_distributor_film_distributorid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_critic_name",
+          "usage_count": 152,
+          "local_name": "film_critic_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_critic_film_criticid",
+          "usage_count": 152,
+          "local_name": "film_critic_film_criticid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_awards_ceremony_name",
+          "usage_count": 127,
+          "local_name": "film_awards_ceremony_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_awards_ceremony_id",
+          "usage_count": 127,
+          "local_name": "film_awards_ceremony_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_awards_ceremony_film_awards_ceremonyid",
+          "usage_count": 127,
+          "local_name": "film_awards_ceremony_film_awards_ceremonyid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/rating",
+          "usage_count": 124,
+          "local_name": "rating"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/location",
+          "usage_count": 122,
+          "local_name": "location"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/dubbing_performance_name",
+          "usage_count": 118,
+          "local_name": "dubbing_performance_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/dubbing_performance_language",
+          "usage_count": 118,
+          "local_name": "dubbing_performance_language"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/dubbing_performance_film",
+          "usage_count": 118,
+          "local_name": "dubbing_performance_film"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/dubbing_performance_dubbing_performanceid",
+          "usage_count": 118,
+          "local_name": "dubbing_performance_dubbing_performanceid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/dubbing_performance_character",
+          "usage_count": 118,
+          "local_name": "dubbing_performance_character"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/dubbing_performance_actor",
+          "usage_count": 118,
+          "local_name": "dubbing_performance_actor"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/dubbing_performance",
+          "usage_count": 115,
+          "local_name": "dubbing_performance"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/content_rating_name",
+          "usage_count": 107,
+          "local_name": "content_rating_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/content_rating_film_rating_system",
+          "usage_count": 107,
+          "local_name": "content_rating_film_rating_system"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/content_rating_country",
+          "usage_count": 107,
+          "local_name": "content_rating_country"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/content_rating_content_ratingid",
+          "usage_count": 107,
+          "local_name": "content_rating_content_ratingid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/content_rating_system",
+          "usage_count": 99,
+          "local_name": "content_rating_system"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_distribution_medium",
+          "usage_count": 96,
+          "local_name": "film_distribution_medium"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_featured_song_performed_by",
+          "usage_count": 72,
+          "local_name": "film_featured_song_performed_by"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_featured_song_name",
+          "usage_count": 72,
+          "local_name": "film_featured_song_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_featured_song_freebase_url",
+          "usage_count": 72,
+          "local_name": "film_featured_song_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_featured_song_film_featured_song_id",
+          "usage_count": 72,
+          "local_name": "film_featured_song_film_featured_song_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_featured_song",
+          "usage_count": 71,
+          "local_name": "film_featured_song"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_sponsor_name",
+          "usage_count": 70,
+          "local_name": "film_festival_sponsor_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_sponsor_freebase_url",
+          "usage_count": 70,
+          "local_name": "film_festival_sponsor_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_sponsor_film_festival_sponsor_id",
+          "usage_count": 70,
+          "local_name": "film_festival_sponsor_film_festival_sponsor_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/content_rating_minimum_unaccompanied_age",
+          "usage_count": 62,
+          "local_name": "content_rating_minimum_unaccompanied_age"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_series",
+          "usage_count": 60,
+          "local_name": "film_series"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_format_name",
+          "usage_count": 57,
+          "local_name": "film_format_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_format_film_formatid",
+          "usage_count": 57,
+          "local_name": "film_format_film_formatid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/content_rating_system_name",
+          "usage_count": 46,
+          "local_name": "content_rating_system_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/content_rating_system_jurisdiction",
+          "usage_count": 46,
+          "local_name": "content_rating_system_jurisdiction"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/content_rating_system_content_rating_systemid",
+          "usage_count": 46,
+          "local_name": "content_rating_system_content_rating_systemid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_company_relationship_role_service",
+          "usage_count": 36,
+          "local_name": "film_film_company_relationship_role_service"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_company_relationship_name",
+          "usage_count": 36,
+          "local_name": "film_film_company_relationship_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_company_relationship_freebase_url",
+          "usage_count": 36,
+          "local_name": "film_film_company_relationship_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_company_relationship_film_film_company_relationshipid",
+          "usage_count": 36,
+          "local_name": "film_film_company_relationship_film_film_company_relationshipid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_film_company_relationship",
+          "usage_count": 36,
+          "local_name": "film_film_company_relationship"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_theorist_name",
+          "usage_count": 28,
+          "local_name": "film_theorist_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_theorist_film_theoristid",
+          "usage_count": 28,
+          "local_name": "film_theorist_film_theoristid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_crewmember_name",
+          "usage_count": 25,
+          "local_name": "film_crewmember_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_crewmember_film_crewmemberid",
+          "usage_count": 25,
+          "local_name": "film_crewmember_film_crewmemberid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_crewmember",
+          "usage_count": 24,
+          "local_name": "film_crewmember"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_screening_venue_name",
+          "usage_count": 23,
+          "local_name": "film_screening_venue_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_screening_venue_freebase_url",
+          "usage_count": 23,
+          "local_name": "film_screening_venue_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_screening_venue_film_screening_venue_id",
+          "usage_count": 23,
+          "local_name": "film_screening_venue_film_screening_venue_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_collection",
+          "usage_count": 17,
+          "local_name": "film_collection"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/costume_designer",
+          "usage_count": 16,
+          "local_name": "costume_designer"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_focus_name",
+          "usage_count": 13,
+          "local_name": "film_festival_focus_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_focus_freebase_url",
+          "usage_count": 13,
+          "local_name": "film_festival_focus_freebase_url"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_festival_focus_film_festival_focus_id",
+          "usage_count": 13,
+          "local_name": "film_festival_focus_film_festival_focus_id"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/special_film_performance_type_special_film_performance_typeid",
+          "usage_count": 11,
+          "local_name": "special_film_performance_type_special_film_performance_typeid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/special_film_performance_type_name",
+          "usage_count": 11,
+          "local_name": "special_film_performance_type_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_distribution_medium_name",
+          "usage_count": 10,
+          "local_name": "film_distribution_medium_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_distribution_medium_film_distribution_mediumid",
+          "usage_count": 10,
+          "local_name": "film_distribution_medium_film_distribution_mediumid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/oddlinker/linkage_method",
+          "usage_count": 7,
+          "local_name": "linkage_method"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/oddlinker/linkage_date",
+          "usage_count": 7,
+          "local_name": "linkage_date"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/personal_film_appearance_type_personal_film_appearance_typeid",
+          "usage_count": 5,
+          "local_name": "personal_film_appearance_type_personal_film_appearance_typeid"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/personal_film_appearance_type_name",
+          "usage_count": 5,
+          "local_name": "personal_film_appearance_type_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_company",
+          "usage_count": 1,
+          "local_name": "film_company"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_collection_name",
+          "usage_count": 1,
+          "local_name": "film_collection_name"
+        },
+        {
+          "iri": "http://data.linkedmdb.org/resource/movie/film_collection_film_collectionid",
+          "usage_count": 1,
+          "local_name": "film_collection_film_collectionid"
+        }
+      ]
+    }
+  ]
+}

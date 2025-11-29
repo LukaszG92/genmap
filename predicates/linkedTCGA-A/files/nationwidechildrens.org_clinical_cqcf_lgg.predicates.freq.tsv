@@ -1,0 +1,17 @@
+363	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+363	<http://tcga.deri.ie/schema/tumor_sample_type>
+363	<http://tcga.deri.ie/schema/tumor_sample_procurement_country>
+363	<http://tcga.deri.ie/schema/radiation_therapy>
+363	<http://tcga.deri.ie/schema/patient_consent_status>
+363	<http://tcga.deri.ie/schema/patient_consent_days_to>
+363	<http://tcga.deri.ie/schema/other_anatomic_site>
+363	<http://tcga.deri.ie/schema/normal_tissue_anatomic_site>
+363	<http://tcga.deri.ie/schema/normal_control_site_other>
+363	<http://tcga.deri.ie/schema/normal_control_proximity_to_tumor>
+363	<http://tcga.deri.ie/schema/history_other_malignancy>
+363	<http://tcga.deri.ie/schema/history_neoadjuvant_treatment>
+363	<http://tcga.deri.ie/schema/histologic_diagnosis>
+363	<http://tcga.deri.ie/schema/frozen_specimen_anatomic_site>
+363	<http://tcga.deri.ie/schema/diagnosis_subtype>
+363	<http://tcga.deri.ie/schema/days_to_death>
+363	<http://tcga.deri.ie/schema/bcr_patient_barcode>

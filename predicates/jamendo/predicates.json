@@ -1,0 +1,143 @@
+{
+  "version": "v1",
+  "endpoints": [
+    {
+      "id": "jamendo",
+      "url": null,
+      "built_at": "2025-11-29T18:48:34Z",
+      "triples_sampled": null,
+      "predicates": [
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "usage_count": 290291,
+          "local_name": "type"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/available_as",
+          "usage_count": 125948,
+          "local_name": "available_as"
+        },
+        {
+          "iri": "http://purl.org/dc/elements/1.1/format",
+          "usage_count": 125948,
+          "local_name": "format"
+        },
+        {
+          "iri": "http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag",
+          "usage_count": 53438,
+          "local_name": "taggedWithTag"
+        },
+        {
+          "iri": "http://purl.org/dc/elements/1.1/title",
+          "usage_count": 51402,
+          "local_name": "title"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/track_number",
+          "usage_count": 45634,
+          "local_name": "track_number"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/track",
+          "usage_count": 45634,
+          "local_name": "track"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/time",
+          "usage_count": 45634,
+          "local_name": "time"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/recorded_as",
+          "usage_count": 45634,
+          "local_name": "recorded_as"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/published_as",
+          "usage_count": 45634,
+          "local_name": "published_as"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/license",
+          "usage_count": 45634,
+          "local_name": "license"
+        },
+        {
+          "iri": "http://purl.org/NET/c4dm/timeline.owl#onTimeLine",
+          "usage_count": 45634,
+          "local_name": "onTimeLine"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/image",
+          "usage_count": 23144,
+          "local_name": "image"
+        },
+        {
+          "iri": "http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName",
+          "usage_count": 9235,
+          "local_name": "tagName"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/text",
+          "usage_count": 8823,
+          "local_name": "text"
+        },
+        {
+          "iri": "http://purl.org/NET/c4dm/event.owl#factor",
+          "usage_count": 8823,
+          "local_name": "factor"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/maker",
+          "usage_count": 5786,
+          "local_name": "maker"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/made",
+          "usage_count": 5786,
+          "local_name": "made"
+        },
+        {
+          "iri": "http://purl.org/dc/elements/1.1/date",
+          "usage_count": 5786,
+          "local_name": "date"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/name",
+          "usage_count": 3505,
+          "local_name": "name"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/based_near",
+          "usage_count": 3244,
+          "local_name": "based_near"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/homepage",
+          "usage_count": 3006,
+          "local_name": "homepage"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/img",
+          "usage_count": 2982,
+          "local_name": "img"
+        },
+        {
+          "iri": "http://www.w3.org/2002/07/owl#sameAs",
+          "usage_count": 1697,
+          "local_name": "sameAs"
+        },
+        {
+          "iri": "http://purl.org/dc/elements/1.1/description",
+          "usage_count": 880,
+          "local_name": "description"
+        },
+        {
+          "iri": "http://purl.org/ontology/mo/biography",
+          "usage_count": 485,
+          "local_name": "biography"
+        }
+      ]
+    }
+  ]
+}

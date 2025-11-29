@@ -1,0 +1,16 @@
+342	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+342	<http://tcga.deri.ie/schema/tumor_sample_type>
+342	<http://tcga.deri.ie/schema/tumor_sample_procurement_country>
+342	<http://tcga.deri.ie/schema/tumor_focality>
+342	<http://tcga.deri.ie/schema/patient_consent_status>
+342	<http://tcga.deri.ie/schema/patient_consent_days_to>
+342	<http://tcga.deri.ie/schema/other_diagnosis>
+342	<http://tcga.deri.ie/schema/other_anatomic_site>
+342	<http://tcga.deri.ie/schema/normal_tissue_anatomic_site>
+342	<http://tcga.deri.ie/schema/normal_control_proximity_to_tumor>
+342	<http://tcga.deri.ie/schema/history_neoadjuvant_treatment>
+342	<http://tcga.deri.ie/schema/histological_type>
+342	<http://tcga.deri.ie/schema/diagnosis_subtype>
+342	<http://tcga.deri.ie/schema/days_to_death>
+342	<http://tcga.deri.ie/schema/bcr_patient_barcode>
+342	<http://tcga.deri.ie/schema/anatomic_neoplasm_subdivision>

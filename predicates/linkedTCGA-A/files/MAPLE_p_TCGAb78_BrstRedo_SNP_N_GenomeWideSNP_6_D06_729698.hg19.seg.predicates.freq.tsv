@@ -1,0 +1,7 @@
+414	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+414	<http://tcga.deri.ie/schema/stop>
+414	<http://tcga.deri.ie/schema/start>
+414	<http://tcga.deri.ie/schema/seg_mean>
+414	<http://tcga.deri.ie/schema/result>
+414	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

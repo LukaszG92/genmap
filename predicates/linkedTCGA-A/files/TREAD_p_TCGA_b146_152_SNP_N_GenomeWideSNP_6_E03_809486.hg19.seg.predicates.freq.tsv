@@ -1,0 +1,6 @@
+401	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+401	<http://tcga.deri.ie/schema/stop>
+401	<http://tcga.deri.ie/schema/start>
+401	<http://tcga.deri.ie/schema/seg_mean>
+401	<http://tcga.deri.ie/schema/result>
+401	<http://tcga.deri.ie/schema/chromosome>

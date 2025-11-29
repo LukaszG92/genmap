@@ -1,0 +1,6 @@
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":476,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/stop","usage_count":476,"local_name":"stop"}
+{"iri":"http://tcga.deri.ie/schema/start","usage_count":476,"local_name":"start"}
+{"iri":"http://tcga.deri.ie/schema/seg_mean","usage_count":476,"local_name":"seg_mean"}
+{"iri":"http://tcga.deri.ie/schema/result","usage_count":476,"local_name":"result"}
+{"iri":"http://tcga.deri.ie/schema/chromosome","usage_count":476,"local_name":"chromosome"}

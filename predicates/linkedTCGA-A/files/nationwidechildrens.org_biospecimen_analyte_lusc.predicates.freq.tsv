@@ -1,0 +1,17 @@
+6636	<http://tcga.deri.ie/schema/bcr_analyte_barcode>
+3318	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+3318	<http://tcga.deri.ie/schema/well_number>
+3318	<http://tcga.deri.ie/schema/spectrophotometer_method>
+3318	<http://tcga.deri.ie/schema/rinvalue>
+3318	<http://tcga.deri.ie/schema/ratio_28s_18s>
+3318	<http://tcga.deri.ie/schema/pcr_amplification_successful>
+3318	<http://tcga.deri.ie/schema/normal_tumor_genotype_match>
+3318	<http://tcga.deri.ie/schema/is_derived_from_ffpe>
+3318	<http://tcga.deri.ie/schema/gel_image_file>
+3318	<http://tcga.deri.ie/schema/concentration>
+3318	<http://tcga.deri.ie/schema/bcr_sample_barcode>
+3318	<http://tcga.deri.ie/schema/bcr_analyte_uuid>
+3318	<http://tcga.deri.ie/schema/analyte_type_id>
+3318	<http://tcga.deri.ie/schema/analyte_type>
+3318	<http://tcga.deri.ie/schema/amount>
+3318	<http://tcga.deri.ie/schema/a260_a280_ratio>

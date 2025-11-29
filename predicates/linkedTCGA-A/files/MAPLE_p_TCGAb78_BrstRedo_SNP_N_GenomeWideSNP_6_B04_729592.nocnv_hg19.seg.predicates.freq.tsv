@@ -1,0 +1,6 @@
+51	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+51	<http://tcga.deri.ie/schema/stop>
+51	<http://tcga.deri.ie/schema/start>
+51	<http://tcga.deri.ie/schema/seg_mean>
+51	<http://tcga.deri.ie/schema/result>
+51	<http://tcga.deri.ie/schema/chromosome>

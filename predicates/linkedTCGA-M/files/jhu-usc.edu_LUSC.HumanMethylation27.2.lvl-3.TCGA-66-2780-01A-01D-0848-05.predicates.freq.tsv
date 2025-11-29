@@ -1,0 +1,6 @@
+23372	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+23372	<http://tcga.deri.ie/schema/result>
+23372	<http://tcga.deri.ie/schema/position>
+23372	<http://tcga.deri.ie/schema/chromosome>
+23372	<http://tcga.deri.ie/schema/beta_value>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,7 @@
+572	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+572	<http://tcga.deri.ie/schema/stop>
+572	<http://tcga.deri.ie/schema/start>
+572	<http://tcga.deri.ie/schema/seg_mean>
+572	<http://tcga.deri.ie/schema/result>
+572	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

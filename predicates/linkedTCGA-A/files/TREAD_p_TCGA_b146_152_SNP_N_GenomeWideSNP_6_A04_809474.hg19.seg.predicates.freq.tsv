@@ -1,0 +1,7 @@
+330	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+330	<http://tcga.deri.ie/schema/stop>
+330	<http://tcga.deri.ie/schema/start>
+330	<http://tcga.deri.ie/schema/seg_mean>
+330	<http://tcga.deri.ie/schema/result>
+330	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

@@ -1,0 +1,7 @@
+394	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+394	<http://tcga.deri.ie/schema/stop>
+394	<http://tcga.deri.ie/schema/start>
+394	<http://tcga.deri.ie/schema/seg_mean>
+394	<http://tcga.deri.ie/schema/result>
+394	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

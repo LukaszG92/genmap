@@ -1,0 +1,6 @@
+365	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+365	<http://tcga.deri.ie/schema/stop>
+365	<http://tcga.deri.ie/schema/start>
+365	<http://tcga.deri.ie/schema/seg_mean>
+365	<http://tcga.deri.ie/schema/result>
+365	<http://tcga.deri.ie/schema/chromosome>

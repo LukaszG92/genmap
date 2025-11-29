@@ -1,0 +1,7 @@
+343	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+343	<http://tcga.deri.ie/schema/stop>
+343	<http://tcga.deri.ie/schema/start>
+343	<http://tcga.deri.ie/schema/seg_mean>
+343	<http://tcga.deri.ie/schema/result>
+343	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

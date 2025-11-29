@@ -1,0 +1,6 @@
+462	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+462	<http://tcga.deri.ie/schema/stop>
+462	<http://tcga.deri.ie/schema/start>
+462	<http://tcga.deri.ie/schema/result>
+462	<http://tcga.deri.ie/schema/reads_per_million_miRNA_mapped>
+462	<http://tcga.deri.ie/schema/chromosome>

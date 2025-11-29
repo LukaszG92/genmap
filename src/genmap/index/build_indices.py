@@ -16,6 +16,7 @@ def _read_json(path: Path) -> Dict[str, Any]:
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
+
 def _tokenize_label(s: str) -> str:
     if not s:
         return ""
@@ -29,6 +30,7 @@ def _tokenize_label(s: str) -> str:
         pass
     return seg.lower()
 
+
 def _compose_text(endpoint: str, predicate: str, local_name: str) -> str:
     ep_short = endpoint.rsplit("/", 1)[-1] if endpoint else ""
     toks = [
@@ -40,6 +42,7 @@ def _compose_text(endpoint: str, predicate: str, local_name: str) -> str:
     ]
     return " ".join([t for t in toks if t])
 
+
 def _build_sparse(texts: List[str], max_features: int = 200_000):
     vec = TfidfVectorizer(
         analyzer="word", ngram_range=(1, 3),
@@ -49,14 +52,6 @@ def _build_sparse(texts: List[str], max_features: int = 200_000):
     X = vec.fit_transform(texts)
     return vec, X.tocsr()
 
-def _build_dense(texts: List[str], model_name: str, batch_size: int = 256) -> np.ndarray:
-    from sentence_transformers import SentenceTransformer
-    model = SentenceTransformer(model_name)
-    embs = model.encode(
-        texts, batch_size=batch_size, show_progress_bar=True,
-        convert_to_numpy=True, normalize_embeddings=True
-    )
-    return embs.astype(np.float32)
 
 # ---------------- normalizzazione input ----------------
 
@@ -89,6 +84,7 @@ def _normalize_single_endpoint_payload(obj: Dict[str, Any], endpoint: str) -> Li
         return _records_from_predicates(obj["predicates"], endpoint=endpoint or "")
     raise ValueError("Struttura JSON non riconosciuta per singolo endpoint.")
 
+
 def _records_from_predicates(preds: List[Any], endpoint: str) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     for p in preds:
@@ -117,24 +113,29 @@ def _records_from_predicates(preds: List[Any], endpoint: str) -> List[Dict[str, 
 
 # ---------------- main ----------------
 
-def main():
-    ap = argparse.ArgumentParser(description="Costruisce indici per un singolo endpoint.")
-    ap.add_argument("-e", "--endpoint", required=True, help="id endpoint (es. affymetrix)")
-    ap.add_argument("--dense-model", default="sentence-transformers/all-MiniLM-L6-v2")
-    ap.add_argument("--max-features", type=int, default=200_000)
-    ap.add_argument("--batch-size", type=int, default=256)
-    ap.add_argument("--dumps-root", default="./predicates", help="radice degli input (default: ./predicates)")
-    ap.add_argument("--indices-root", default="./indices", help="radice degli output (default: ./indices)")
-    args = ap.parse_args()
+def process_endpoint(endpoint: str, dumps_root: Path, indices_root: Path, max_features: int) -> bool:
+    """
+    Processa un singolo endpoint. Ritorna True se processato, False se saltato.
+    """
+    in_path = dumps_root / endpoint / "predicates.json"
+    out_dir = indices_root / endpoint
 
-    in_path = Path(args.dumps_root) / args.endpoint / "predicates.json"
-    out_dir = Path(args.indices_root) / args.endpoint
+    # Controlla se l'indice esiste già
+    if (out_dir / "sparse.npz").exists() and (out_dir / "vocab.json").exists():
+        print(f"[{endpoint}] ⊘ Indici già esistenti, salto")
+        return False
+
+    if not in_path.exists():
+        print(f"[{endpoint}] ⚠️  File {in_path} non trovato, salto")
+        return False
+
     out_dir.mkdir(parents=True, exist_ok=True)
 
     obj = _read_json(in_path)
-    rows = _normalize_single_endpoint_payload(obj, endpoint=args.endpoint)
+    rows = _normalize_single_endpoint_payload(obj, endpoint=endpoint)
     if not rows:
-        raise ValueError(f"Nessun predicato trovato in {in_path}")
+        print(f"[{endpoint}] ⚠️  Nessun predicato trovato, salto")
+        return False
 
     # testo + dataframe
     for r in rows:
@@ -142,8 +143,8 @@ def main():
     df = pd.DataFrame(rows, columns=["endpoint", "predicate", "local_name", "usage_count", "text"])
 
     # Sparse
-    print(f"[sparse] TF-IDF on {len(df)} rows ...")
-    vec, X = _build_sparse(df["text"].tolist(), max_features=args.max_features)
+    print(f"[{endpoint}] Costruzione indice TF-IDF su {len(df)} predicati...")
+    vec, X = _build_sparse(df["text"].tolist(), max_features=max_features)
 
     # Salvataggi base
     sparse.save_npz(out_dir / "sparse.npz", X)
@@ -162,19 +163,64 @@ def main():
     try:
         df.to_parquet(out_dir / "meta.parquet", index=False)
     except Exception as e:
-        print(f"[warn] parquet non disponibile ({e}); salvo meta.csv")
+        print(f"[{endpoint}] [warn] parquet non disponibile ({e}); salvo meta.csv")
         df.to_csv(out_dir / "meta.csv", index=False)
 
-    # Dense (opzionale)
-    if args.dense_model:
-        print(f"[dense] encoding with model={args.dense_model} ...")
-        embs = _build_dense(df["text"].tolist(), model_name=args.dense_model, batch_size=args.batch_size)
-        np.save(out_dir / "dense.npy", embs)
-        (out_dir / "dense_model.txt").write_text(args.dense_model + "\n", encoding="utf-8")
-    else:
-        print("[dense] skipped")
+    print(f"[{endpoint}] ✓ Indici salvati in {out_dir}")
+    return True
 
-    print("[done] wrote indices to", str(out_dir))
+
+def main():
+    ap = argparse.ArgumentParser(
+        description="Costruisce indici TF-IDF per endpoint. Se --endpoint non specificato, processa tutti gli endpoint trovati."
+    )
+    ap.add_argument("-e", "--endpoint", help="id endpoint specifico (es. affymetrix). Se omesso, processa tutti.")
+    ap.add_argument("--max-features", type=int, default=200_000)
+    ap.add_argument("--dumps-root", default="./predicates", help="radice degli input (default: ./predicates)")
+    ap.add_argument("--indices-root", default="./indices", help="radice degli output (default: ./indices)")
+    args = ap.parse_args()
+
+    dumps_root = Path(args.dumps_root)
+    indices_root = Path(args.indices_root)
+
+    if args.endpoint:
+        # Processa singolo endpoint
+        success = process_endpoint(args.endpoint, dumps_root, indices_root, args.max_features)
+        if not success:
+            print(f"\nNessun indice creato per {args.endpoint}")
+    else:
+        # Processa tutti gli endpoint trovati
+        if not dumps_root.exists():
+            raise ValueError(f"Directory {dumps_root} non trovata")
+
+        # Trova tutti gli endpoint (sottocartelle con predicates.json)
+        endpoints = []
+        for item in dumps_root.iterdir():
+            if item.is_dir() and (item / "predicates.json").exists():
+                endpoints.append(item.name)
+
+        if not endpoints:
+            print(f"Nessun endpoint trovato in {dumps_root}")
+            return
+
+        print(f"Trovati {len(endpoints)} endpoint da processare\n")
+
+        processed = 0
+        skipped = 0
+
+        for idx, endpoint in enumerate(sorted(endpoints), 1):
+            print(f"[{idx}/{len(endpoints)}] Processamento {endpoint}...")
+            success = process_endpoint(endpoint, dumps_root, indices_root, args.max_features)
+            if success:
+                processed += 1
+            else:
+                skipped += 1
+            print()
+
+        print(f"Completato:")
+        print(f"  - Processati: {processed}")
+        print(f"  - Saltati: {skipped}")
+        print(f"  - Totale: {len(endpoints)}")
 
 
 if __name__ == "__main__":

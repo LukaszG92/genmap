@@ -1,0 +1,7 @@
+285	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+285	<http://tcga.deri.ie/schema/stop>
+285	<http://tcga.deri.ie/schema/start>
+285	<http://tcga.deri.ie/schema/seg_mean>
+285	<http://tcga.deri.ie/schema/result>
+285	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

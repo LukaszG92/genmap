@@ -1,0 +1,7 @@
+17255	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+17255	<http://tcga.deri.ie/schema/stop>
+17255	<http://tcga.deri.ie/schema/start>
+17255	<http://tcga.deri.ie/schema/scaled_estimate>
+17255	<http://tcga.deri.ie/schema/result>
+17255	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

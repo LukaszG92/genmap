@@ -1,0 +1,7 @@
+182097	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+182097	<http://tcga.deri.ie/schema/stop>
+182097	<http://tcga.deri.ie/schema/start>
+182097	<http://tcga.deri.ie/schema/result>
+182097	<http://tcga.deri.ie/schema/chromosome>
+182097	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

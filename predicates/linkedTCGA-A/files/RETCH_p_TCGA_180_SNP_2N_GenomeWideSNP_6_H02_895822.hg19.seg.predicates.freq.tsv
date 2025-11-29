@@ -1,0 +1,7 @@
+448	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+448	<http://tcga.deri.ie/schema/stop>
+448	<http://tcga.deri.ie/schema/start>
+448	<http://tcga.deri.ie/schema/seg_mean>
+448	<http://tcga.deri.ie/schema/result>
+448	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

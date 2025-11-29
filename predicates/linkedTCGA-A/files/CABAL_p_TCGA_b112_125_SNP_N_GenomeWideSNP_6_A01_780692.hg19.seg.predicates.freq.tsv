@@ -1,0 +1,7 @@
+346	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+346	<http://tcga.deri.ie/schema/stop>
+346	<http://tcga.deri.ie/schema/start>
+346	<http://tcga.deri.ie/schema/seg_mean>
+346	<http://tcga.deri.ie/schema/result>
+346	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

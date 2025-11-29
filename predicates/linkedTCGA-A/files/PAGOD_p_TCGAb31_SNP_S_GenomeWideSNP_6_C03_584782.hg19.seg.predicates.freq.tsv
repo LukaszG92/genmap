@@ -1,0 +1,7 @@
+519	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+519	<http://tcga.deri.ie/schema/stop>
+519	<http://tcga.deri.ie/schema/start>
+519	<http://tcga.deri.ie/schema/seg_mean>
+519	<http://tcga.deri.ie/schema/result>
+519	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

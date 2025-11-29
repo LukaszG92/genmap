@@ -1,0 +1,14 @@
+{"iri":"http://tcga.deri.ie/schema/bcr_aliquot_barcode","usage_count":8336,"local_name":"bcr_aliquot_barcode"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":4168,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/source_center","usage_count":4168,"local_name":"source_center"}
+{"iri":"http://tcga.deri.ie/schema/plate_row","usage_count":4168,"local_name":"plate_row"}
+{"iri":"http://tcga.deri.ie/schema/plate_id","usage_count":4168,"local_name":"plate_id"}
+{"iri":"http://tcga.deri.ie/schema/plate_column","usage_count":4168,"local_name":"plate_column"}
+{"iri":"http://tcga.deri.ie/schema/is_derived_from_ffpe","usage_count":4168,"local_name":"is_derived_from_ffpe"}
+{"iri":"http://tcga.deri.ie/schema/date_of_shipment","usage_count":4168,"local_name":"date_of_shipment"}
+{"iri":"http://tcga.deri.ie/schema/concentration","usage_count":4168,"local_name":"concentration"}
+{"iri":"http://tcga.deri.ie/schema/center_id","usage_count":4168,"local_name":"center_id"}
+{"iri":"http://tcga.deri.ie/schema/biospecimen_barcode_bottom","usage_count":4168,"local_name":"biospecimen_barcode_bottom"}
+{"iri":"http://tcga.deri.ie/schema/bcr_sample_barcode","usage_count":4168,"local_name":"bcr_sample_barcode"}
+{"iri":"http://tcga.deri.ie/schema/bcr_aliquot_uuid","usage_count":4168,"local_name":"bcr_aliquot_uuid"}
+{"iri":"http://tcga.deri.ie/schema/amount","usage_count":4168,"local_name":"amount"}

@@ -1,0 +1,13 @@
+472	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+472	<http://tcga.deri.ie/schema/vial_number>
+472	<http://tcga.deri.ie/schema/normal_tissue_proximity>
+472	<http://tcga.deri.ie/schema/normal_tissue_anatomic_site>
+472	<http://tcga.deri.ie/schema/normal_control_type>
+472	<http://tcga.deri.ie/schema/ncedna_dna_vol>
+472	<http://tcga.deri.ie/schema/ncedna_dna_qty>
+472	<http://tcga.deri.ie/schema/ncedna_dna_qm>
+472	<http://tcga.deri.ie/schema/ncedna_dna_conc>
+472	<http://tcga.deri.ie/schema/method_of_normal_sample_procurement>
+472	<http://tcga.deri.ie/schema/days_to_normal_sample_procurement>
+472	<http://tcga.deri.ie/schema/bcr_sample_uuid>
+472	<http://tcga.deri.ie/schema/bcr_patient_barcode>

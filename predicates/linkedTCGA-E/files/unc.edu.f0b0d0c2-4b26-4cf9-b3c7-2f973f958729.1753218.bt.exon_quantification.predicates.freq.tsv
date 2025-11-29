@@ -1,0 +1,7 @@
+197004	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+197004	<http://tcga.deri.ie/schema/stop>
+197004	<http://tcga.deri.ie/schema/start>
+197004	<http://tcga.deri.ie/schema/result>
+197004	<http://tcga.deri.ie/schema/chromosome>
+197004	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

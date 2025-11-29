@@ -1,0 +1,7 @@
+2817	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+2817	<http://tcga.deri.ie/schema/stop>
+2817	<http://tcga.deri.ie/schema/start>
+2817	<http://tcga.deri.ie/schema/seg_mean>
+2817	<http://tcga.deri.ie/schema/result>
+2817	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

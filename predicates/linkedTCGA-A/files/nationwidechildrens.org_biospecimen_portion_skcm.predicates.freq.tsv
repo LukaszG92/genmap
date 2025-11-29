@@ -1,0 +1,9 @@
+1802	<http://tcga.deri.ie/schema/bcr_portion_barcode>
+901	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+901	<http://tcga.deri.ie/schema/weight>
+901	<http://tcga.deri.ie/schema/portion_number>
+901	<http://tcga.deri.ie/schema/is_ffpe>
+901	<http://tcga.deri.ie/schema/date_of_creation>
+901	<http://tcga.deri.ie/schema/bcr_sample_barcode>
+901	<http://tcga.deri.ie/schema/bcr_portion_uuid>
+901	<http://tcga.deri.ie/schema/LCE>

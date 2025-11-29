@@ -1,0 +1,6 @@
+65	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+65	<http://tcga.deri.ie/schema/stop>
+65	<http://tcga.deri.ie/schema/start>
+65	<http://tcga.deri.ie/schema/seg_mean>
+65	<http://tcga.deri.ie/schema/result>
+65	<http://tcga.deri.ie/schema/chromosome>

@@ -1,0 +1,6 @@
+180	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+180	<http://tcga.deri.ie/schema/stop>
+180	<http://tcga.deri.ie/schema/start>
+180	<http://tcga.deri.ie/schema/seg_mean>
+180	<http://tcga.deri.ie/schema/result>
+180	<http://tcga.deri.ie/schema/chromosome>

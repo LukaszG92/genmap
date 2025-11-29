@@ -1,0 +1,7 @@
+175911	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+175911	<http://tcga.deri.ie/schema/stop>
+175911	<http://tcga.deri.ie/schema/start>
+175911	<http://tcga.deri.ie/schema/result>
+175911	<http://tcga.deri.ie/schema/chromosome>
+175911	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

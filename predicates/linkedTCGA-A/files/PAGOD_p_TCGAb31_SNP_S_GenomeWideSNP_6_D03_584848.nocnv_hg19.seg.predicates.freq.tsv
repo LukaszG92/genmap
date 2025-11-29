@@ -1,0 +1,6 @@
+325	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+325	<http://tcga.deri.ie/schema/stop>
+325	<http://tcga.deri.ie/schema/start>
+325	<http://tcga.deri.ie/schema/seg_mean>
+325	<http://tcga.deri.ie/schema/result>
+325	<http://tcga.deri.ie/schema/chromosome>

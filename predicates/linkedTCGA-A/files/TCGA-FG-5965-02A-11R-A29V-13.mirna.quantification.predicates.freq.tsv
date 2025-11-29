@@ -1,0 +1,6 @@
+480	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+480	<http://tcga.deri.ie/schema/stop>
+480	<http://tcga.deri.ie/schema/start>
+480	<http://tcga.deri.ie/schema/result>
+480	<http://tcga.deri.ie/schema/reads_per_million_miRNA_mapped>
+480	<http://tcga.deri.ie/schema/chromosome>

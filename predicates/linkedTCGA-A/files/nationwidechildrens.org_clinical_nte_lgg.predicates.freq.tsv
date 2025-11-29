@@ -1,0 +1,9 @@
+25	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+25	<http://tcga.deri.ie/schema/new_tumor_event_surgery_met>
+25	<http://tcga.deri.ie/schema/new_tumor_event_surgery_days_to_met>
+25	<http://tcga.deri.ie/schema/new_tumor_event_surgery_days_to_loco>
+25	<http://tcga.deri.ie/schema/new_tumor_event_surgery>
+25	<http://tcga.deri.ie/schema/new_tumor_event_radiation_tx>
+25	<http://tcga.deri.ie/schema/new_tumor_event_pharmaceutical_tx>
+25	<http://tcga.deri.ie/schema/new_tumor_event_dx_days_to>
+25	<http://tcga.deri.ie/schema/bcr_patient_barcode>

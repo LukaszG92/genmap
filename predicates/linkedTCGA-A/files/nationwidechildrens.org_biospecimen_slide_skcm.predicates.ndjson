@@ -1,0 +1,14 @@
+{"iri":"http://tcga.deri.ie/schema/bcr_slide_barcode","usage_count":908,"local_name":"bcr_slide_barcode"}
+{"iri":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","usage_count":454,"local_name":"type"}
+{"iri":"http://tcga.deri.ie/schema/section_location","usage_count":454,"local_name":"section_location"}
+{"iri":"http://tcga.deri.ie/schema/percent_tumor_nuclei","usage_count":454,"local_name":"percent_tumor_nuclei"}
+{"iri":"http://tcga.deri.ie/schema/percent_tumor_cells","usage_count":454,"local_name":"percent_tumor_cells"}
+{"iri":"http://tcga.deri.ie/schema/percent_stromal_cells","usage_count":454,"local_name":"percent_stromal_cells"}
+{"iri":"http://tcga.deri.ie/schema/percent_normal_cells","usage_count":454,"local_name":"percent_normal_cells"}
+{"iri":"http://tcga.deri.ie/schema/percent_neutrophil_infiltration","usage_count":454,"local_name":"percent_neutrophil_infiltration"}
+{"iri":"http://tcga.deri.ie/schema/percent_necrosis","usage_count":454,"local_name":"percent_necrosis"}
+{"iri":"http://tcga.deri.ie/schema/percent_monocyte_infiltration","usage_count":454,"local_name":"percent_monocyte_infiltration"}
+{"iri":"http://tcga.deri.ie/schema/percent_lymphocyte_infiltration","usage_count":454,"local_name":"percent_lymphocyte_infiltration"}
+{"iri":"http://tcga.deri.ie/schema/is_derived_from_ffpe","usage_count":454,"local_name":"is_derived_from_ffpe"}
+{"iri":"http://tcga.deri.ie/schema/bcr_slide_uuid","usage_count":454,"local_name":"bcr_slide_uuid"}
+{"iri":"http://tcga.deri.ie/schema/bcr_sample_barcode","usage_count":454,"local_name":"bcr_sample_barcode"}

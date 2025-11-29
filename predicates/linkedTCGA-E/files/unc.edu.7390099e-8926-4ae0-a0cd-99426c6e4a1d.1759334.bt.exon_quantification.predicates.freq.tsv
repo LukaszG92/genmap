@@ -1,0 +1,7 @@
+195832	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+195832	<http://tcga.deri.ie/schema/stop>
+195832	<http://tcga.deri.ie/schema/start>
+195832	<http://tcga.deri.ie/schema/result>
+195832	<http://tcga.deri.ie/schema/chromosome>
+195832	<http://tcga.deri.ie/schema/RPKM>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

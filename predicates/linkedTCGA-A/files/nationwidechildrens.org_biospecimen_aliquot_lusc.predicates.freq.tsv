@@ -1,0 +1,14 @@
+14628	<http://tcga.deri.ie/schema/bcr_aliquot_barcode>
+7314	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+7314	<http://tcga.deri.ie/schema/source_center>
+7314	<http://tcga.deri.ie/schema/plate_row>
+7314	<http://tcga.deri.ie/schema/plate_id>
+7314	<http://tcga.deri.ie/schema/plate_column>
+7314	<http://tcga.deri.ie/schema/is_derived_from_ffpe>
+7314	<http://tcga.deri.ie/schema/date_of_shipment>
+7314	<http://tcga.deri.ie/schema/concentration>
+7314	<http://tcga.deri.ie/schema/center_id>
+7314	<http://tcga.deri.ie/schema/biospecimen_barcode_bottom>
+7314	<http://tcga.deri.ie/schema/bcr_sample_barcode>
+7314	<http://tcga.deri.ie/schema/bcr_aliquot_uuid>
+7314	<http://tcga.deri.ie/schema/amount>

@@ -1,0 +1,7 @@
+endpoint,predicate,local_name,usage_count,text
+linkedTCGA-M,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,type,837727,http://www.w3.org/1999/02/22-rdf-syntax-ns#type type type type linked tcga m
+linkedTCGA-M,http://tcga.deri.ie/schema/result,result,837727,http://tcga.deri.ie/schema/result result result result linked tcga m
+linkedTCGA-M,http://tcga.deri.ie/schema/position,position,837727,http://tcga.deri.ie/schema/position position position position linked tcga m
+linkedTCGA-M,http://tcga.deri.ie/schema/chromosome,chromosome,837727,http://tcga.deri.ie/schema/chromosome chromosome chromosome chromosome linked tcga m
+linkedTCGA-M,http://tcga.deri.ie/schema/beta_value,beta_value,837727,http://tcga.deri.ie/schema/beta_value beta_value beta value beta value linked tcga m
+linkedTCGA-M,http://tcga.deri.ie/schema/bcr_patient_barcode,bcr_patient_barcode,4,http://tcga.deri.ie/schema/bcr_patient_barcode bcr_patient_barcode bcr patient barcode bcr patient barcode linked tcga m

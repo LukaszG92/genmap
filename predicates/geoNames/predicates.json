@@ -1,0 +1,143 @@
+{
+  "version": "v1",
+  "endpoints": [
+    {
+      "id": "geoNames",
+      "url": null,
+      "built_at": "2025-11-29T18:29:52Z",
+      "triples_sampled": null,
+      "predicates": [
+        {
+          "iri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+          "usage_count": 1860837,
+          "local_name": "long"
+        },
+        {
+          "iri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+          "usage_count": 1860837,
+          "local_name": "lat"
+        },
+        {
+          "iri": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "usage_count": 1860837,
+          "local_name": "isDefinedBy"
+        },
+        {
+          "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "usage_count": 1860837,
+          "local_name": "type"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#parentFeature",
+          "usage_count": 1860837,
+          "local_name": "parentFeature"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#parentCountry",
+          "usage_count": 1860837,
+          "local_name": "parentCountry"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#name",
+          "usage_count": 1860837,
+          "local_name": "name"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#locationMap",
+          "usage_count": 1860837,
+          "local_name": "locationMap"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#featureClass",
+          "usage_count": 1860837,
+          "local_name": "featureClass"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#countryCode",
+          "usage_count": 1860837,
+          "local_name": "countryCode"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#featureCode",
+          "usage_count": 1857701,
+          "local_name": "featureCode"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#nearbyFeatures",
+          "usage_count": 1811679,
+          "local_name": "nearbyFeatures"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#parentADM1",
+          "usage_count": 1660979,
+          "local_name": "parentADM1"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#alternateName",
+          "usage_count": 1317854,
+          "local_name": "alternateName"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#wikipediaArticle",
+          "usage_count": 275298,
+          "local_name": "wikipediaArticle"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#parentADM2",
+          "usage_count": 159325,
+          "local_name": "parentADM2"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#parentADM3",
+          "usage_count": 104907,
+          "local_name": "parentADM3"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#population",
+          "usage_count": 91149,
+          "local_name": "population"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#postalCode",
+          "usage_count": 53144,
+          "local_name": "postalCode"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#childrenFeatures",
+          "usage_count": 49158,
+          "local_name": "childrenFeatures"
+        },
+        {
+          "iri": "http://www.w3.org/2003/01/geo/wgs84_pos#alt",
+          "usage_count": 40970,
+          "local_name": "alt"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#parentADM4",
+          "usage_count": 34401,
+          "local_name": "parentADM4"
+        },
+        {
+          "iri": "http://www.w3.org/2002/07/owl#sameAs",
+          "usage_count": 28192,
+          "local_name": "sameAs"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#officialName",
+          "usage_count": 10262,
+          "local_name": "officialName"
+        },
+        {
+          "iri": "http://xmlns.com/foaf/0.1/page",
+          "usage_count": 213,
+          "local_name": "page"
+        },
+        {
+          "iri": "http://www.geonames.org/ontology#neighbouringFeatures",
+          "usage_count": 70,
+          "local_name": "neighbouringFeatures"
+        }
+      ]
+    }
+  ]
+}

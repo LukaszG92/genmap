@@ -1,0 +1,7 @@
+18156	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+18156	<http://tcga.deri.ie/schema/stop>
+18156	<http://tcga.deri.ie/schema/start>
+18156	<http://tcga.deri.ie/schema/scaled_estimate>
+18156	<http://tcga.deri.ie/schema/result>
+18156	<http://tcga.deri.ie/schema/chromosome>
+1	<http://tcga.deri.ie/schema/bcr_patient_barcode>

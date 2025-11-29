@@ -1,0 +1,12 @@
+206	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+206	<http://tcga.deri.ie/schema/shipment_portion_year_of_shipment>
+206	<http://tcga.deri.ie/schema/shipment_portion_month_of_shipment>
+206	<http://tcga.deri.ie/schema/shipment_portion_day_of_shipment>
+206	<http://tcga.deri.ie/schema/shipment_portion_bcr_aliquot_barcode>
+206	<http://tcga.deri.ie/schema/portion_number>
+206	<http://tcga.deri.ie/schema/plate_id>
+206	<http://tcga.deri.ie/schema/is_ffpe>
+206	<http://tcga.deri.ie/schema/center_id>
+206	<http://tcga.deri.ie/schema/bcr_shipment_portion_uuid>
+206	<http://tcga.deri.ie/schema/bcr_shipment_barcode>
+206	<http://tcga.deri.ie/schema/bcr_sample_barcode>
