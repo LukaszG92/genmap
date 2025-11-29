@@ -3,8 +3,11 @@ endpoints:
   - id: dbpedia
     url: https://dbpedia.org/sparql
 
-  - id: affymetrix
-    url: http://bio2rdf.org/sparql/affymetrix
+  - id: drugbank
+    url: https://drugbank.org/sparql
+
+  - id: kegg
+    url: https://kegg.org/sparql
 
   - id: chebi
     url: http://bio2rdf.org/sparql/chebi

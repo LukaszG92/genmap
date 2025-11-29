@@ -1,0 +1,3 @@
+{
+  "query": "SELECT distinct ?drug  ?drugDesc ?molecularWeightAverage ?compound ?ReactionTitle ?ChemicalEquation\nWHERE {\n  ?drug gen:description ?drugDesc .\n  ?drug gen:drug drugtype:smallMolecule .\n  ?drug gen:compound ?compound .\n  ?enzyme gen:substrate ?compound .\n  ?Chemicalreaction gen:enzyme ?enzyme .\n  ?Chemicalreaction gen:equation ?ChemicalEquation .\n  ?Chemicalreaction gen:title ?ReactionTitle\n  OPTIONAL {\n    ?drug gen:molecular_weigth ?molecularWeightAverage .\n    FILTER (?molecularWeightAverage > 114)\n  }\n}\nLIMIT 1000"
+}

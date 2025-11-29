@@ -1,0 +1,8 @@
+SELECT $drug $transform $mass WHERE {  
+ 	{ $drug gen:affected  'Humans and other mammals'.
+ 	  $drug gen:casNumber $cas .
+ 	  $keggDrug gen:ref $cas .
+ 	  $keggDrug gen:mass $mass .
+ 	     	} .
+ 	  OPTIONAL { $drug gen:biotransformation $transform . }
+}

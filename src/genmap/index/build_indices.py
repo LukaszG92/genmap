@@ -123,11 +123,11 @@ def main():
     ap.add_argument("--dense-model", default="sentence-transformers/all-MiniLM-L6-v2")
     ap.add_argument("--max-features", type=int, default=200_000)
     ap.add_argument("--batch-size", type=int, default=256)
-    ap.add_argument("--dumps-root", default="./dumps", help="radice degli input (default: ./dumps)")
+    ap.add_argument("--dumps-root", default="./predicates", help="radice degli input (default: ./predicates)")
     ap.add_argument("--indices-root", default="./indices", help="radice degli output (default: ./indices)")
     args = ap.parse_args()
 
-    in_path = Path(args.dumps_root) / "out" / args.endpoint / "predicates.json"
+    in_path = Path(args.dumps_root) / args.endpoint / "predicates.json"
     out_dir = Path(args.indices_root) / args.endpoint
     out_dir.mkdir(parents=True, exist_ok=True)
 

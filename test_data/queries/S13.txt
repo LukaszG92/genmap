@@ -1,0 +1,9 @@
+SELECT ?drug ?title WHERE { 
+   ?drug gen:category <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/micronutrient> .
+   ?drug gen:casNumber ?id .
+   ?keggDrug gen:type <http://bio2rdf.org/ns/kegg#Drug> .
+   ?keggDrug gen:ref ?id .
+   ?keggDrug gen:title ?title .
+}
+
+

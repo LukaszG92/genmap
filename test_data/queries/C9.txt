@@ -1,0 +1,15 @@
+SELECT * WHERE {
+    ?Drug gen:type dbpedia:Drug .
+    ?drugbankDrug gen:same ?Drug .
+    ?InteractionName gen:interaction_drug1 ?drugbankDrug .
+    ?InteractionName gen:interaction_drug2 ?drugbankDrug2 .
+    ?InteractionName gen:text ?IntEffect
+    OPTIONAL {
+        ?drugbankDrug  gen:affected 'Humans and other mammals';
+        gen:description ?description ;
+        gen:structure ?structure ;
+        gen:casNumber ?casRegistryNumber
+    }
+}
+ORDER BY (?drugbankDrug)
+LIMIT 100

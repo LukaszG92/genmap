@@ -117,10 +117,11 @@ def search_candidates(query: str, indices_root="./indices", top_k=3, w_sparse=0.
 
     for ep_dir in endpoints:
         endpoint = ep_dir.name
+        dense_triplet = None;
         try:
             meta = _load_meta(ep_dir)
             vec, Xs = _load_sparse(ep_dir)
-            dense_triplet = _maybe_load_dense(ep_dir)
+            #dense_triplet = _maybe_load_dense(ep_dir)
         except Exception as e:
             print(f"[warn] skip {endpoint}: {e}")
             continue

@@ -1,0 +1,14 @@
+SELECT ?drug ?keggmass ?chebiIupacName
+WHERE {
+    ?drug gen:type drugbank:drugs .
+    ?drug gen:kegg_compound ?keggDrug .
+    ?keggDrug gen:mass ?keggmass .
+    ?drug gen:gen_name ?drugBankName .
+    ?chebiDrug gen:title ?drugBankName .
+    ?chebiDrug gen:iupac ?chebiIupacName .
+    OPTIONAL {
+                ?drug gen:inchiId ?drugbankInchi .
+                ?chebiDrug gen:inchi ?chebiInchi .
+                FILTER (?drugbankInchi = ?chebiInchi)
+            }
+}
