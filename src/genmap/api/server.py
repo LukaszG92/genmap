@@ -44,6 +44,7 @@ class TranslateIn(BaseModel):
     index_file: str = ".cache/index.json"
     use_sparse: bool = True
     use_dense: bool = False
+    popa: float = 0.0
     fusion_mode: Optional[str] = None  # "rrf" | "wsum"; None = usa Settings
     fusion_alpha: Optional[float] = None
 
@@ -82,12 +83,14 @@ def translate(body: TranslateIn):
         use_dense = getattr(body, "use_dense", False)
         fusion_mode = getattr(body, "fusion_mode", None) or getattr(settings, "fusion_mode", None)
         fusion_alpha = getattr(body, "fusion_alpha", None) or getattr(settings, "fusion_alpha", None)
+        popa = getattr(body, "popa", 0.0) or getattr(settings, "popa", 0.0)
 
         logger.info(f"[{request_id}] Parameters:")
         logger.info(f"[{request_id}]   - use_sparse: {use_sparse}")
         logger.info(f"[{request_id}]   - use_dense: {use_dense}")
         logger.info(f"[{request_id}]   - fusion_mode: {fusion_mode}")
         logger.info(f"[{request_id}]   - fusion_alpha: {fusion_alpha}")
+        logger.info(f"[{request_id}]   - popa: {popa}")
         logger.info(f"[{request_id}]   - endpoints_file: {body.endpoints_file}")
         logger.info(f"[{request_id}]   - index_file: {body.index_file}")
 
@@ -139,7 +142,7 @@ def translate(body: TranslateIn):
             logger.debug(f"[{request_id}] Searching candidates for predicate {i}/{len(generics)}: {g}")
             pred_start = time.time()
 
-            per_endpoint = search_candidates(g)
+            per_endpoint = search_candidates(g, popa=popa)
             candidates[g] = per_endpoint
 
             pred_duration = time.time() - pred_start
@@ -164,7 +167,7 @@ def translate(body: TranslateIn):
         logger.info(f"[{request_id}] Calling LLM for predicate mapping...")
         step_start = time.time()
 
-        selected = one_shot_map_openai("gpt-5.1-chat-latest", body.query, generics, candidates)
+        selected = one_shot_map_openai("gpt-5-chat-latest", body.query, generics, candidates, timeout_s=300)
 
         step_duration = time.time() - step_start
         logger.info(f"[{request_id}] LLM mapping completed in {step_duration:.3f}s")

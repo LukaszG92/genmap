@@ -1,0 +1,16 @@
+SELECT DISTINCT *
+WHERE {
+    ?paper gen:part_of <http://data.semanticweb.org/conference/iswc/2009/proceedings> .
+    <http://data.semanticweb.org/conference/iswc/2009/proceedings> gen:address ?proceedingAddress .
+    ?paper gen:author ?author .
+    ?author gen:affiliation ?affiliation .
+    ?author gen:label ?fullnames .
+    ?author gen:based_near ?place .
+    OPTIONAL {
+        ?place gen:capital ?capital .
+        ?place gen:pop_density ?populationDensity .
+        ?place gen:govt_type ?governmentType .
+        ?place gen:language ?language .
+        ?place gen:leader_title ?leaderTitle .
+    }
+}

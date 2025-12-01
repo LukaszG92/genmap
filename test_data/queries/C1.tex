@@ -1,0 +1,15 @@
+SELECT DISTINCT ?drug ?drugDesc ?molecularWeightAverage ?compound ?ReactionTitle ?ChemicalEquation
+WHERE {
+    ?drug gen:description ?drugDesc .
+    ?drug gen:drug_type <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugtype/smallMolecule> .
+    ?drug gen:kegg_compound ?compound .
+    ?enzyme gen:substrate ?compound .
+    ?Chemicalreaction gen:enzyme ?enzyme .
+    ?Chemicalreaction gen:equation ?ChemicalEquation .
+    ?Chemicalreaction gen:title ?ReactionTitle .
+    OPTIONAL {
+        ?drug gen:mol_weight_avg ?molecularWeightAverage .
+        FILTER (?molecularWeightAverage > 114)
+    }
+}
+LIMIT 1000

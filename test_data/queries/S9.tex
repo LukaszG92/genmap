@@ -1,0 +1,11 @@
+SELECT ?predicate ?object
+WHERE {
+    {
+        <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> ?predicate ?object .
+    }
+    UNION
+    {
+        <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> gen:same_as ?caff .
+        ?caff ?predicate ?object .
+    }
+}

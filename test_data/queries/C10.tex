@@ -1,0 +1,13 @@
+SELECT DISTINCT ?patient ?gender ?country ?popDensity ?drugName ?indication ?formula ?compound
+WHERE {
+    ?uri gen:patient_barcode ?patient .
+    ?patient gen:gender ?gender .
+    ?patient gen:country ?country .
+    ?country gen:pop_density ?popDensity .
+    ?patient gen:drug_barcode ?drugbcr .
+    ?drugbcr gen:drug_name ?drugName .
+    ?drgBnkDrg gen:gen_name ?drugName .
+    ?drgBnkDrg gen:indication ?indication .
+    ?drgBnkDrg gen:chem_formula ?formula .
+    ?drgBnkDrg gen:kegg_compound ?compound .
+}

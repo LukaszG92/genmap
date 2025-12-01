@@ -1,0 +1,7 @@
+SELECT ?name ?location ?news
+WHERE {
+    ?artist gen:name ?name .
+    ?artist gen:based_near ?location .
+    ?location gen:parent_feature ?germany .
+    ?germany gen:geo_name 'Federal Republic of Germany' .
+}

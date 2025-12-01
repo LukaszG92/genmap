@@ -1,0 +1,11 @@
+SELECT ?predicate ?object
+WHERE {
+    {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+    }
+    UNION
+    {
+        ?subject gen:same_as <http://dbpedia.org/resource/Barack_Obama> .
+        ?subject ?predicate ?object
+    }
+}

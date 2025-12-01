@@ -1,0 +1,884 @@
+{
+  "summary": {
+    "total_queries": 32,
+    "total_predicates": 197,
+    "total_replaced": 197,
+    "total_correct": 167,
+    "total_incorrect": 30,
+    "precision": 84.77157360406092,
+    "avg_execution_time": 36.07881386578083,
+    "avg_time_per_predicate": 6.409314894430812,
+    "total_time": 1154.5220437049866
+  },
+  "results": [
+    {
+      "query_id": "B1",
+      "gen_predicates": [
+        "gen:patient_barcode",
+        "gen:result",
+        "gen:rpkm",
+        "gen:scaled_estimate"
+      ],
+      "execution_time": 18.718238830566406,
+      "metrics": {
+        "total": 4,
+        "correct": 4,
+        "incorrect": 0,
+        "replaced": 4
+      }
+    },
+    {
+      "query_id": "B2",
+      "gen_predicates": [
+        "gen:disease_acronym",
+        "gen:patient_barcode",
+        "gen:result",
+        "gen:rpkm",
+        "gen:tumor_type",
+        "gen:tumor_weight"
+      ],
+      "execution_time": 45.484498262405396,
+      "metrics": {
+        "total": 6,
+        "correct": 6,
+        "incorrect": 0,
+        "replaced": 6
+      }
+    },
+    {
+      "query_id": "B3",
+      "gen_predicates": [
+        "gen:age_diagnosis",
+        "gen:beta_value",
+        "gen:drug_barcode",
+        "gen:drug_name",
+        "gen:patient_barcode",
+        "gen:result",
+        "gen:vital_status"
+      ],
+      "execution_time": 62.47625279426575,
+      "metrics": {
+        "total": 7,
+        "correct": 6,
+        "incorrect": 1,
+        "replaced": 7
+      }
+    },
+    {
+      "query_id": "B4",
+      "gen_predicates": [
+        "gen:country",
+        "gen:mirna_mapped",
+        "gen:patient_barcode",
+        "gen:result",
+        "gen:rpkm"
+      ],
+      "execution_time": 23.78540587425232,
+      "metrics": {
+        "total": 5,
+        "correct": 4,
+        "incorrect": 1,
+        "replaced": 5
+      }
+    },
+    {
+      "query_id": "B5",
+      "gen_predicates": [
+        "gen:beta_value",
+        "gen:chromosome",
+        "gen:gene_lookup",
+        "gen:geneid",
+        "gen:patient_barcode",
+        "gen:position",
+        "gen:result",
+        "gen:start",
+        "gen:stop",
+        "gen:symbol",
+        "gen:type"
+      ],
+      "execution_time": 89.41583395004272,
+      "metrics": {
+        "total": 11,
+        "correct": 9,
+        "incorrect": 2,
+        "replaced": 11
+      }
+    },
+    {
+      "query_id": "B6",
+      "gen_predicates": [
+        "gen:chromosome",
+        "gen:gene_lookup",
+        "gen:geneid",
+        "gen:patient_barcode",
+        "gen:result",
+        "gen:scaled_estimate",
+        "gen:start",
+        "gen:stop",
+        "gen:symbol",
+        "gen:type"
+      ],
+      "execution_time": 49.36876916885376,
+      "metrics": {
+        "total": 10,
+        "correct": 9,
+        "incorrect": 1,
+        "replaced": 10
+      }
+    },
+    {
+      "query_id": "B7",
+      "gen_predicates": [
+        "gen:aliquot_barcode",
+        "gen:country",
+        "gen:patient_barcode",
+        "gen:pop_density"
+      ],
+      "execution_time": 28.397491931915283,
+      "metrics": {
+        "total": 4,
+        "correct": 3,
+        "incorrect": 1,
+        "replaced": 4
+      }
+    },
+    {
+      "query_id": "B8",
+      "gen_predicates": [
+        "gen:beta_value",
+        "gen:chromosome",
+        "gen:patient_barcode",
+        "gen:protein_expr",
+        "gen:result"
+      ],
+      "execution_time": 22.32605004310608,
+      "metrics": {
+        "total": 5,
+        "correct": 5,
+        "incorrect": 0,
+        "replaced": 5
+      }
+    },
+    {
+      "query_id": "C1",
+      "gen_predicates": [
+        "gen:description",
+        "gen:drug_type",
+        "gen:enzyme",
+        "gen:equation",
+        "gen:kegg_compound",
+        "gen:mol_weight_avg",
+        "gen:substrate",
+        "gen:title"
+      ],
+      "execution_time": 32.488720178604126,
+      "metrics": {
+        "total": 8,
+        "correct": 6,
+        "incorrect": 2,
+        "replaced": 8
+      }
+    },
+    {
+      "query_id": "C10",
+      "gen_predicates": [
+        "gen:chem_formula",
+        "gen:country",
+        "gen:drug_barcode",
+        "gen:drug_name",
+        "gen:gen_name",
+        "gen:gender",
+        "gen:indication",
+        "gen:kegg_compound",
+        "gen:patient_barcode",
+        "gen:pop_density"
+      ],
+      "execution_time": 41.67857313156128,
+      "metrics": {
+        "total": 10,
+        "correct": 8,
+        "incorrect": 2,
+        "replaced": 10
+      }
+    },
+    {
+      "query_id": "C2",
+      "gen_predicates": [
+        "gen:gen_name",
+        "gen:inchi",
+        "gen:inchi_id",
+        "gen:iupac",
+        "gen:kegg_compound",
+        "gen:mass",
+        "gen:title",
+        "gen:type"
+      ],
+      "execution_time": 42.48801398277283,
+      "metrics": {
+        "total": 8,
+        "correct": 6,
+        "incorrect": 2,
+        "replaced": 8
+      }
+    },
+    {
+      "query_id": "C3",
+      "gen_predicates": [
+        "gen:based_near",
+        "gen:geo_name",
+        "gen:name",
+        "gen:parent_feature",
+        "gen:same_as",
+        "gen:topic_page",
+        "gen:type"
+      ],
+      "execution_time": 49.21206498146057,
+      "metrics": {
+        "total": 7,
+        "correct": 6,
+        "incorrect": 1,
+        "replaced": 7
+      }
+    },
+    {
+      "query_id": "C4",
+      "gen_predicates": [
+        "gen:anthem",
+        "gen:capital",
+        "gen:country_code",
+        "gen:ethnic_group",
+        "gen:founding_date",
+        "gen:geo_name",
+        "gen:largest_city",
+        "gen:latitude",
+        "gen:longitude",
+        "gen:motto",
+        "gen:population",
+        "gen:same_as"
+      ],
+      "execution_time": 43.39332914352417,
+      "metrics": {
+        "total": 12,
+        "correct": 12,
+        "incorrect": 0,
+        "replaced": 12
+      }
+    },
+    {
+      "query_id": "C5",
+      "gen_predicates": [
+        "gen:actor",
+        "gen:actor_name",
+        "gen:birth_date",
+        "gen:dcterms_date",
+        "gen:dcterms_title",
+        "gen:label",
+        "gen:spouse"
+      ],
+      "execution_time": 28.680471658706665,
+      "metrics": {
+        "total": 7,
+        "correct": 7,
+        "incorrect": 0,
+        "replaced": 7
+      }
+    },
+    {
+      "query_id": "C6",
+      "gen_predicates": [
+        "gen:actor",
+        "gen:article_count",
+        "gen:first_use",
+        "gen:latest_use",
+        "gen:same_as",
+        "gen:title",
+        "gen:topic_page",
+        "gen:variants"
+      ],
+      "execution_time": 31.918864011764526,
+      "metrics": {
+        "total": 8,
+        "correct": 8,
+        "incorrect": 0,
+        "replaced": 8
+      }
+    },
+    {
+      "query_id": "C7",
+      "gen_predicates": [
+        "gen:author",
+        "gen:based_near",
+        "gen:capital",
+        "gen:held_by",
+        "gen:latitude",
+        "gen:longitude",
+        "gen:part_of",
+        "gen:related_event",
+        "gen:role_at"
+      ],
+      "execution_time": 41.15692901611328,
+      "metrics": {
+        "total": 9,
+        "correct": 7,
+        "incorrect": 2,
+        "replaced": 9
+      }
+    },
+    {
+      "query_id": "C8",
+      "gen_predicates": [
+        "gen:address",
+        "gen:affiliation",
+        "gen:author",
+        "gen:based_near",
+        "gen:capital",
+        "gen:govt_type",
+        "gen:label",
+        "gen:language",
+        "gen:leader_title",
+        "gen:part_of",
+        "gen:pop_density"
+      ],
+      "execution_time": 49.240267753601074,
+      "metrics": {
+        "total": 11,
+        "correct": 7,
+        "incorrect": 4,
+        "replaced": 11
+      }
+    },
+    {
+      "query_id": "C9",
+      "gen_predicates": [
+        "gen:affected_organism",
+        "gen:cas_number",
+        "gen:description",
+        "gen:interaction_drug1",
+        "gen:interaction_drug2",
+        "gen:interaction_text",
+        "gen:same_as",
+        "gen:structure",
+        "gen:type"
+      ],
+      "execution_time": 36.67322587966919,
+      "metrics": {
+        "total": 9,
+        "correct": 9,
+        "incorrect": 0,
+        "replaced": 9
+      }
+    },
+    {
+      "query_id": "S1",
+      "gen_predicates": [
+        "gen:same_as"
+      ],
+      "execution_time": 14.141725063323975,
+      "metrics": {
+        "total": 1,
+        "correct": 1,
+        "incorrect": 0,
+        "replaced": 1
+      }
+    },
+    {
+      "query_id": "S10",
+      "gen_predicates": [
+        "gen:interaction_drug1",
+        "gen:interaction_drug2",
+        "gen:interaction_text",
+        "gen:same_as",
+        "gen:type"
+      ],
+      "execution_time": 25.522597074508667,
+      "metrics": {
+        "total": 5,
+        "correct": 5,
+        "incorrect": 0,
+        "replaced": 5
+      }
+    },
+    {
+      "query_id": "S11",
+      "gen_predicates": [
+        "gen:description",
+        "gen:drug_category",
+        "gen:enzyme",
+        "gen:equation",
+        "gen:kegg_compound",
+        "gen:substrate",
+        "gen:type"
+      ],
+      "execution_time": 31.716815948486328,
+      "metrics": {
+        "total": 7,
+        "correct": 3,
+        "incorrect": 4,
+        "replaced": 7
+      }
+    },
+    {
+      "query_id": "S12",
+      "gen_predicates": [
+        "gen:gen_name",
+        "gen:image",
+        "gen:kegg_compound",
+        "gen:title",
+        "gen:type",
+        "gen:url"
+      ],
+      "execution_time": 88.74937605857849,
+      "metrics": {
+        "total": 6,
+        "correct": 3,
+        "incorrect": 3,
+        "replaced": 6
+      }
+    },
+    {
+      "query_id": "S13",
+      "gen_predicates": [
+        "gen:cas_number",
+        "gen:drug_category",
+        "gen:title",
+        "gen:type",
+        "gen:xref"
+      ],
+      "execution_time": 39.63451290130615,
+      "metrics": {
+        "total": 5,
+        "correct": 5,
+        "incorrect": 0,
+        "replaced": 5
+      }
+    },
+    {
+      "query_id": "S14",
+      "gen_predicates": [
+        "gen:affected_organism",
+        "gen:biotransformation",
+        "gen:cas_number",
+        "gen:mass",
+        "gen:xref"
+      ],
+      "execution_time": 22.549656867980957,
+      "metrics": {
+        "total": 5,
+        "correct": 5,
+        "incorrect": 0,
+        "replaced": 5
+      }
+    },
+    {
+      "query_id": "S2",
+      "gen_predicates": [
+        "gen:party",
+        "gen:same_as",
+        "gen:topic_page"
+      ],
+      "execution_time": 26.529850959777832,
+      "metrics": {
+        "total": 3,
+        "correct": 3,
+        "incorrect": 0,
+        "replaced": 3
+      }
+    },
+    {
+      "query_id": "S3",
+      "gen_predicates": [
+        "gen:nationality",
+        "gen:party",
+        "gen:same_as",
+        "gen:topic_page",
+        "gen:type"
+      ],
+      "execution_time": 40.97325110435486,
+      "metrics": {
+        "total": 5,
+        "correct": 5,
+        "incorrect": 0,
+        "replaced": 5
+      }
+    },
+    {
+      "query_id": "S4",
+      "gen_predicates": [
+        "gen:actor",
+        "gen:same_as",
+        "gen:title",
+        "gen:topic_page"
+      ],
+      "execution_time": 26.645124197006226,
+      "metrics": {
+        "total": 4,
+        "correct": 3,
+        "incorrect": 1,
+        "replaced": 4
+      }
+    },
+    {
+      "query_id": "S5",
+      "gen_predicates": [
+        "gen:director",
+        "gen:genre",
+        "gen:nationality",
+        "gen:same_as"
+      ],
+      "execution_time": 19.677243947982788,
+      "metrics": {
+        "total": 4,
+        "correct": 3,
+        "incorrect": 1,
+        "replaced": 4
+      }
+    },
+    {
+      "query_id": "S6",
+      "gen_predicates": [
+        "gen:based_near",
+        "gen:geo_name",
+        "gen:name",
+        "gen:parent_feature"
+      ],
+      "execution_time": 37.79932403564453,
+      "metrics": {
+        "total": 4,
+        "correct": 4,
+        "incorrect": 0,
+        "replaced": 4
+      }
+    },
+    {
+      "query_id": "S7",
+      "gen_predicates": [
+        "gen:geo_name",
+        "gen:parent_feature",
+        "gen:same_as",
+        "gen:topic_page"
+      ],
+      "execution_time": 23.984808921813965,
+      "metrics": {
+        "total": 4,
+        "correct": 4,
+        "incorrect": 0,
+        "replaced": 4
+      }
+    },
+    {
+      "query_id": "S8",
+      "gen_predicates": [
+        "gen:melting_point",
+        "gen:melting_point_db"
+      ],
+      "execution_time": 11.274402141571045,
+      "metrics": {
+        "total": 2,
+        "correct": 0,
+        "incorrect": 2,
+        "replaced": 2
+      }
+    },
+    {
+      "query_id": "S9",
+      "gen_predicates": [
+        "gen:same_as"
+      ],
+      "execution_time": 8.420353889465332,
+      "metrics": {
+        "total": 1,
+        "correct": 1,
+        "incorrect": 0,
+        "replaced": 1
+      }
+    }
+  ],
+  "errors": [
+    {
+      "gen_predicate": "gen:age_diagnosis",
+      "expected": "http://tcga.deri.ie/schema/age_at_initial_pathologic_diagnosis",
+      "predicted": "http://tcga.deri.ie/schema/age_at_diagnosis",
+      "query_id": "B3"
+    },
+    {
+      "gen_predicate": "gen:country",
+      "expected": "http://dbpedia.org/ontology/country",
+      "predicted": "http://tcga.deri.ie/schema/country",
+      "query_id": "B4"
+    },
+    {
+      "gen_predicate": "gen:gene_lookup",
+      "expected": "http://tcga.deri.ie/schema/expression_gene_lookup",
+      "predicted": "http://bio2rdf.org/ns/kegg#xGene",
+      "query_id": "B5"
+    },
+    {
+      "gen_predicate": "gen:symbol",
+      "expected": "http://bio2rdf.org/affymetrix_vocabulary:x-symbol",
+      "predicted": "http://dbpedia.org/ontology/symbol",
+      "query_id": "B5"
+    },
+    {
+      "gen_predicate": "gen:gene_lookup",
+      "expected": "http://tcga.deri.ie/schema/expression_gene_lookup",
+      "predicted": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/geneName",
+      "query_id": "B6"
+    },
+    {
+      "gen_predicate": "gen:country",
+      "expected": "http://dbpedia.org/ontology/country",
+      "predicted": "http://tcga.deri.ie/schema/country",
+      "query_id": "B7"
+    },
+    {
+      "gen_predicate": "gen:enzyme",
+      "expected": "http://bio2rdf.org/ns/kegg#xEnzyme",
+      "predicted": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/enzyme",
+      "query_id": "C1"
+    },
+    {
+      "gen_predicate": "gen:title",
+      "expected": "http://purl.org/dc/elements/1.1/title",
+      "predicted": "http://dbpedia.org/ontology/title",
+      "query_id": "C1"
+    },
+    {
+      "gen_predicate": "gen:drug_name",
+      "expected": "http://tcga.deri.ie/schema/drug_name",
+      "predicted": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/name",
+      "query_id": "C10"
+    },
+    {
+      "gen_predicate": "gen:gen_name",
+      "expected": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName",
+      "predicted": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/geneName",
+      "query_id": "C10"
+    },
+    {
+      "gen_predicate": "gen:gen_name",
+      "expected": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName",
+      "predicted": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/name",
+      "query_id": "C2"
+    },
+    {
+      "gen_predicate": "gen:iupac",
+      "expected": "http://bio2rdf.org/ns/chebi#iupacName",
+      "predicted": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chemicalIupacName",
+      "query_id": "C2"
+    },
+    {
+      "gen_predicate": "gen:name",
+      "expected": "http://xmlns.com/foaf/0.1/name",
+      "predicted": "http://www.geonames.org/ontology#name",
+      "query_id": "C3"
+    },
+    {
+      "gen_predicate": "gen:part_of",
+      "expected": "http://data.semanticweb.org/ns/swc/ontology#isPartOf",
+      "predicted": "http://dbpedia.org/ontology/partOf",
+      "query_id": "C7"
+    },
+    {
+      "gen_predicate": "gen:related_event",
+      "expected": "http://data.semanticweb.org/ns/swc/ontology#relatedToEvent",
+      "predicted": "http://data.semanticweb.org/ns/swc/ontology#hasRelatedEvent",
+      "query_id": "C7"
+    },
+    {
+      "gen_predicate": "gen:address",
+      "expected": "http://swrc.ontoware.org/ontology#address",
+      "predicted": "http://dbpedia.org/ontology/address",
+      "query_id": "C8"
+    },
+    {
+      "gen_predicate": "gen:author",
+      "expected": "http://swrc.ontoware.org/ontology#author",
+      "predicted": "http://dbpedia.org/ontology/author",
+      "query_id": "C8"
+    },
+    {
+      "gen_predicate": "gen:govt_type",
+      "expected": "http://dbpedia.org/ontology/governmentType",
+      "predicted": "(vuoto)",
+      "query_id": "C8"
+    },
+    {
+      "gen_predicate": "gen:part_of",
+      "expected": "http://data.semanticweb.org/ns/swc/ontology#isPartOf",
+      "predicted": "http://dbpedia.org/ontology/partOf",
+      "query_id": "C8"
+    },
+    {
+      "gen_predicate": "gen:description",
+      "expected": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/description",
+      "predicted": "http://purl.org/dc/elements/1.1/description",
+      "query_id": "S11"
+    },
+    {
+      "gen_predicate": "gen:enzyme",
+      "expected": "http://bio2rdf.org/ns/kegg#xEnzyme",
+      "predicted": "(vuoto)",
+      "query_id": "S11"
+    },
+    {
+      "gen_predicate": "gen:equation",
+      "expected": "http://bio2rdf.org/ns/kegg#equation",
+      "predicted": "(vuoto)",
+      "query_id": "S11"
+    },
+    {
+      "gen_predicate": "gen:substrate",
+      "expected": "http://bio2rdf.org/ns/kegg#xSubstrate",
+      "predicted": "(vuoto)",
+      "query_id": "S11"
+    },
+    {
+      "gen_predicate": "gen:gen_name",
+      "expected": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName",
+      "predicted": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/name",
+      "query_id": "S12"
+    },
+    {
+      "gen_predicate": "gen:image",
+      "expected": "http://bio2rdf.org/ns/bio2rdf#image",
+      "predicted": "http://purl.org/ontology/mo/image",
+      "query_id": "S12"
+    },
+    {
+      "gen_predicate": "gen:title",
+      "expected": "http://purl.org/dc/elements/1.1/title",
+      "predicted": "http://dbpedia.org/ontology/title",
+      "query_id": "S12"
+    },
+    {
+      "gen_predicate": "gen:title",
+      "expected": "http://purl.org/dc/elements/1.1/title",
+      "predicted": "http://purl.org/dc/terms/title",
+      "query_id": "S4"
+    },
+    {
+      "gen_predicate": "gen:director",
+      "expected": "http://dbpedia.org/ontology/director",
+      "predicted": "http://data.linkedmdb.org/resource/movie/director",
+      "query_id": "S5"
+    },
+    {
+      "gen_predicate": "gen:melting_point",
+      "expected": "http://dbpedia.org/ontology/Drug/meltingPoint",
+      "predicted": "(vuoto)",
+      "query_id": "S8"
+    },
+    {
+      "gen_predicate": "gen:melting_point_db",
+      "expected": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint",
+      "predicted": "(vuoto)",
+      "query_id": "S8"
+    }
+  ],
+  "error_summary": [
+    {
+      "error": "gen:country: expected=http://dbpedia.org/ontology/country, got=http://tcga.deri.ie/schema/country",
+      "count": 2
+    },
+    {
+      "error": "gen:title: expected=http://purl.org/dc/elements/1.1/title, got=http://dbpedia.org/ontology/title",
+      "count": 2
+    },
+    {
+      "error": "gen:gen_name: expected=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName, got=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/name",
+      "count": 2
+    },
+    {
+      "error": "gen:part_of: expected=http://data.semanticweb.org/ns/swc/ontology#isPartOf, got=http://dbpedia.org/ontology/partOf",
+      "count": 2
+    },
+    {
+      "error": "gen:age_diagnosis: expected=http://tcga.deri.ie/schema/age_at_initial_pathologic_diagnosis, got=http://tcga.deri.ie/schema/age_at_diagnosis",
+      "count": 1
+    },
+    {
+      "error": "gen:gene_lookup: expected=http://tcga.deri.ie/schema/expression_gene_lookup, got=http://bio2rdf.org/ns/kegg#xGene",
+      "count": 1
+    },
+    {
+      "error": "gen:symbol: expected=http://bio2rdf.org/affymetrix_vocabulary:x-symbol, got=http://dbpedia.org/ontology/symbol",
+      "count": 1
+    },
+    {
+      "error": "gen:gene_lookup: expected=http://tcga.deri.ie/schema/expression_gene_lookup, got=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/geneName",
+      "count": 1
+    },
+    {
+      "error": "gen:enzyme: expected=http://bio2rdf.org/ns/kegg#xEnzyme, got=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/enzyme",
+      "count": 1
+    },
+    {
+      "error": "gen:drug_name: expected=http://tcga.deri.ie/schema/drug_name, got=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/name",
+      "count": 1
+    },
+    {
+      "error": "gen:gen_name: expected=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName, got=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/geneName",
+      "count": 1
+    },
+    {
+      "error": "gen:iupac: expected=http://bio2rdf.org/ns/chebi#iupacName, got=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chemicalIupacName",
+      "count": 1
+    },
+    {
+      "error": "gen:name: expected=http://xmlns.com/foaf/0.1/name, got=http://www.geonames.org/ontology#name",
+      "count": 1
+    },
+    {
+      "error": "gen:related_event: expected=http://data.semanticweb.org/ns/swc/ontology#relatedToEvent, got=http://data.semanticweb.org/ns/swc/ontology#hasRelatedEvent",
+      "count": 1
+    },
+    {
+      "error": "gen:address: expected=http://swrc.ontoware.org/ontology#address, got=http://dbpedia.org/ontology/address",
+      "count": 1
+    },
+    {
+      "error": "gen:author: expected=http://swrc.ontoware.org/ontology#author, got=http://dbpedia.org/ontology/author",
+      "count": 1
+    },
+    {
+      "error": "gen:govt_type: expected=http://dbpedia.org/ontology/governmentType, got=(vuoto)",
+      "count": 1
+    },
+    {
+      "error": "gen:description: expected=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/description, got=http://purl.org/dc/elements/1.1/description",
+      "count": 1
+    },
+    {
+      "error": "gen:enzyme: expected=http://bio2rdf.org/ns/kegg#xEnzyme, got=(vuoto)",
+      "count": 1
+    },
+    {
+      "error": "gen:equation: expected=http://bio2rdf.org/ns/kegg#equation, got=(vuoto)",
+      "count": 1
+    },
+    {
+      "error": "gen:substrate: expected=http://bio2rdf.org/ns/kegg#xSubstrate, got=(vuoto)",
+      "count": 1
+    },
+    {
+      "error": "gen:image: expected=http://bio2rdf.org/ns/bio2rdf#image, got=http://purl.org/ontology/mo/image",
+      "count": 1
+    },
+    {
+      "error": "gen:title: expected=http://purl.org/dc/elements/1.1/title, got=http://purl.org/dc/terms/title",
+      "count": 1
+    },
+    {
+      "error": "gen:director: expected=http://dbpedia.org/ontology/director, got=http://data.linkedmdb.org/resource/movie/director",
+      "count": 1
+    },
+    {
+      "error": "gen:melting_point: expected=http://dbpedia.org/ontology/Drug/meltingPoint, got=(vuoto)",
+      "count": 1
+    },
+    {
+      "error": "gen:melting_point_db: expected=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint, got=(vuoto)",
+      "count": 1
+    }
+  ]
+}

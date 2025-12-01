@@ -1,0 +1,15 @@
+SELECT ?methylationCNTNAP2
+WHERE {
+    ?s gen:symbol <http://bio2rdf.org/symbol:CNTNAP2> .
+    ?s gen:geneid ?geneId .
+    ?geneId gen:type gen:gene_lookup .
+    ?geneId gen:chromosome ?lookupChromosome .
+    ?geneId gen:start ?start .
+    ?geneId gen:stop ?stop .
+    ?uri gen:patient_barcode ?patient .
+    ?patient gen:result ?recordNo .
+    ?recordNo gen:chromosome ?chromosome .
+    ?recordNo gen:position ?position .
+    ?recordNo gen:beta_value ?methylationCNTNAP2 .
+    FILTER (?position >= ?start && ?position <= ?stop && str(?chromosome) = str(?lookupChromosome))
+}

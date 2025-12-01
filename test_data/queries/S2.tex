@@ -1,0 +1,6 @@
+SELECT ?party ?page
+WHERE {
+    <http://dbpedia.org/resource/Barack_Obama> gen:party ?party .
+    ?x gen:topic_page ?page .
+    ?x gen:same_as <http://dbpedia.org/resource/Barack_Obama> .
+}

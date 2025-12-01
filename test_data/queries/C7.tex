@@ -1,0 +1,14 @@
+SELECT DISTINCT ?author ?role ?paper ?place ?capital ?latitude ?longitude ?proceedings
+WHERE {
+    ?role gen:role_at <http://data.semanticweb.org/conference/eswc/2010> .
+    ?role gen:held_by ?author .
+    ?proceedings gen:related_event <http://data.semanticweb.org/conference/eswc/2010> .
+    ?paper gen:author ?author .
+    ?author gen:based_near ?place .
+    ?paper gen:part_of ?proceedings .
+    OPTIONAL {
+        ?place gen:capital ?capital .
+        ?place gen:latitude ?latitude .
+        ?place gen:longitude ?longitude .
+    }
+}

@@ -1,9 +1,8 @@
-SELECT ?Drug ?IntDrug ?IntEffect WHERE {
+SELECT ?Drug ?IntDrug ?IntEffect
+WHERE {
     ?Drug gen:type <http://dbpedia.org/ontology/Drug> .
-    ?y gen:same ?Drug .
+    ?y gen:same_as ?Drug .
     ?Int gen:interaction_drug1 ?y .
     ?Int gen:interaction_drug2 ?IntDrug .
-    ?Int gen:text ?IntEffect .
+    ?Int gen:interaction_text ?IntEffect .
 }
-
-

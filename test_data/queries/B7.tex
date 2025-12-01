@@ -1,0 +1,9 @@
+SELECT DISTINCT ?patient ?p ?o
+WHERE {
+    ?uri gen:patient_barcode ?patient .
+    ?patient gen:country ?country .
+    ?country gen:pop_density ?popDensity .
+    ?patient gen:aliquot_barcode ?aliquot .
+    ?aliquot ?p ?o .
+    FILTER(?popDensity >= 32)
+}

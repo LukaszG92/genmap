@@ -1,0 +1,14 @@
+SELECT ?expValue
+WHERE {
+    {
+        ?s gen:patient_barcode <http://tcga.deri.ie/TCGA-37-3789> .
+        <http://tcga.deri.ie/TCGA-37-3789> gen:result ?results .
+        ?results gen:rpkm ?expValue .
+    }
+    UNION
+    {
+        ?uri gen:patient_barcode <http://tcga.deri.ie/TCGA-37-3789> .
+        <http://tcga.deri.ie/TCGA-37-3789> gen:result ?geneResults .
+        ?geneResults gen:scaled_estimate ?expValue .
+    }
+}

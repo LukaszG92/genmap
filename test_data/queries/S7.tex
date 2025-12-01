@@ -1,0 +1,7 @@
+SELECT ?location ?news
+WHERE {
+    ?location gen:parent_feature ?parent .
+    ?parent gen:geo_name 'California' .
+    ?y gen:same_as ?location .
+    ?y gen:topic_page ?news .
+}

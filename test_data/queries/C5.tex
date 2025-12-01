@@ -1,0 +1,13 @@
+SELECT ?actor ?movie ?movieTitle ?movieDate ?birthDate ?spouseName
+WHERE {
+    ?actor gen:label ?actor_name_en .
+    ?actor gen:birth_date ?birthDate .
+    ?actor gen:spouse ?spouseURI .
+    ?spouseURI gen:label ?spouseName .
+    ?imdbactor gen:actor_name ?actor_name .
+    ?movie gen:actor ?imdbactor .
+    ?movie gen:dcterms_title ?movieTitle .
+    ?movie gen:dcterms_date ?movieDate .
+    FILTER(STR(?actor_name_en) = STR(?actor_name))
+}
+LIMIT 500

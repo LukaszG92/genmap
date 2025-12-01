@@ -1,0 +1,9 @@
+SELECT ?drug ?keggUrl ?chebiImage
+WHERE {
+    ?drug gen:type <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .
+    ?drug gen:kegg_compound ?keggDrug .
+    ?keggDrug gen:url ?keggUrl .
+    ?drug gen:gen_name ?drugBankName .
+    ?chebiDrug gen:title ?drugBankName .
+    ?chebiDrug gen:image ?chebiImage .
+}

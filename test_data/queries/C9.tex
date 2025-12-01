@@ -1,0 +1,16 @@
+SELECT *
+WHERE {
+    ?Drug gen:type <http://dbpedia.org/ontology/Drug> .
+    ?drugbankDrug gen:same_as ?Drug .
+    ?InteractionName gen:interaction_drug1 ?drugbankDrug .
+    ?InteractionName gen:interaction_drug2 ?drugbankDrug2 .
+    ?InteractionName gen:interaction_text ?IntEffect .
+    OPTIONAL {
+        ?drugbankDrug gen:affected_organism 'Humans and other mammals' .
+        ?drugbankDrug gen:description ?description .
+        ?drugbankDrug gen:structure ?structure .
+        ?drugbankDrug gen:cas_number ?casRegistryNumber .
+    }
+}
+ORDER BY (?drugbankDrug)
+LIMIT 100

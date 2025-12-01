@@ -1,0 +1,10 @@
+SELECT ?drug ?melt
+WHERE {
+    {
+        ?drug gen:melting_point_db ?melt .
+    }
+    UNION
+    {
+        ?drug gen:melting_point ?melt .
+    }
+}

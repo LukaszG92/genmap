@@ -1,0 +1,13 @@
+SELECT ?actor ?filmTitle ?news ?variants ?articleCount ?first_use ?latest_use
+WHERE {
+    ?film gen:title ?filmTitle .
+    ?film gen:actor ?actor .
+    ?actor gen:same_as ?dbpediaURI .
+    ?nytURI gen:same_as ?dbpediaURI .
+    ?nytURI gen:topic_page ?news .
+    ?nytURI gen:variants ?variants .
+    ?nytURI gen:article_count ?articleCount .
+    ?nytURI gen:first_use ?first_use .
+    ?nytURI gen:latest_use ?latest_use .
+}
+ORDER BY (?actor)

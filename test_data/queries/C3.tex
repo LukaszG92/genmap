@@ -1,0 +1,13 @@
+SELECT DISTINCT ?artist ?name ?location ?anylocation
+WHERE {
+    ?artist gen:type <http://purl.org/ontology/mo/MusicArtist> .
+    ?artist gen:name ?name .
+    ?artist gen:based_near ?location .
+    ?location gen:parent_feature ?locationName .
+    ?locationName gen:geo_name ?anylocation .
+    ?nytLocation gen:same_as ?location .
+    ?nytLocation gen:topic_page ?news .
+    OPTIONAL {
+        ?locationName gen:geo_name 'Islamic Republic of Afghanistan' .
+    }
+}

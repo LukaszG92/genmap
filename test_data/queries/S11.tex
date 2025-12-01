@@ -1,0 +1,10 @@
+SELECT ?drugDesc ?cpd ?equation
+WHERE {
+    ?drug gen:drug_category <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/cathartics> .
+    ?drug gen:kegg_compound ?cpd .
+    ?drug gen:description ?drugDesc .
+    ?enzyme gen:substrate ?cpd .
+    ?enzyme gen:type <http://bio2rdf.org/ns/kegg#Enzyme> .
+    ?reaction gen:enzyme ?enzyme .
+    ?reaction gen:equation ?equation .
+}

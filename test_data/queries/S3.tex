@@ -1,0 +1,8 @@
+SELECT ?president ?party ?page
+WHERE {
+    ?president gen:type <http://dbpedia.org/ontology/President> .
+    ?president gen:nationality <http://dbpedia.org/resource/United_States> .
+    ?president gen:party ?party .
+    ?x gen:topic_page ?page .
+    ?x gen:same_as ?president .
+}

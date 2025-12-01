@@ -109,7 +109,7 @@ def _pretty_table(rows: List[Dict[str, Any]], max_rows: int = 10) -> str:
 
 
 # ----------------- main -----------------
-def search_candidates(query: str, indices_root="./indices", top_k=3, w_sparse=0.7, w_dense=0.3, popa=0):
+def search_candidates(query: str, indices_root="./indices", top_k=3, w_sparse=0.7, w_dense=0.3, popa=0.0):
     indices = Path(Path(os.getcwd()), indices_root)
     endpoints = [p for p in indices.iterdir() if p.is_dir()]
 

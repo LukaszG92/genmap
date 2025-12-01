@@ -1,0 +1,12 @@
+SELECT ?patient ?methylationValue
+WHERE {
+    ?s gen:patient_barcode ?patient .
+    ?patient gen:vital_status "Dead" .
+    ?patient gen:drug_barcode ?drug .
+    ?drug gen:drug_name "Tarceva" .
+    ?patient gen:age_diagnosis ?age .
+    ?patient gen:result ?results .
+    ?results gen:beta_value ?methylationValue .
+    FILTER(?age <= 51)
+}
+ORDER BY (?patient)

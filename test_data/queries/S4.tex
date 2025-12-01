@@ -1,0 +1,8 @@
+SELECT ?actor ?news
+WHERE {
+    ?film gen:title 'Tarzan' .
+    ?film gen:actor ?actor .
+    ?actor gen:same_as ?x .
+    ?y gen:same_as ?x .
+    ?y gen:topic_page ?news .
+}

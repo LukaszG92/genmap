@@ -1,0 +1,17 @@
+SELECT ?expressionValues
+WHERE {
+    {
+        ?uri gen:patient_barcode ?patient .
+        ?patient gen:country ?country .
+        ?patient gen:result ?results .
+        ?results gen:mirna_mapped ?expressionValues .
+    }
+    UNION
+    {
+        ?s gen:patient_barcode ?patient .
+        ?patient gen:country ?country .
+        ?patient gen:result ?exonResults .
+        ?exonResults gen:rpkm ?expressionValues .
+    }
+    FILTER REGEX(?country, "Brazil|Argentina", "i")
+}

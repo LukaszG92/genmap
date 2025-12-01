@@ -1,0 +1,17 @@
+SELECT ?chromosome ?expressionValue
+WHERE {
+    {
+        ?uri gen:patient_barcode <http://tcga.deri.ie/TCGA-D9-A1X3> .
+        <http://tcga.deri.ie/TCGA-D9-A1X3> gen:result ?recordNo .
+        ?recordNo gen:chromosome ?chromosome .
+        ?recordNo gen:protein_expr ?expressionValue .
+    }
+    UNION
+    {
+        ?s gen:patient_barcode <http://tcga.deri.ie/TCGA-D9-A1X3> .
+        <http://tcga.deri.ie/TCGA-D9-A1X3> gen:result ?results .
+        ?results gen:chromosome ?chromosome .
+        ?results gen:beta_value ?expressionValue .
+    }
+    FILTER (?expressionValue > 0.05)
+}

@@ -1,0 +1,12 @@
+SELECT ?drug ?transform ?mass
+WHERE {
+    {
+        ?drug gen:affected_organism 'Humans and other mammals' .
+        ?drug gen:cas_number ?cas .
+        ?keggDrug gen:xref ?cas .
+        ?keggDrug gen:mass ?mass .
+    }
+    OPTIONAL {
+        ?drug gen:biotransformation ?transform .
+    }
+}

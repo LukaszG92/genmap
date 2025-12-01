@@ -1,0 +1,18 @@
+SELECT DISTINCT ?countryName ?countryCode ?locationMap ?population ?longitude ?latitude ?nationalAnthem ?foundingDate ?largestCity ?ethnicGroup ?motto
+WHERE {
+    ?NYTplace gen:geo_name ?countryName .
+    ?NYTplace gen:country_code ?countryCode .
+    ?NYTplace gen:population ?population .
+    ?NYTplace gen:longitude ?longitude .
+    ?NYTplace gen:latitude ?latitude .
+    ?NYTplace gen:same_as ?geonameplace .
+    OPTIONAL {
+        ?geonameplace gen:capital ?capital .
+        ?geonameplace gen:anthem ?nationalAnthem .
+        ?geonameplace gen:founding_date ?foundingDate .
+        ?geonameplace gen:largest_city ?largestCity .
+        ?geonameplace gen:ethnic_group ?ethnicGroup .
+        ?geonameplace gen:motto ?motto .
+    }
+}
+LIMIT 50

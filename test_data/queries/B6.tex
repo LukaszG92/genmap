@@ -1,0 +1,14 @@
+SELECT DISTINCT ?patient ?start ?stop ?geneExpVal
+WHERE {
+    ?s gen:symbol <http://bio2rdf.org/symbol:KRAS> .
+    ?s gen:geneid ?geneId .
+    ?geneId gen:type gen:gene_lookup .
+    ?geneId gen:chromosome ?lookupChromosome .
+    ?uri gen:patient_barcode ?patient .
+    ?patient gen:result ?recordNo .
+    ?recordNo gen:chromosome ?chromosome .
+    ?recordNo gen:start ?start .
+    ?recordNo gen:stop ?stop .
+    ?recordNo gen:scaled_estimate ?geneExpVal .
+    FILTER (str(?lookupChromosome) = str(?chromosome))
+}

@@ -1,0 +1,10 @@
+SELECT DISTINCT ?patient ?tumorType ?exonValue
+WHERE {
+    ?s gen:patient_barcode ?patient .
+    ?patient gen:disease_acronym <http://tcga.deri.ie/lusc> .
+    ?patient gen:tumor_weight ?weight .
+    ?patient gen:tumor_type ?tumorType .
+    ?patient gen:result ?results .
+    ?results gen:rpkm ?exonValue .
+    FILTER(?weight <= 55)
+}

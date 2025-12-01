@@ -1,0 +1,7 @@
+SELECT ?film ?director ?genre
+WHERE {
+    ?film gen:director ?director .
+    ?director gen:nationality <http://dbpedia.org/resource/Italy> .
+    ?x gen:same_as ?film .
+    ?x gen:genre ?genre .
+}
